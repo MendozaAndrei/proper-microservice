@@ -1,8 +1,4 @@
 cryptography
-<<<<<<< HEAD
-
-=======
->>>>>>> b1508e7e13fe0030e2b9d022fd1feb589f1aba13
 connexion[flask,uvicorn,swagger-ui]
 sqlalchemy
 pymysql
