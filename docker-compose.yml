@@ -10,11 +10,6 @@ services:
       - zookeeper_data:/data
     networks:
       - kafka-network
-    healthcheck:
-      test: ["CMD", "nc", "-z", "localhost", "2181"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
 
   kafka:
     image: wurstmeister/kafka:latest
@@ -29,16 +24,9 @@ services:
     volumes:
       - ./data/kafka:/kafka  
     depends_on:
-      zookeeper:
-        condition: service_healthy
+      - zookeeper
     networks:
       - kafka-network
-    healthcheck:
-      test: ["CMD", "kafka-broker-api-versions.sh", "--bootstrap-server", "localhost:9092"]
-      interval: 10s
-      timeout: 10s
-      retries: 10
-      start_period: 30s
 
   db:
     image: mysql
@@ -54,11 +42,6 @@ services:
       - mysql_data:/var/lib/mysql
     networks:
       - kafka-network
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
 
   receiver:
     build:
@@ -70,8 +53,7 @@ services:
       - ./logs:/logs
       - ./config/receiver:/config
     depends_on:
-      kafka:
-        condition: service_healthy
+      - kafka
     networks:
       - kafka-network
     restart: on-failure
@@ -83,10 +65,8 @@ services:
     ports:
       - "8090:8090"
     depends_on:
-      db:
-        condition: service_healthy
-      kafka:
-        condition: service_healthy
+      - db
+      - kafka
     volumes:
       - ./logs:/logs
       - ./data/storage:/data
@@ -118,10 +98,8 @@ services:
     ports:
       - "8110:8110"
     depends_on:
-      storage:
-        condition: service_started
-      kafka:
-        condition: service_healthy
+      - storage
+      - kafka
     volumes:
       - ./logs:/logs
       - ./data/events:/data
@@ -136,4 +114,4 @@ volumes:
 
 networks:
   kafka-network:
-    driver: bridge
+    driver: bridge  
