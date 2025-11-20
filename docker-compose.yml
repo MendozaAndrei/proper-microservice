@@ -1,19 +1,4 @@
 services:
-  db:
-    image: mysql
-    restart: always
-    environment:
-      MYSQL_RANDOM_ROOT_PASSWORD: 1
-      MYSQL_USER: skibidi
-      MYSQL_PASSWORD: helpme
-      MYSQL_DATABASE: fire_data
-    ports:
-      - "3307:3306"
-    volumes:
-      - mysql_data:/var/lib/mysql
-    networks:
-      - kafka-network
-
   zookeeper:
     image: zookeeper:3.7
     ports:
@@ -25,6 +10,11 @@ services:
       - zookeeper_data:/data
     networks:
       - kafka-network
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "2181"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   kafka:
     image: wurstmeister/kafka:latest
@@ -39,9 +29,36 @@ services:
     volumes:
       - ./data/kafka:/kafka  
     depends_on:
-      - zookeeper
+      zookeeper:
+        condition: service_healthy
     networks:
       - kafka-network
+    healthcheck:
+      test: ["CMD", "kafka-broker-api-versions.sh", "--bootstrap-server", "localhost:9092"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_USER: skibidi
+      MYSQL_PASSWORD: helpme
+      MYSQL_DATABASE: fire_data
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - kafka-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   receiver:
     build:
@@ -53,10 +70,12 @@ services:
       - ./logs:/logs
       - ./config/receiver:/config
     depends_on:
-      - kafka
+      kafka:
+        condition: service_healthy
     networks:
       - kafka-network
     restart: on-failure
+    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
   storage:
     build:
@@ -65,8 +84,10 @@ services:
     ports:
       - "8090:8090"
     depends_on:
-      - db
-      - kafka
+      db:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
     volumes:
       - ./logs:/logs
       - ./data/storage:/data
@@ -74,6 +95,7 @@ services:
     networks:
       - kafka-network
     restart: on-failure
+    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
   processing:
     build:
@@ -90,6 +112,7 @@ services:
     networks:
       - kafka-network
     restart: on-failure
+    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
   analyzer:
     build:
@@ -98,8 +121,10 @@ services:
     ports:
       - "8110:8110"
     depends_on:
-      - storage
-      - kafka
+      storage:
+        condition: service_started
+      kafka:
+        condition: service_healthy
     volumes:
       - ./logs:/logs
       - ./data/events:/data
@@ -107,6 +132,7 @@ services:
     networks:
       - kafka-network
     restart: on-failure
+    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
 volumes:
   mysql_data:
