@@ -1,0 +1,8 @@
+version: 2
+# eventstore:
+#   url: http://localhost:8090
+#Previously the local storage that I have set up for it.
+events:
+  hostname: kafka
+  port: 9092
+  topic: events

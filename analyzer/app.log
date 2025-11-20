@@ -1,0 +1,79 @@
+2025-10-30 00:18:06,928 - basicLogger - INFO - Getting Stats
+2025-10-30 00:18:06,928 - basicLogger - ERROR - There is an error: KafkaClient.__init__() got an unexpected keyword argument 'host'. Did you mean 'hosts'?
+2025-10-30 00:18:56,652 - basicLogger - INFO - Getting Stats
+2025-10-30 00:18:58,202 - basicLogger - ERROR - There is an error: cannot access local variable 'data' where it is not associated with a value
+2025-10-30 00:19:01,216 - basicLogger - INFO - Getting Stats
+2025-10-30 00:20:24,013 - basicLogger - INFO - Getting Stats
+2025-10-30 00:21:17,493 - basicLogger - INFO - Getting Stats
+2025-10-30 00:22:17,367 - basicLogger - INFO - Getting Stats
+2025-10-30 00:37:18,076 - basicLogger - INFO - Getting Stats
+2025-10-30 00:37:34,097 - basicLogger - INFO - Getting Stats
+2025-10-30 00:38:26,521 - basicLogger - INFO - Getting Stats
+2025-10-30 00:39:25,493 - basicLogger - INFO - Getting Stats
+2025-10-30 08:54:16,779 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 08:54:17,050 - basicLogger - INFO - Consumer Received
+2025-10-30 08:54:17,412 - basicLogger - INFO - Payload found {'trace_id': 1761805893816853700, 'fire_id': '7191bbe6-03ee-40c1-b0c1-c2ba1902d431', 'location_name': '      </elementProp>', 'particulate_level': 71.5, 'air_quality': 147, 'smoke_opacity': 14, 'batch_timestamp': '2025-10-29T23:31:33.551Z', 'reading_timestamp': '2025-10-29T23:31:33.551Z'}
+2025-10-30 08:54:51,587 - basicLogger - INFO - Getting Stats
+2025-10-30 09:11:29,714 - basicLogger - INFO - Getting Stats
+2025-10-30 09:12:50,869 - basicLogger - INFO - Getting Stats
+2025-10-30 09:13:19,615 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 09:13:19,890 - basicLogger - INFO - Consumer Received
+2025-10-30 09:13:20,276 - basicLogger - INFO - Payload found {'trace_id': 1761805893816853700, 'fire_id': '7191bbe6-03ee-40c1-b0c1-c2ba1902d431', 'location_name': '      </elementProp>', 'particulate_level': 71.5, 'air_quality': 147, 'smoke_opacity': 14, 'batch_timestamp': '2025-10-29T23:31:33.551Z', 'reading_timestamp': '2025-10-29T23:31:33.551Z'}
+2025-10-30 09:13:25,727 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 09:13:26,027 - basicLogger - INFO - Consumer Received
+2025-10-30 09:14:30,831 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 09:14:31,121 - basicLogger - INFO - Consumer Received
+2025-10-30 09:14:34,830 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 09:14:35,126 - basicLogger - INFO - Consumer Received
+2025-10-30 09:14:35,472 - basicLogger - INFO - Payload found {'trace_id': 1761805893816853700, 'fire_id': '7191bbe6-03ee-40c1-b0c1-c2ba1902d431', 'location_name': '      </elementProp>', 'particulate_level': 71.5, 'air_quality': 147, 'smoke_opacity': 14, 'batch_timestamp': '2025-10-29T23:31:33.551Z', 'reading_timestamp': '2025-10-29T23:31:33.551Z'}
+2025-10-30 09:14:39,028 - basicLogger - INFO - Getting Stats
+2025-10-30 09:25:04,192 - basicLogger - INFO - Getting Stats
+2025-10-30 09:26:07,931 - basicLogger - INFO - Getting Stats
+2025-10-30 09:27:52,323 - basicLogger - INFO - Getting Stats
+2025-10-30 10:07:14,359 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:07:14,359 - basicLogger - ERROR - Error received: KafkaClient.__init__() got an unexpected keyword argument 'host'. Did you mean 'hosts'?
+2025-10-30 10:08:01,008 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:08:01,008 - basicLogger - ERROR - Error received: KafkaClient.__init__() got an unexpected keyword argument 'host'. Did you mean 'hosts'?
+2025-10-30 10:08:13,549 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:08:13,830 - basicLogger - ERROR - Error received: KafkaClient.__init__() got an unexpected keyword argument 'topic'
+2025-10-30 10:08:49,541 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:08:49,864 - basicLogger - INFO - Consumer Received
+2025-10-30 10:09:26,916 - basicLogger - INFO - Getting Stats
+2025-10-30 10:10:06,634 - basicLogger - INFO - Getting Stats
+2025-10-30 10:10:09,425 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:10:09,788 - basicLogger - INFO - Consumer Received
+2025-10-30 10:10:20,237 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:10:20,550 - basicLogger - INFO - Consumer Received
+2025-10-30 10:12:55,646 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:12:55,949 - basicLogger - INFO - Consumer Received
+2025-10-30 10:13:39,867 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:13:40,128 - basicLogger - INFO - Consumer Received
+2025-10-30 10:16:38,469 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:16:38,783 - basicLogger - INFO - Consumer Received
+2025-10-30 10:16:39,793 - basicLogger - INFO - Temperature reading at index 0 not found
+2025-10-30 10:17:19,776 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:17:20,154 - basicLogger - INFO - Consumer Received
+2025-10-30 10:17:21,168 - basicLogger - INFO - Temperature reading at index 1000 not found
+2025-10-30 10:19:35,840 - basicLogger - INFO - Getting Stats
+2025-10-30 10:24:02,649 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 10:24:02,913 - basicLogger - INFO - Consumer Received
+2025-10-30 10:24:03,916 - basicLogger - INFO - Temperature reading at index 1 not found
+2025-10-30 10:24:15,047 - basicLogger - INFO - Getting Stats
+2025-10-30 10:24:58,327 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 10:24:58,619 - basicLogger - INFO - Consumer Received
+2025-10-30 10:24:59,630 - basicLogger - INFO - Temperature reading at index 1 not found
+2025-10-30 10:26:36,791 - basicLogger - INFO - Getting Stats
+2025-10-30 10:27:27,957 - basicLogger - INFO - Getting Stats
+2025-10-30 10:27:50,175 - basicLogger - INFO - Getting Stats
+2025-10-30 10:28:46,877 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 10:28:47,209 - basicLogger - INFO - Consumer Received
+2025-10-30 10:28:48,363 - basicLogger - INFO - Temperature reading at index 100 not found
+2025-10-30 10:28:52,954 - basicLogger - INFO - Get Airquality Reading
+2025-10-30 10:28:53,292 - basicLogger - INFO - Consumer Received
+2025-10-30 10:28:53,456 - basicLogger - INFO - Payload found {'trace_id': 1761845168593774500, 'fire_id': '0e2ea61e-4b0b-4db2-aba7-742a632165cf', 'location_name': 'Monitoring Station 12', 'particulate_level': 468.95, 'air_quality': 382, 'smoke_opacity': 23.59, 'batch_timestamp': '2025-10-30T10:26:08.591Z', 'reading_timestamp': '2025-10-30T10:26:08.591Z'}
+2025-10-30 10:29:33,052 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:29:33,330 - basicLogger - INFO - Consumer Received
+2025-10-30 10:29:33,475 - basicLogger - INFO - Payload found {'trace_id': 1761845168501589100, 'fire_id': 'e3f2dc1e-97db-427b-be29-63797066ba51', 'latitude': -72.715475, 'longitude': -23.42831, 'temperature_celsius': 43.1, 'humidity_level': 87.8, 'batch_timestamp': '2025-10-30T10:26:08.499Z', 'reading_timestamp': '2025-10-30T10:26:08.499Z'}
+2025-10-30 10:29:41,229 - basicLogger - INFO - Get Temperature Reading initiated
+2025-10-30 10:29:41,484 - basicLogger - INFO - Consumer Received
+2025-10-30 10:29:41,608 - basicLogger - INFO - Payload found {'trace_id': 1761845166144236000, 'fire_id': 'a686facc-4c31-4c9a-8a4b-2ce15312fb16', 'latitude': -9.403486, 'longitude': -78.419505, 'temperature_celsius': 173.3, 'humidity_level': 92.8, 'batch_timestamp': '2025-10-30T10:26:06.140Z', 'reading_timestamp': '2025-10-30T10:26:06.140Z'}

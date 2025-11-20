@@ -1,0 +1,201 @@
+openapi: 3.0.0
+info: #Metadata regarding the API
+  title: Forest Fire Storage API # name of the API or what will be shown in Swagger UI
+  version: "1.0.0" # API's version number
+  description: Persists single readings to SQLite via SQLAlchemy. #What the API does
+
+paths:
+  /temperature: #This is an endpoint for the temperature readings
+    # post: | This is for creating and storing data.
+    #   summary: Store one temperature reading
+    #   operationId: app.create_temperature_reading #Points to this one, but not really functional or needed really.
+    #   requestBody: #This kind of defines what data must be sent in the request
+    #     required: true #This makes it required, or it will fail
+    #     content:
+    #       application/json:
+    #         schema:
+    #           $ref: '#/components/schemas/TemperatureReading' - References the schema definition at the bottom of the file
+    #   responses:
+    #     '201':
+    #       description: Stored
+    #     '400':
+    #       description: Invalid input
+    get: #Retrieves stored temperature readings
+      summary: Gets temperature readings within a time range 
+      operationId: app.get_temperature_readings #Name of the function that will handle this request
+      description: Gets temperature readings received between start and end timestamps
+      parameters:
+        - name: start_timestamp 
+          in: query #This goes in the link = ?start_timestamp=...
+          description: Start of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: End of the timespan #This goes in the link = &end_timestamp=...
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Returns the list of temperature readings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TemperatureReading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /airquality:
+    # post:
+    #   summary: Store one air quality reading
+    #   operationId: app.create_airquality_reading
+    #   requestBody:
+    #     required: true
+    #     content:
+    #       application/json:
+    #         schema:
+    #           $ref: '#/components/schemas/AirQualityReading'
+    #   responses:
+    #     '201':
+    #       description: Stored
+    #     '400':
+    #       description: Invalid input
+    get:
+      summary: Gets air quality readings within a time range
+      operationId: app.get_airquality_readings
+      description: Gets air quality readings received between start and end timestamps
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: End of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Returns the list of air quality readings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AirQualityReading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components: #This section basically defines the structure of a TEMPERATURE/AIR QUALITY reading
+  schemas:
+    # Single object schema (flattened) per lab Part 1 example
+    # (batch/common fields + reading-specific fields) :contentReference[oaicite:5]{index=5}
+    TemperatureReading:
+    # This is the schema for a temperature reading
+      type: object
+      required:
+      # These are all the required fields that MUST be present or else we will get a 400 error. 
+      #Added the trace_id here to have it added into the database. Without this, error would rise up.
+        - trace_id
+        - fire_id
+        - latitude
+        - longitude
+        - temperature_celsius
+        - batch_timestamp
+        - reading_timestamp
+      properties: #Defines each field in the schema
+        trace_id:
+          type: integer
+          format: int64
+          example: 1759384173492180800
+        fire_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        latitude:
+          type: number
+          example: 49.391065
+        longitude:
+          type: number
+          example: -123.047647
+        temperature_celsius:
+          type: number
+          example: 129.4
+        humidity_level:
+          type: number
+          description: Relative humidity percentage for the reading.
+          example: 60.4
+        batch_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+        reading_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:56:33.001Z"
+
+    AirQualityReading:
+      type: object
+      required:
+        - trace_id
+        - fire_id
+        - location_name
+        - particulate_level
+        - air_quality
+        - smoke_opacity
+        - batch_timestamp
+        - reading_timestamp
+      properties:
+        trace_id:
+          type: integer
+          format: int64
+          example: 1759384173492180800
+        fire_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        location_name:
+          type: string
+          example: Vancouver
+        particulate_level:
+          type: number
+          example: 34
+        air_quality:
+          type: number
+          example: 160
+        smoke_opacity:
+          type: number
+          example: 30
+        batch_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+        reading_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:56:33.001Z"

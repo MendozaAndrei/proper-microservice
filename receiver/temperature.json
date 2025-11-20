@@ -1,0 +1,30 @@
+{
+  "num_temp_batches": 44,
+  "recent_batch_data": [
+    {
+      "temp_average_celcius": 104.75,
+      "num_temp_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.334882"
+    },
+    {
+      "temp_average_celcius": 104.75,
+      "num_temp_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.287086"
+    },
+    {
+      "temp_average_celcius": 104.75,
+      "num_temp_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.240858"
+    },
+    {
+      "temp_average_celcius": 104.75,
+      "num_temp_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.202483"
+    },
+    {
+      "temp_average_celcius": 104.75,
+      "num_temp_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.151840"
+    }
+  ]
+}

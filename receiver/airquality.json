@@ -1,0 +1,30 @@
+{
+  "num_airquality_batches": 35,
+  "recent_batch_data": [
+    {
+      "airquality_average_index": 127.5,
+      "num_airquality_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.356027"
+    },
+    {
+      "airquality_average_index": 127.5,
+      "num_airquality_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.311779"
+    },
+    {
+      "airquality_average_index": 127.5,
+      "num_airquality_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.262319"
+    },
+    {
+      "airquality_average_index": 127.5,
+      "num_airquality_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.236669"
+    },
+    {
+      "airquality_average_index": 127.5,
+      "num_airquality_readings": 2,
+      "received_timestamp": "2025-09-18 10:17:54.178776"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  description: This API provides event statistics for forest fire monitoring
+  version: "1.0.0"
+  title: Forest Fire Stats API
+  contact:
+    email: your_email@bcit.ca
+
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets Temperature and Air Quality statistics
+      responses:
+        '200':
+          description: Successfully returned a stats object
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/ReadingStats'
+        '404':
+          description: Statistics do not exist
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    ReadingStats:
+      type: object
+      required:
+        - num_temp_readings
+        - max_temperature_celsius
+        - num_airquality_readings
+        - max_air_quality
+        - last_updated
+      properties:
+        num_temp_readings:
+          type: integer
+          example: 500
+          description: Cumulative number of temperature readings received
+        max_temperature_celsius:
+          type: number
+          example: 150.5
+          description: Maximum temperature reading in Celsius
+        num_airquality_readings:
+          type: integer
+          example: 450
+          description: Cumulative number of air quality readings received
+        max_air_quality:
+          type: number
+          example: 200.0
+          description: Maximum air quality index value
+        last_updated:
+          type: string
+          format: date-time
+          example: "2025-10-08T12:39:16Z"
+          description: Timestamp of when statistics were last updated

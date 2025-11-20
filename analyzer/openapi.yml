@@ -1,0 +1,221 @@
+openapi: 3.0.0
+info:
+  description: This API provides analyzer info for forest fire events from Kafka queue
+  version: "1.0.0"
+  title: Forest Fire Analyzer API
+  contact:
+    email: amendoza39@my.bcit.ca
+
+paths:
+  /forest_fire/temperatures:
+    get:
+      summary: gets a temperature reading from history
+      operationId: app.get_temperature_reading
+      description: Gets temperature reading from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the temperature reading at the index in the event store
+          required: true
+          schema:
+            type: integer
+            example: 0
+      responses:
+        '200':
+          description: Successfully returned a temperature reading
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TemperatureReadingBatch'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /forest_fire/airquality:
+    get:
+      summary: gets an air quality reading from history
+      operationId: app.get_airquality_reading
+      description: Gets air quality reading from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the air quality reading at the index in the event store
+          required: true
+          schema:
+            type: integer
+            example: 0
+      responses:
+        '200':
+          description: Successfully returned an air quality reading
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AirQualityReadingBatch'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /stats:
+    get:
+      summary: gets the reading stats
+      operationId: app.get_reading_stats
+      description: Gets the stats of the history events
+      responses:
+        '200':
+          description: Successfully returned the statistics
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+        '400':
+          description: Error retrieving statistics
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    TemperatureReadingBatch:
+      type: object
+      required:
+        - fire_id
+        - reporting_timestamp
+        - longitude
+        - latitude
+      properties:
+        fire_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        reporting_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+        latitude:
+          type: number
+          description: Recorded in decimal format.
+          example: 49.391065
+        longitude:
+          type: number
+          description: Recorded in decimal format.
+          example: -123.047647
+        readings:
+          type: array
+          items:
+            $ref: '#/components/schemas/TemperatureReading'
+
+    TemperatureReading:
+      type: object
+      required:
+        - temperature_celsius
+        - recorded_timestamp
+      properties:
+        temperature_celsius:
+          type: number
+          example: 21.5
+        humidity_level:
+          type: number
+          description: Measured by Relative Humidity (percentage).
+          example: 49.3
+        recorded_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+
+    AirQualityReadingBatch:
+      type: object
+      required:
+        - fire_id
+        - location_name
+        - reporting_timestamp
+        - particulate_level
+      properties:
+        fire_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        location_name:
+          type: string
+          description: Air Quality readings of the area or nearby locations.
+          example: Vancouver
+        reporting_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+        particulate_level:
+          type: number
+          description: Level of ash present in the air (µg/m³ or similar unit).
+          example: 34
+        readings:
+          type: array
+          items:
+            $ref: '#/components/schemas/AirQualityReading'
+
+    AirQualityReading:
+      type: object
+      required:
+        - air_quality
+        - smoke_opacity
+        - recorded_timestamp
+      properties:
+        air_quality:
+          type: number
+          description: Recorded using AHQI readings.
+          example: 45
+        smoke_opacity:
+          type: number
+          description: Opacity and the visibility through the smoke (higher = denser smoke).
+          example: 80
+        recorded_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+
+
+# ================================================================
+    Stats:
+      required:
+        - num_temperature_readings
+        - num_airquality_readings
+      properties:
+        num_temperature_readings:
+          type: integer
+          example: 100
+        num_airquality_readings:
+          type: integer
+          example: 100
+      type: object

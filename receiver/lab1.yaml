@@ -1,0 +1,154 @@
+openapi: 3.0.0
+info: #This is the METADATA about the API
+  title: Forest Fire API
+  version: "1.0.0"
+  description: This API receives forest fire sensor readings from fire stations and satellites around the world.
+  contact: #Completely fucking optional
+    email: amendoza39@my.bcit.ca
+
+paths:
+  /forest_fire/temperatures: #Endpoint for reporting temperature readings
+    post: #Receiver doesn't retrieve data, it only accepts the POST requests thats coming in
+      summary: Reports a batch of temperature sensor readings
+      description: Adds a batch of temperature readings.
+      operationId: app.report_temperature_readings #Maps to the function in receivers app.py
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TemperatureReadingBatch'
+      responses:
+        '201':
+          description: Batch successfully received
+        '400':
+          description: Invalid input, object invalid
+
+  /forest_fire/airquality:
+    post:
+      summary: Reports a batch of Air Quality readings using AHQI, Smoke Opacity for visibility, and Particulate Level for the amount of ash in the air
+      description: Reports a batch of air quality and smoke opacity readings. Air Quality is recorded using AHQI readings and Smoke Opacity is based on its opacity level.
+      operationId: app.report_airquality_reading
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AirQualityReadingBatch'
+      responses:
+        '201':
+          description: Batch successfully received
+        '400':
+          description: Invalid input, object invalid
+
+components:
+  schemas:
+    TemperatureReadingBatch:  #Just readings with specific data. 
+      type: object
+      required: #These are the required fields for this schema. If any of them are missing, it will result in an error. 
+        - fire_id
+        - reporting_timestamp
+        - longitude
+        - latitude
+      properties:
+        fire_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        reporting_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+        latitude:
+          type: number
+          description: Recorded in decimal format.
+          example: 49.391065
+        longitude:
+          type: number
+          description: Recorded in decimal format.
+          example: -123.047647
+        readings:
+          type: array
+          items:
+            $ref: '#/components/schemas/TemperatureReading'
+          example:
+            - temperature_celsius: 129.4
+              humidity_level: 60.4
+              recorded_timestamp: "2025-08-29T09:12:33.001Z"
+            - temperature_celsius: 80.1
+              humidity_level: 50.1
+              recorded_timestamp: "2025-08-29T09:56:33.001Z"
+
+    TemperatureReading:
+      type: object
+      required:
+        - temperature_celsius
+        - recorded_timestamp
+      properties:
+        temperature_celsius:
+          type: number
+          example: 21.5
+        humidity_level:
+          type: number
+          description: Measured by Relative Humidity (percentage).
+          example: 49.3
+        recorded_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+
+    AirQualityReadingBatch:
+      type: object
+      required:
+        - fire_id
+        - location_name
+        - reporting_timestamp
+        - particulate_level
+      properties:
+        fire_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        location_name:
+          type: string
+          description: Air Quality readings of the area or nearby locations.
+          example: Vancouver
+        reporting_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"
+        particulate_level:
+          type: number
+          description: Level of ash present in the air (µg/m³ or similar unit).
+          example: 34
+        readings:
+          type: array
+          items:
+            $ref: '#/components/schemas/AirQualityReading'
+          example:
+            - air_quality: 160
+              smoke_opacity: 30
+              recorded_timestamp: "2025-08-29T09:12:33.001Z"
+            - air_quality: 95
+              smoke_opacity: 10
+              recorded_timestamp: "2025-08-29T09:56:33.001Z"
+
+    AirQualityReading:
+      type: object
+      required:
+        - air_quality
+        - smoke_opacity
+        - recorded_timestamp
+      properties:
+        air_quality:
+          type: number
+          description: Recorded using AHQI readings.
+          example: 45
+        smoke_opacity:
+          type: number
+          description: Opacity and the visibility through the smoke (higher = denser smoke).
+          example: 80
+        recorded_timestamp:
+          type: string
+          format: date-time
+          example: "2025-08-29T09:12:33.001Z"

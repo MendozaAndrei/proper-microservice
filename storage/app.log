@@ -1,0 +1,1308 @@
+2025-10-01 23:05:24,952 - basicLogger - INFO - Falling back to SQLite for demonstration...
+2025-10-01 23:06:26,913 - basicLogger - INFO - Successfully connected to MySQL!
+2025-10-01 23:06:26,990 - basicLogger - INFO - Successfully connected to MySQL!
+2025-10-01 23:06:30,668 - basicLogger - INFO - Successfully connected to MySQL!
+2025-10-01 23:06:38,004 - basicLogger - INFO - Successfully connected to MySQL!
+2025-10-01 23:06:38,080 - basicLogger - INFO - Successfully connected to MySQL!
+2025-10-01 23:06:43,062 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385200472428200
+2025-10-01 23:06:43,128 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385200575370100
+2025-10-01 23:06:43,249 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385200667504600
+2025-10-01 23:06:43,377 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385200773562700
+2025-10-01 23:06:43,488 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385200866757000
+2025-10-01 23:06:43,571 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385200976022100
+2025-10-01 23:06:43,615 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385201068922700
+2025-10-01 23:06:43,702 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385201175702000
+2025-10-01 23:06:43,808 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385201269179600
+2025-10-01 23:06:43,816 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385201377996000
+2025-10-01 23:06:45,463 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203066498800
+2025-10-01 23:06:45,589 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203132614200
+2025-10-01 23:06:45,735 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203252834500
+2025-10-01 23:06:46,018 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203381331700
+2025-10-01 23:06:46,173 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203492732600
+2025-10-01 23:06:46,319 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203575175000
+2025-10-01 23:06:46,347 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203619035400
+2025-10-01 23:06:46,443 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203707226900
+2025-10-01 23:06:46,551 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203812695200
+2025-10-01 23:06:46,556 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385203820591800
+2025-10-01 23:06:47,938 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385205469750900
+2025-10-01 23:06:48,055 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385205597608000
+2025-10-01 23:06:48,234 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385205743468600
+2025-10-01 23:06:48,639 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385206026640800
+2025-10-01 23:06:49,067 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385206183126400
+2025-10-01 23:06:49,287 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385206328355900
+2025-10-01 23:06:49,321 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385206357487900
+2025-10-01 23:06:49,451 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385206452364300
+2025-10-01 23:06:49,508 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385206561502600
+2025-10-01 23:06:49,523 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385206568342400
+2025-10-01 23:06:50,529 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385207942195800
+2025-10-01 23:06:50,802 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385208059266400
+2025-10-01 23:06:51,024 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385208239441500
+2025-10-01 23:06:51,318 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385208672147600
+2025-10-01 23:06:51,832 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385209072125200
+2025-10-01 23:06:52,086 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385209292759000
+2025-10-01 23:06:52,125 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385209325753700
+2025-10-01 23:06:52,311 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385209454921800
+2025-10-01 23:06:52,339 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385209517268000
+2025-10-01 23:06:52,356 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385209528139600
+2025-10-01 23:06:53,224 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385210542588400
+2025-10-01 23:06:53,502 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385210811115700
+2025-10-01 23:06:53,627 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385211033464600
+2025-10-01 23:06:53,787 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385211326590600
+2025-10-01 23:06:54,283 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385211839963900
+2025-10-01 23:06:54,725 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385212095750200
+2025-10-01 23:06:54,828 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385212134542200
+2025-10-01 23:06:55,053 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385212349159500
+2025-10-01 23:06:55,068 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385212367553600
+2025-10-01 23:06:55,085 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385212324078600
+2025-10-01 23:06:55,623 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385213228478800
+2025-10-01 23:06:56,065 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385213506649900
+2025-10-01 23:06:56,197 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385213632131500
+2025-10-01 23:06:56,295 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385213792601700
+2025-10-01 23:06:56,642 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385214287366700
+2025-10-01 23:06:57,322 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385214728799400
+2025-10-01 23:06:57,548 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385214833597700
+2025-10-01 23:06:57,836 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385215060031500
+2025-10-01 23:06:57,840 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385215073735500
+2025-10-01 23:06:57,875 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759385215090242200
+2025-10-01 23:06:58,401 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385215634185600
+2025-10-01 23:06:58,876 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385216077827200
+2025-10-01 23:06:59,040 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385216209764000
+2025-10-01 23:06:59,165 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385216307031200
+2025-10-01 23:06:59,544 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385216654029900
+2025-10-01 23:07:00,344 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385217372242400
+2025-10-01 23:07:00,408 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385217562177400
+2025-10-01 23:07:00,714 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385217857104100
+2025-10-01 23:07:00,746 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385217887608300
+2025-10-01 23:07:00,751 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385217848713100
+2025-10-01 23:07:00,955 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385218406955300
+2025-10-01 23:07:01,420 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385218880923200
+2025-10-01 23:07:01,629 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385219045554600
+2025-10-01 23:07:01,687 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385219171171500
+2025-10-01 23:07:01,958 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759385219548977700
+2025-10-02 08:31:19,127 - basicLogger - INFO - You're good
+2025-10-02 08:31:34,320 - basicLogger - INFO - Successfully connected to MySQL!
+2025-10-02 08:31:34,434 - basicLogger - INFO - Successfully connected to MySQL!
+2025-10-02 08:44:51,666 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419888897054200
+2025-10-02 08:44:51,732 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889000760600
+2025-10-02 08:44:51,960 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889094489900
+2025-10-02 08:44:52,156 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889202676300
+2025-10-02 08:44:52,229 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889295188800
+2025-10-02 08:44:52,308 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889404488900
+2025-10-02 08:44:52,386 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889502829600
+2025-10-02 08:44:52,464 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889641848900
+2025-10-02 08:44:52,494 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889705474300
+2025-10-02 08:44:52,571 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419889799381500
+2025-10-02 08:44:54,113 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419891670973800
+2025-10-02 08:44:54,203 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419891736588400
+2025-10-02 08:44:54,459 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419891963935200
+2025-10-02 08:44:54,911 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419892160350100
+2025-10-02 08:44:55,025 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419892233247200
+2025-10-02 08:44:55,106 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419892312734700
+2025-10-02 08:44:55,221 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419892391134000
+2025-10-02 08:44:55,351 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419892469334300
+2025-10-02 08:44:55,362 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419892499775400
+2025-10-02 08:44:55,387 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759419892576328700
+2025-10-02 08:44:56,589 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419894122968000
+2025-10-02 08:44:56,744 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419894212847800
+2025-10-02 08:44:56,903 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419894468979000
+2025-10-02 08:44:57,584 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419894921712800
+2025-10-02 08:44:57,845 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419895032740100
+2025-10-02 08:44:57,953 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419895115765100
+2025-10-02 08:44:58,104 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419895230426200
+2025-10-02 08:44:58,130 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419895369178000
+2025-10-02 08:44:58,144 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419895382728500
+2025-10-02 08:44:58,149 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419895397623400
+2025-10-02 08:44:58,989 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419896594441700
+2025-10-02 08:44:59,212 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419896748648000
+2025-10-02 08:44:59,351 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419896907619900
+2025-10-02 08:44:59,951 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419897588232900
+2025-10-02 08:45:00,343 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419897850429000
+2025-10-02 08:45:00,644 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419897957345800
+2025-10-02 08:45:00,818 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419898108903400
+2025-10-02 08:45:00,842 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419898154715700
+2025-10-02 08:45:00,877 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419898139308100
+2025-10-02 08:45:00,897 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759419898149631700
+2025-10-02 08:58:56,629 - basicLogger - INFO - Connected to the database
+2025-10-02 09:16:59,333 - basicLogger - INFO - Connected to the database
+2025-10-02 09:23:14,714 - basicLogger - INFO - Connected to the database
+2025-10-02 09:24:07,364 - basicLogger - INFO - Connected to the database
+2025-10-02 09:25:03,725 - basicLogger - INFO - Connected to the database
+2025-10-02 09:25:03,822 - basicLogger - INFO - Connected to the database
+2025-10-02 09:25:30,085 - basicLogger - DEBUG - Storing 1759422327585134300 to the database
+2025-10-02 09:25:30,137 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422327585134300
+2025-10-02 09:25:32,505 - basicLogger - DEBUG - Storing 1759422330142840300 to the database
+2025-10-02 09:25:32,527 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422330142840300
+2025-10-02 09:25:42,551 - basicLogger - DEBUG - Storing 1759422340095551900 to the database
+2025-10-02 09:25:42,572 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422340095551900
+2025-10-02 09:25:44,967 - basicLogger - DEBUG - Storing 1759422342577325100 to the database
+2025-10-02 09:25:44,988 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422342577325100
+2025-10-02 09:27:29,259 - basicLogger - DEBUG - Storing 1759422446833181900 to the database
+2025-10-02 09:27:29,286 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422446833181900
+2025-10-02 09:27:29,460 - basicLogger - DEBUG - Storing 1759422446929470900 to the database
+2025-10-02 09:27:29,485 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422446929470900
+2025-10-02 09:27:29,617 - basicLogger - DEBUG - Storing 1759422447025662800 to the database
+2025-10-02 09:27:29,649 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447025662800
+2025-10-02 09:27:29,773 - basicLogger - DEBUG - Storing 1759422447126892800 to the database
+2025-10-02 09:27:29,778 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447126892800
+2025-10-02 09:27:29,805 - basicLogger - DEBUG - Storing 1759422447226468100 to the database
+2025-10-02 09:27:29,813 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447226468100
+2025-10-02 09:27:29,977 - basicLogger - DEBUG - Storing 1759422447327439700 to the database
+2025-10-02 09:27:30,004 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447327439700
+2025-10-02 09:27:30,009 - basicLogger - DEBUG - Storing 1759422447426913500 to the database
+2025-10-02 09:27:30,018 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447426913500
+2025-10-02 09:27:30,085 - basicLogger - DEBUG - Storing 1759422447527578900 to the database
+2025-10-02 09:27:30,092 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447527578900
+2025-10-02 09:27:30,118 - basicLogger - DEBUG - Storing 1759422447626927100 to the database
+2025-10-02 09:27:30,126 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447626927100
+2025-10-02 09:27:30,150 - basicLogger - DEBUG - Storing 1759422447726551700 to the database
+2025-10-02 09:27:30,157 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422447726551700
+2025-10-02 09:27:31,645 - basicLogger - DEBUG - Storing 1759422449292420300 to the database
+2025-10-02 09:27:31,673 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422449292420300
+2025-10-02 09:27:31,880 - basicLogger - DEBUG - Storing 1759422449487980000 to the database
+2025-10-02 09:27:31,906 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422449487980000
+2025-10-02 09:27:32,145 - basicLogger - DEBUG - Storing 1759422449654095900 to the database
+2025-10-02 09:27:32,151 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422449654095900
+2025-10-02 09:27:32,376 - basicLogger - DEBUG - Storing 1759422449781461300 to the database
+2025-10-02 09:27:32,401 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422449781461300
+2025-10-02 09:27:32,423 - basicLogger - DEBUG - Storing 1759422449817598000 to the database
+2025-10-02 09:27:32,432 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422449817598000
+2025-10-02 09:27:32,642 - basicLogger - DEBUG - Storing 1759422450011639300 to the database
+2025-10-02 09:27:32,650 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422450011639300
+2025-10-02 09:27:32,673 - basicLogger - DEBUG - Storing 1759422450023852000 to the database
+2025-10-02 09:27:32,680 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422450023852000
+2025-10-02 09:27:32,688 - basicLogger - DEBUG - Storing 1759422450097500200 to the database
+2025-10-02 09:27:32,697 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422450097500200
+2025-10-02 09:27:32,766 - basicLogger - DEBUG - Storing 1759422450131301400 to the database
+2025-10-02 09:27:32,773 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422450131301400
+2025-10-02 09:27:32,797 - basicLogger - DEBUG - Storing 1759422450161143600 to the database
+2025-10-02 09:27:32,803 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422450161143600
+2025-10-02 09:27:34,011 - basicLogger - DEBUG - Storing 1759422451681850500 to the database
+2025-10-02 09:27:34,045 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422451681850500
+2025-10-02 09:27:34,292 - basicLogger - DEBUG - Storing 1759422451914095200 to the database
+2025-10-02 09:27:34,319 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422451914095200
+2025-10-02 09:27:34,541 - basicLogger - DEBUG - Storing 1759422452158561100 to the database
+2025-10-02 09:27:34,546 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452158561100
+2025-10-02 09:27:34,854 - basicLogger - DEBUG - Storing 1759422452409060400 to the database
+2025-10-02 09:27:34,880 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452409060400
+2025-10-02 09:27:34,903 - basicLogger - DEBUG - Storing 1759422452440383500 to the database
+2025-10-02 09:27:34,909 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452440383500
+2025-10-02 09:27:35,229 - basicLogger - DEBUG - Storing 1759422452657707200 to the database
+2025-10-02 09:27:35,236 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452657707200
+2025-10-02 09:27:35,261 - basicLogger - DEBUG - Storing 1759422452689319700 to the database
+2025-10-02 09:27:35,268 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452689319700
+2025-10-02 09:27:35,293 - basicLogger - DEBUG - Storing 1759422452705331200 to the database
+2025-10-02 09:27:35,300 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452705331200
+2025-10-02 09:27:35,342 - basicLogger - DEBUG - Storing 1759422452780843700 to the database
+2025-10-02 09:27:35,342 - basicLogger - DEBUG - Storing 1759422452810467400 to the database
+2025-10-02 09:27:35,351 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452780843700
+2025-10-02 09:27:35,360 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422452810467400
+2025-10-02 09:27:36,344 - basicLogger - DEBUG - Storing 1759422454050154000 to the database
+2025-10-02 09:27:36,372 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422454050154000
+2025-10-02 09:27:36,673 - basicLogger - DEBUG - Storing 1759422454323671100 to the database
+2025-10-02 09:27:36,701 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422454323671100
+2025-10-02 09:27:36,890 - basicLogger - DEBUG - Storing 1759422454550913600 to the database
+2025-10-02 09:27:36,914 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422454550913600
+2025-10-02 09:27:37,280 - basicLogger - DEBUG - Storing 1759422454885721400 to the database
+2025-10-02 09:27:37,288 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422454885721400
+2025-10-02 09:27:37,325 - basicLogger - DEBUG - Storing 1759422454913188000 to the database
+2025-10-02 09:27:37,333 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422454913188000
+2025-10-02 09:27:37,793 - basicLogger - DEBUG - Storing 1759422455240388100 to the database
+2025-10-02 09:27:37,819 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422455240388100
+2025-10-02 09:27:37,826 - basicLogger - DEBUG - Storing 1759422455272321000 to the database
+2025-10-02 09:27:37,846 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422455272321000
+2025-10-02 09:27:37,871 - basicLogger - DEBUG - Storing 1759422455304718200 to the database
+2025-10-02 09:27:37,879 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422455304718200
+2025-10-02 09:27:37,917 - basicLogger - DEBUG - Storing 1759422455364412000 to the database
+2025-10-02 09:27:37,918 - basicLogger - DEBUG - Storing 1759422455355325600 to the database
+2025-10-02 09:27:37,925 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422455355325600
+2025-10-02 09:27:37,925 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422455364412000
+2025-10-02 09:27:38,699 - basicLogger - DEBUG - Storing 1759422456381057600 to the database
+2025-10-02 09:27:38,706 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422456381057600
+2025-10-02 09:27:39,041 - basicLogger - DEBUG - Storing 1759422456710115800 to the database
+2025-10-02 09:27:39,067 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422456710115800
+2025-10-02 09:27:39,243 - basicLogger - DEBUG - Storing 1759422456922997700 to the database
+2025-10-02 09:27:39,269 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422456922997700
+2025-10-02 09:27:39,679 - basicLogger - DEBUG - Storing 1759422457296236000 to the database
+2025-10-02 09:27:39,707 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422457296236000
+2025-10-02 09:27:39,712 - basicLogger - DEBUG - Storing 1759422457340990700 to the database
+2025-10-02 09:27:39,720 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422457340990700
+2025-10-02 09:27:40,378 - basicLogger - DEBUG - Storing 1759422457832860100 to the database
+2025-10-02 09:27:40,405 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422457832860100
+2025-10-02 09:27:40,428 - basicLogger - DEBUG - Storing 1759422457886657100 to the database
+2025-10-02 09:27:40,429 - basicLogger - DEBUG - Storing 1759422457854270700 to the database
+2025-10-02 09:27:40,436 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422457886657100
+2025-10-02 09:27:40,438 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422457854270700
+2025-10-02 09:27:40,487 - basicLogger - DEBUG - Storing 1759422457937273900 to the database
+2025-10-02 09:27:40,497 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422457937273900
+2025-10-02 09:27:40,503 - basicLogger - DEBUG - Storing 1759422457936982300 to the database
+2025-10-02 09:27:40,511 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422457936982300
+2025-10-02 09:27:41,014 - basicLogger - DEBUG - Storing 1759422458710508200 to the database
+2025-10-02 09:27:41,039 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422458710508200
+2025-10-02 09:27:41,377 - basicLogger - DEBUG - Storing 1759422459071717400 to the database
+2025-10-02 09:27:41,385 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422459071717400
+2025-10-02 09:27:41,608 - basicLogger - DEBUG - Storing 1759422459273753300 to the database
+2025-10-02 09:27:41,631 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422459273753300
+2025-10-02 09:27:42,079 - basicLogger - DEBUG - Storing 1759422459712618000 to the database
+2025-10-02 09:27:42,088 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422459712618000
+2025-10-02 09:27:42,111 - basicLogger - DEBUG - Storing 1759422459724103300 to the database
+2025-10-02 09:27:42,118 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422459724103300
+2025-10-02 09:27:43,063 - basicLogger - DEBUG - Storing 1759422460410832100 to the database
+2025-10-02 09:27:43,072 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422460410832100
+2025-10-02 09:27:43,079 - basicLogger - DEBUG - Storing 1759422460443601800 to the database
+2025-10-02 09:27:43,080 - basicLogger - DEBUG - Storing 1759422460441672800 to the database
+2025-10-02 09:27:43,088 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422460443601800
+2025-10-02 09:27:43,090 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422460441672800
+2025-10-02 09:27:43,140 - basicLogger - DEBUG - Storing 1759422460501322600 to the database
+2025-10-02 09:27:43,148 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422460501322600
+2025-10-02 09:27:43,155 - basicLogger - DEBUG - Storing 1759422460516002600 to the database
+2025-10-02 09:27:43,162 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422460516002600
+2025-10-02 09:27:43,390 - basicLogger - DEBUG - Storing 1759422461048204800 to the database
+2025-10-02 09:27:43,410 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422461048204800
+2025-10-02 09:27:43,716 - basicLogger - DEBUG - Storing 1759422461392671500 to the database
+2025-10-02 09:27:43,743 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422461392671500
+2025-10-02 09:27:43,917 - basicLogger - DEBUG - Storing 1759422461640138500 to the database
+2025-10-02 09:27:43,940 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422461640138500
+2025-10-02 09:27:44,461 - basicLogger - DEBUG - Storing 1759422462094981600 to the database
+2025-10-02 09:27:44,467 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422462094981600
+2025-10-02 09:27:44,477 - basicLogger - DEBUG - Storing 1759422462128249200 to the database
+2025-10-02 09:27:44,485 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422462128249200
+2025-10-02 09:27:45,654 - basicLogger - DEBUG - Storing 1759422463083334000 to the database
+2025-10-02 09:27:45,654 - basicLogger - DEBUG - Storing 1759422463099122000 to the database
+2025-10-02 09:27:45,655 - basicLogger - DEBUG - Storing 1759422463099798500 to the database
+2025-10-02 09:27:45,683 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463083334000
+2025-10-02 09:27:45,686 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463099122000
+2025-10-02 09:27:45,693 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463099798500
+2025-10-02 09:27:45,731 - basicLogger - DEBUG - Storing 1759422463156671900 to the database
+2025-10-02 09:27:45,731 - basicLogger - DEBUG - Storing 1759422463172054600 to the database
+2025-10-02 09:27:45,740 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463156671900
+2025-10-02 09:27:45,742 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463172054600
+2025-10-02 09:27:45,839 - basicLogger - DEBUG - Storing 1759422463414013200 to the database
+2025-10-02 09:27:45,850 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463414013200
+2025-10-02 09:27:46,069 - basicLogger - DEBUG - Storing 1759422463747399000 to the database
+2025-10-02 09:27:46,076 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463747399000
+2025-10-02 09:27:46,262 - basicLogger - DEBUG - Storing 1759422463943826800 to the database
+2025-10-02 09:27:46,286 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422463943826800
+2025-10-02 09:27:46,850 - basicLogger - DEBUG - Storing 1759422464495733600 to the database
+2025-10-02 09:27:46,860 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422464495733600
+2025-10-02 09:27:46,880 - basicLogger - DEBUG - Storing 1759422464472196700 to the database
+2025-10-02 09:27:46,887 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422464472196700
+2025-10-02 09:27:48,393 - basicLogger - DEBUG - Storing 1759422465688239700 to the database
+2025-10-02 09:27:48,409 - basicLogger - DEBUG - Storing 1759422465699890200 to the database
+2025-10-02 09:27:48,409 - basicLogger - DEBUG - Storing 1759422465691086000 to the database
+2025-10-02 09:27:48,419 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422465688239700
+2025-10-02 09:27:48,423 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422465691086000
+2025-10-02 09:27:48,423 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422465699890200
+2025-10-02 09:27:48,441 - basicLogger - DEBUG - Storing 1759422465746211500 to the database
+2025-10-02 09:27:48,450 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422465746211500
+2025-10-02 09:27:48,470 - basicLogger - DEBUG - Storing 1759422465748477000 to the database
+2025-10-02 09:27:48,478 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422465748477000
+2025-10-02 09:27:48,577 - basicLogger - DEBUG - Storing 1759422465862292100 to the database
+2025-10-02 09:27:48,586 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422465862292100
+2025-10-02 09:27:48,608 - basicLogger - DEBUG - Storing 1759422466085438200 to the database
+2025-10-02 09:27:48,617 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422466085438200
+2025-10-02 09:27:48,687 - basicLogger - DEBUG - Storing 1759422466295942500 to the database
+2025-10-02 09:27:48,697 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422466295942500
+2025-10-02 09:27:49,251 - basicLogger - DEBUG - Storing 1759422466869946900 to the database
+2025-10-02 09:27:49,251 - basicLogger - DEBUG - Storing 1759422466896501600 to the database
+2025-10-02 09:27:49,258 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422466896501600
+2025-10-02 09:27:49,260 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422466869946900
+2025-10-02 09:27:51,073 - basicLogger - DEBUG - Storing 1759422468431301100 to the database
+2025-10-02 09:27:51,075 - basicLogger - DEBUG - Storing 1759422468440509200 to the database
+2025-10-02 09:27:51,100 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468431301100
+2025-10-02 09:27:51,100 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468440509200
+2025-10-02 09:27:51,106 - basicLogger - DEBUG - Storing 1759422468441652900 to the database
+2025-10-02 09:27:51,113 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468441652900
+2025-10-02 09:27:51,135 - basicLogger - DEBUG - Storing 1759422468486844000 to the database
+2025-10-02 09:27:51,144 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468486844000
+2025-10-02 09:27:51,150 - basicLogger - DEBUG - Storing 1759422468460081800 to the database
+2025-10-02 09:27:51,158 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468460081800
+2025-10-02 09:27:51,214 - basicLogger - DEBUG - Storing 1759422468590938100 to the database
+2025-10-02 09:27:51,214 - basicLogger - DEBUG - Storing 1759422468622379300 to the database
+2025-10-02 09:27:51,227 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468590938100
+2025-10-02 09:27:51,230 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468622379300
+2025-10-02 09:27:51,245 - basicLogger - DEBUG - Storing 1759422468702258600 to the database
+2025-10-02 09:27:51,258 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422468702258600
+2025-10-02 09:27:51,614 - basicLogger - DEBUG - Storing 1759422469264919700 to the database
+2025-10-02 09:27:51,614 - basicLogger - DEBUG - Storing 1759422469264178200 to the database
+2025-10-02 09:27:51,641 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422469264919700
+2025-10-02 09:27:51,646 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422469264178200
+2025-10-02 09:27:53,821 - basicLogger - DEBUG - Storing 1759422471107403200 to the database
+2025-10-02 09:27:53,822 - basicLogger - DEBUG - Storing 1759422471108962500 to the database
+2025-10-02 09:27:53,822 - basicLogger - DEBUG - Storing 1759422471118532800 to the database
+2025-10-02 09:27:53,850 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422471108962500
+2025-10-02 09:27:53,853 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422471107403200
+2025-10-02 09:27:53,853 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422471118532800
+2025-10-02 09:27:53,872 - basicLogger - DEBUG - Storing 1759422471162421200 to the database
+2025-10-02 09:27:53,885 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422471162421200
+2025-10-02 09:27:53,898 - basicLogger - DEBUG - Storing 1759422471149538400 to the database
+2025-10-02 09:27:53,908 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422471149538400
+2025-10-02 09:27:53,929 - basicLogger - DEBUG - Storing 1759422471243267800 to the database
+2025-10-02 09:27:53,940 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422471243267800
+2025-10-02 09:27:53,976 - basicLogger - DEBUG - Storing 1759422471267260100 to the database
+2025-10-02 09:27:53,977 - basicLogger - DEBUG - Storing 1759422471238822200 to the database
+2025-10-02 09:27:53,985 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422471267260100
+2025-10-02 09:27:53,986 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422471238822200
+2025-10-02 09:27:54,130 - basicLogger - DEBUG - Storing 1759422471653517300 to the database
+2025-10-02 09:27:54,137 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422471653517300
+2025-10-02 09:27:54,145 - basicLogger - DEBUG - Storing 1759422471658743100 to the database
+2025-10-02 09:27:54,152 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422471658743100
+2025-10-02 09:27:56,610 - basicLogger - DEBUG - Storing 1759422473874037100 to the database
+2025-10-02 09:27:56,612 - basicLogger - DEBUG - Storing 1759422473867993400 to the database
+2025-10-02 09:27:56,639 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473867993400
+2025-10-02 09:27:56,640 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473874037100
+2025-10-02 09:27:56,656 - basicLogger - DEBUG - Storing 1759422473876958400 to the database
+2025-10-02 09:27:56,664 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473876958400
+2025-10-02 09:27:56,672 - basicLogger - DEBUG - Storing 1759422473944490800 to the database
+2025-10-02 09:27:56,681 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473944490800
+2025-10-02 09:27:56,688 - basicLogger - DEBUG - Storing 1759422473917423900 to the database
+2025-10-02 09:27:56,696 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473917423900
+2025-10-02 09:27:56,702 - basicLogger - DEBUG - Storing 1759422473894512700 to the database
+2025-10-02 09:27:56,763 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473894512700
+2025-10-02 09:27:56,766 - basicLogger - DEBUG - Storing 1759422473991886700 to the database
+2025-10-02 09:27:56,766 - basicLogger - DEBUG - Storing 1759422473992531800 to the database
+2025-10-02 09:27:56,775 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473992531800
+2025-10-02 09:27:56,777 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422473991886700
+2025-10-02 09:27:56,801 - basicLogger - DEBUG - Storing 1759422474141687200 to the database
+2025-10-02 09:27:56,802 - basicLogger - DEBUG - Storing 1759422474156143500 to the database
+2025-10-02 09:27:56,812 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422474141687200
+2025-10-02 09:27:56,815 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422474156143500
+2025-10-02 09:27:59,420 - basicLogger - DEBUG - Storing 1759422476645869300 to the database
+2025-10-02 09:27:59,435 - basicLogger - DEBUG - Storing 1759422476644626000 to the database
+2025-10-02 09:27:59,446 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422476645869300
+2025-10-02 09:27:59,448 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422476644626000
+2025-10-02 09:27:59,466 - basicLogger - DEBUG - Storing 1759422476690247200 to the database
+2025-10-02 09:27:59,475 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422476690247200
+2025-10-02 09:27:59,482 - basicLogger - DEBUG - Storing 1759422476668478100 to the database
+2025-10-02 09:27:59,490 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422476668478100
+2025-10-02 09:27:59,498 - basicLogger - DEBUG - Storing 1759422476701492800 to the database
+2025-10-02 09:27:59,507 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422476701492800
+2025-10-02 09:27:59,547 - basicLogger - DEBUG - Storing 1759422476798613100 to the database
+2025-10-02 09:27:59,549 - basicLogger - DEBUG - Storing 1759422476771162500 to the database
+2025-10-02 09:27:59,550 - basicLogger - DEBUG - Storing 1759422476802502700 to the database
+2025-10-02 09:27:59,558 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422476798613100
+2025-10-02 09:27:59,560 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422476771162500
+2025-10-02 09:27:59,561 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422476802502700
+2025-10-02 09:27:59,580 - basicLogger - DEBUG - Storing 1759422476821144900 to the database
+2025-10-02 09:27:59,580 - basicLogger - DEBUG - Storing 1759422476827132900 to the database
+2025-10-02 09:27:59,587 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422476821144900
+2025-10-02 09:27:59,587 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422476827132900
+2025-10-02 09:28:02,195 - basicLogger - DEBUG - Storing 1759422479458256200 to the database
+2025-10-02 09:28:02,221 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479458256200
+2025-10-02 09:28:02,227 - basicLogger - DEBUG - Storing 1759422479458600500 to the database
+2025-10-02 09:28:02,237 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479458600500
+2025-10-02 09:28:02,243 - basicLogger - DEBUG - Storing 1759422479480075500 to the database
+2025-10-02 09:28:02,251 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479480075500
+2025-10-02 09:28:02,290 - basicLogger - DEBUG - Storing 1759422479498430800 to the database
+2025-10-02 09:28:02,299 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479498430800
+2025-10-02 09:28:02,305 - basicLogger - DEBUG - Storing 1759422479516544500 to the database
+2025-10-02 09:28:02,314 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479516544500
+2025-10-02 09:28:02,341 - basicLogger - DEBUG - Storing 1759422479569704400 to the database
+2025-10-02 09:28:02,349 - basicLogger - DEBUG - Storing 1759422479575364700 to the database
+2025-10-02 09:28:02,350 - basicLogger - DEBUG - Storing 1759422479595498200 to the database
+2025-10-02 09:28:02,350 - basicLogger - DEBUG - Storing 1759422479565799800 to the database
+2025-10-02 09:28:02,350 - basicLogger - DEBUG - Storing 1759422479594102100 to the database
+2025-10-02 09:28:02,357 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479569704400
+2025-10-02 09:28:02,359 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479575364700
+2025-10-02 09:28:02,361 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479595498200
+2025-10-02 09:28:02,381 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479565799800
+2025-10-02 09:28:02,383 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422479594102100
+2025-10-02 09:28:04,935 - basicLogger - DEBUG - Storing 1759422482227097500 to the database
+2025-10-02 09:28:04,958 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422482227097500
+2025-10-02 09:28:05,011 - basicLogger - DEBUG - Storing 1759422482243087100 to the database
+2025-10-02 09:28:05,017 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422482243087100
+2025-10-02 09:28:05,042 - basicLogger - DEBUG - Storing 1759422482259123400 to the database
+2025-10-02 09:28:05,048 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422482259123400
+2025-10-02 09:28:05,136 - basicLogger - DEBUG - Storing 1759422482304705200 to the database
+2025-10-02 09:28:05,137 - basicLogger - DEBUG - Storing 1759422482318631800 to the database
+2025-10-02 09:28:05,146 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422482304705200
+2025-10-02 09:28:05,149 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422482318631800
+2025-10-02 09:28:05,183 - basicLogger - DEBUG - Storing 1759422482380598600 to the database
+2025-10-02 09:28:05,190 - basicLogger - DEBUG - Storing 1759422482388373800 to the database
+2025-10-02 09:28:05,190 - basicLogger - DEBUG - Storing 1759422482377963000 to the database
+2025-10-02 09:28:05,190 - basicLogger - DEBUG - Storing 1759422482399764700 to the database
+2025-10-02 09:28:05,194 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422482380598600
+2025-10-02 09:28:05,199 - basicLogger - DEBUG - Storing 1759422482396694700 to the database
+2025-10-02 09:28:05,199 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422482388373800
+2025-10-02 09:28:05,204 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422482377963000
+2025-10-02 09:28:05,208 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422482399764700
+2025-10-02 09:28:05,211 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422482396694700
+2025-10-02 09:28:07,594 - basicLogger - DEBUG - Storing 1759422484967457000 to the database
+2025-10-02 09:28:07,618 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422484967457000
+2025-10-02 09:28:07,733 - basicLogger - DEBUG - Storing 1759422485026789100 to the database
+2025-10-02 09:28:07,758 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485026789100
+2025-10-02 09:28:07,813 - basicLogger - DEBUG - Storing 1759422485053608800 to the database
+2025-10-02 09:28:07,819 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485053608800
+2025-10-02 09:28:07,951 - basicLogger - DEBUG - Storing 1759422485192586200 to the database
+2025-10-02 09:28:07,970 - basicLogger - DEBUG - Storing 1759422485217660300 to the database
+2025-10-02 09:28:07,970 - basicLogger - DEBUG - Storing 1759422485213916400 to the database
+2025-10-02 09:28:07,978 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485192586200
+2025-10-02 09:28:07,981 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485217660300
+2025-10-02 09:28:07,981 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485213916400
+2025-10-02 09:28:07,988 - basicLogger - DEBUG - Storing 1759422485197150700 to the database
+2025-10-02 09:28:07,993 - basicLogger - DEBUG - Storing 1759422485227850600 to the database
+2025-10-02 09:28:07,994 - basicLogger - DEBUG - Storing 1759422485215637200 to the database
+2025-10-02 09:28:07,994 - basicLogger - DEBUG - Storing 1759422485206767900 to the database
+2025-10-02 09:28:07,998 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485197150700
+2025-10-02 09:28:08,004 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485215637200
+2025-10-02 09:28:08,007 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485206767900
+2025-10-02 09:28:08,008 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422485227850600
+2025-10-02 09:28:10,013 - basicLogger - DEBUG - Storing 1759422487624011500 to the database
+2025-10-02 09:28:10,023 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422487624011500
+2025-10-02 09:28:10,400 - basicLogger - DEBUG - Storing 1759422487762867700 to the database
+2025-10-02 09:28:10,410 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422487762867700
+2025-10-02 09:28:10,495 - basicLogger - DEBUG - Storing 1759422487831031300 to the database
+2025-10-02 09:28:10,502 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422487831031300
+2025-10-02 09:28:10,728 - basicLogger - DEBUG - Storing 1759422488009415300 to the database
+2025-10-02 09:28:10,734 - basicLogger - DEBUG - Storing 1759422488026460800 to the database
+2025-10-02 09:28:10,734 - basicLogger - DEBUG - Storing 1759422488029532200 to the database
+2025-10-02 09:28:10,734 - basicLogger - DEBUG - Storing 1759422488019568800 to the database
+2025-10-02 09:28:10,735 - basicLogger - DEBUG - Storing 1759422487996686600 to the database
+2025-10-02 09:28:10,735 - basicLogger - DEBUG - Storing 1759422488009848800 to the database
+2025-10-02 09:28:10,735 - basicLogger - DEBUG - Storing 1759422488010282400 to the database
+2025-10-02 09:28:10,743 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422488009415300
+2025-10-02 09:28:10,752 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422488026460800
+2025-10-02 09:28:10,769 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422488019568800
+2025-10-02 09:28:10,769 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422488029532200
+2025-10-02 09:28:10,772 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422487996686600
+2025-10-02 09:28:10,790 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422488009848800
+2025-10-02 09:28:10,790 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422488010282400
+2025-10-02 09:28:12,315 - basicLogger - DEBUG - Storing 1759422490034022900 to the database
+2025-10-02 09:28:12,344 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490034022900
+2025-10-02 09:28:12,894 - basicLogger - DEBUG - Storing 1759422490418815800 to the database
+2025-10-02 09:28:12,921 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490418815800
+2025-10-02 09:28:13,143 - basicLogger - DEBUG - Storing 1759422490506052700 to the database
+2025-10-02 09:28:13,150 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490506052700
+2025-10-02 09:28:13,548 - basicLogger - DEBUG - Storing 1759422490763273100 to the database
+2025-10-02 09:28:13,549 - basicLogger - DEBUG - Storing 1759422490759272600 to the database
+2025-10-02 09:28:13,575 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490763273100
+2025-10-02 09:28:13,576 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490759272600
+2025-10-02 09:28:13,596 - basicLogger - DEBUG - Storing 1759422490799279300 to the database
+2025-10-02 09:28:13,604 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490799279300
+2025-10-02 09:28:13,616 - basicLogger - DEBUG - Storing 1759422490810640400 to the database
+2025-10-02 09:28:13,617 - basicLogger - DEBUG - Storing 1759422490827707200 to the database
+2025-10-02 09:28:13,628 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490810640400
+2025-10-02 09:28:13,631 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490827707200
+2025-10-02 09:28:13,647 - basicLogger - DEBUG - Storing 1759422490818385700 to the database
+2025-10-02 09:28:13,647 - basicLogger - DEBUG - Storing 1759422490798909400 to the database
+2025-10-02 09:28:13,655 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490818385700
+2025-10-02 09:28:13,659 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422490798909400
+2025-10-02 09:28:14,675 - basicLogger - DEBUG - Storing 1759422492348759800 to the database
+2025-10-02 09:28:14,684 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422492348759800
+2025-10-02 09:28:15,253 - basicLogger - DEBUG - Storing 1759422492927914500 to the database
+2025-10-02 09:28:15,280 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422492927914500
+2025-10-02 09:28:15,474 - basicLogger - DEBUG - Storing 1759422493160704300 to the database
+2025-10-02 09:28:15,483 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422493160704300
+2025-10-02 09:28:16,239 - basicLogger - DEBUG - Storing 1759422493586838100 to the database
+2025-10-02 09:28:16,255 - basicLogger - DEBUG - Storing 1759422493587890400 to the database
+2025-10-02 09:28:16,266 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422493586838100
+2025-10-02 09:28:16,268 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422493587890400
+2025-10-02 09:28:16,334 - basicLogger - DEBUG - Storing 1759422493653426400 to the database
+2025-10-02 09:28:16,335 - basicLogger - DEBUG - Storing 1759422493652275100 to the database
+2025-10-02 09:28:16,336 - basicLogger - DEBUG - Storing 1759422493666834800 to the database
+2025-10-02 09:28:16,344 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422493653426400
+2025-10-02 09:28:16,345 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422493666834800
+2025-10-02 09:28:16,347 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422493652275100
+2025-10-02 09:28:16,350 - basicLogger - DEBUG - Storing 1759422493645037000 to the database
+2025-10-02 09:28:16,352 - basicLogger - DEBUG - Storing 1759422493666086400 to the database
+2025-10-02 09:28:16,360 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422493645037000
+2025-10-02 09:28:16,363 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1759422493666086400
+2025-10-02 09:28:16,975 - basicLogger - DEBUG - Storing 1759422494694391200 to the database
+2025-10-02 09:28:16,999 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422494694391200
+2025-10-02 09:28:17,630 - basicLogger - DEBUG - Storing 1759422495290955900 to the database
+2025-10-02 09:28:17,653 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422495290955900
+2025-10-02 09:28:17,832 - basicLogger - DEBUG - Storing 1759422495486546800 to the database
+2025-10-02 09:28:17,858 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422495486546800
+2025-10-02 09:28:18,910 - basicLogger - DEBUG - Storing 1759422496270960700 to the database
+2025-10-02 09:28:18,941 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422496270960700
+2025-10-02 09:28:18,943 - basicLogger - DEBUG - Storing 1759422496273721900 to the database
+2025-10-02 09:28:18,951 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422496273721900
+2025-10-02 09:28:18,989 - basicLogger - DEBUG - Storing 1759422496368035300 to the database
+2025-10-02 09:28:18,990 - basicLogger - DEBUG - Storing 1759422496373288200 to the database
+2025-10-02 09:28:18,991 - basicLogger - DEBUG - Storing 1759422496365325300 to the database
+2025-10-02 09:28:18,991 - basicLogger - DEBUG - Storing 1759422496356442600 to the database
+2025-10-02 09:28:18,998 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422496368035300
+2025-10-02 09:28:19,001 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422496373288200
+2025-10-02 09:28:19,001 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422496365325300
+2025-10-02 09:28:19,003 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422496356442600
+2025-10-02 09:28:19,032 - basicLogger - DEBUG - Storing 1759422496358512400 to the database
+2025-10-02 09:28:19,040 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422496358512400
+2025-10-02 09:28:19,262 - basicLogger - DEBUG - Storing 1759422497002912200 to the database
+2025-10-02 09:28:19,287 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422497002912200
+2025-10-02 09:28:19,949 - basicLogger - DEBUG - Storing 1759422497659342300 to the database
+2025-10-02 09:28:19,972 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422497659342300
+2025-10-02 09:28:21,452 - basicLogger - DEBUG - Storing 1759422499010892800 to the database
+2025-10-02 09:28:21,462 - basicLogger - DEBUG - Storing 1759422499010481000 to the database
+2025-10-02 09:28:21,462 - basicLogger - DEBUG - Storing 1759422499011375400 to the database
+2025-10-02 09:28:21,479 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422499010892800
+2025-10-02 09:28:21,482 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422499010481000
+2025-10-02 09:28:21,482 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1759422499011375400
+2025-10-08 23:03:57,827 - basicLogger - INFO - Connected to the database
+2025-10-08 23:03:57,877 - basicLogger - INFO - Connected to the database
+2025-10-08 23:03:59,670 - basicLogger - INFO - Query for Temperature readings between 2000-01-01T00:00:00Z and 2025-10-08T23:03:57Z
+2025-10-08 23:04:05,799 - basicLogger - INFO - Query for Air Quality readings between 2000-01-01T00:00:00Z and 2025-10-08T23:03:57Z
+2025-10-15 22:51:16,674 - basicLogger - INFO - Connected to the database
+2025-10-15 22:51:16,729 - basicLogger - INFO - Connected to the database
+2025-10-15 22:51:18,331 - basicLogger - INFO - Query for Temperature readings between 2025-10-08T23:03:57Z and 2025-10-15T22:51:16Z
+2025-10-15 22:51:24,672 - basicLogger - INFO - Query for Air Quality readings between 2025-10-08T23:03:57Z and 2025-10-15T22:51:16Z
+2025-10-15 22:51:33,337 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:51:16Z and 2025-10-15T22:51:31Z
+2025-10-15 22:51:39,447 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:51:16Z and 2025-10-15T22:51:31Z
+2025-10-15 22:51:48,329 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:51:31Z and 2025-10-15T22:51:46Z
+2025-10-15 22:51:54,455 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:51:31Z and 2025-10-15T22:51:46Z
+2025-10-15 22:52:03,338 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:51:46Z and 2025-10-15T22:52:01Z
+2025-10-15 22:52:09,481 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:51:46Z and 2025-10-15T22:52:01Z
+2025-10-15 22:52:18,332 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:52:01Z and 2025-10-15T22:52:16Z
+2025-10-15 22:52:24,461 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:52:01Z and 2025-10-15T22:52:16Z
+2025-10-15 22:52:33,323 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:52:16Z and 2025-10-15T22:52:31Z
+2025-10-15 22:52:39,434 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:52:16Z and 2025-10-15T22:52:31Z
+2025-10-15 22:52:48,336 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:52:31Z and 2025-10-15T22:52:46Z
+2025-10-15 22:52:54,481 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:52:31Z and 2025-10-15T22:52:46Z
+2025-10-15 22:53:03,332 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:52:46Z and 2025-10-15T22:53:01Z
+2025-10-15 22:53:09,471 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:52:46Z and 2025-10-15T22:53:01Z
+2025-10-15 22:53:18,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:53:01Z and 2025-10-15T22:53:16Z
+2025-10-15 22:53:24,485 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:53:01Z and 2025-10-15T22:53:16Z
+2025-10-15 22:53:33,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:53:16Z and 2025-10-15T22:53:31Z
+2025-10-15 22:53:39,454 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:53:16Z and 2025-10-15T22:53:31Z
+2025-10-15 22:53:48,338 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:53:31Z and 2025-10-15T22:53:46Z
+2025-10-15 22:53:54,476 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:53:31Z and 2025-10-15T22:53:46Z
+2025-10-15 22:54:03,335 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:53:46Z and 2025-10-15T22:54:01Z
+2025-10-15 22:54:09,473 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:53:46Z and 2025-10-15T22:54:01Z
+2025-10-15 22:54:18,329 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:54:01Z and 2025-10-15T22:54:16Z
+2025-10-15 22:54:24,466 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:54:01Z and 2025-10-15T22:54:16Z
+2025-10-15 22:54:33,326 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:54:16Z and 2025-10-15T22:54:31Z
+2025-10-15 22:54:39,466 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:54:16Z and 2025-10-15T22:54:31Z
+2025-10-15 22:54:48,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:54:31Z and 2025-10-15T22:54:46Z
+2025-10-15 22:54:54,466 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:54:31Z and 2025-10-15T22:54:46Z
+2025-10-15 22:55:03,338 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:54:46Z and 2025-10-15T22:55:01Z
+2025-10-15 22:55:09,462 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:54:46Z and 2025-10-15T22:55:01Z
+2025-10-15 22:55:18,312 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:55:01Z and 2025-10-15T22:55:16Z
+2025-10-15 22:55:24,450 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:55:01Z and 2025-10-15T22:55:16Z
+2025-10-15 22:55:33,320 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:55:16Z and 2025-10-15T22:55:31Z
+2025-10-15 22:55:39,457 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:55:16Z and 2025-10-15T22:55:31Z
+2025-10-15 22:55:48,343 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:55:31Z and 2025-10-15T22:55:46Z
+2025-10-15 22:55:54,477 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:55:31Z and 2025-10-15T22:55:46Z
+2025-10-15 22:56:03,320 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:55:46Z and 2025-10-15T22:56:01Z
+2025-10-15 22:56:09,462 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:55:46Z and 2025-10-15T22:56:01Z
+2025-10-15 22:56:18,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:56:01Z and 2025-10-15T22:56:16Z
+2025-10-15 22:56:24,459 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:56:01Z and 2025-10-15T22:56:16Z
+2025-10-15 22:56:33,331 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:56:16Z and 2025-10-15T22:56:31Z
+2025-10-15 22:56:39,463 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:56:16Z and 2025-10-15T22:56:31Z
+2025-10-15 22:56:48,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:56:31Z and 2025-10-15T22:56:46Z
+2025-10-15 22:56:54,460 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:56:31Z and 2025-10-15T22:56:46Z
+2025-10-15 22:57:03,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:56:46Z and 2025-10-15T22:57:01Z
+2025-10-15 22:57:09,471 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:56:46Z and 2025-10-15T22:57:01Z
+2025-10-15 22:57:18,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:57:01Z and 2025-10-15T22:57:16Z
+2025-10-15 22:57:24,466 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:57:01Z and 2025-10-15T22:57:16Z
+2025-10-15 22:57:33,332 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:57:16Z and 2025-10-15T22:57:31Z
+2025-10-15 22:57:39,481 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:57:16Z and 2025-10-15T22:57:31Z
+2025-10-15 22:57:48,332 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:57:31Z and 2025-10-15T22:57:46Z
+2025-10-15 22:57:54,467 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:57:31Z and 2025-10-15T22:57:46Z
+2025-10-15 22:58:03,329 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:57:46Z and 2025-10-15T22:58:01Z
+2025-10-15 22:58:09,455 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:57:46Z and 2025-10-15T22:58:01Z
+2025-10-15 22:58:18,330 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:58:01Z and 2025-10-15T22:58:16Z
+2025-10-15 22:58:24,470 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:58:01Z and 2025-10-15T22:58:16Z
+2025-10-15 22:58:33,325 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:58:16Z and 2025-10-15T22:58:31Z
+2025-10-15 22:58:39,450 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:58:16Z and 2025-10-15T22:58:31Z
+2025-10-15 22:58:48,319 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:58:31Z and 2025-10-15T22:58:46Z
+2025-10-15 22:58:54,469 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:58:31Z and 2025-10-15T22:58:46Z
+2025-10-15 22:59:03,320 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:58:46Z and 2025-10-15T22:59:01Z
+2025-10-15 22:59:09,473 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:58:46Z and 2025-10-15T22:59:01Z
+2025-10-15 22:59:18,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:59:01Z and 2025-10-15T22:59:16Z
+2025-10-15 22:59:24,461 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:59:01Z and 2025-10-15T22:59:16Z
+2025-10-15 22:59:33,331 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:59:16Z and 2025-10-15T22:59:31Z
+2025-10-15 22:59:39,472 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:59:16Z and 2025-10-15T22:59:31Z
+2025-10-15 22:59:48,328 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:59:31Z and 2025-10-15T22:59:46Z
+2025-10-15 22:59:54,455 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:59:31Z and 2025-10-15T22:59:46Z
+2025-10-15 23:00:03,329 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T22:59:46Z and 2025-10-15T23:00:01Z
+2025-10-15 23:00:09,438 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T22:59:46Z and 2025-10-15T23:00:01Z
+2025-10-15 23:00:18,345 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:00:01Z and 2025-10-15T23:00:16Z
+2025-10-15 23:00:24,465 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:00:01Z and 2025-10-15T23:00:16Z
+2025-10-15 23:00:33,319 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:00:16Z and 2025-10-15T23:00:31Z
+2025-10-15 23:00:39,473 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:00:16Z and 2025-10-15T23:00:31Z
+2025-10-15 23:00:48,319 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:00:31Z and 2025-10-15T23:00:46Z
+2025-10-15 23:00:54,468 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:00:31Z and 2025-10-15T23:00:46Z
+2025-10-15 23:01:03,330 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:00:46Z and 2025-10-15T23:01:01Z
+2025-10-15 23:01:09,455 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:00:46Z and 2025-10-15T23:01:01Z
+2025-10-15 23:01:18,336 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:01:01Z and 2025-10-15T23:01:16Z
+2025-10-15 23:01:24,475 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:01:01Z and 2025-10-15T23:01:16Z
+2025-10-15 23:01:33,324 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:01:16Z and 2025-10-15T23:01:31Z
+2025-10-15 23:01:39,468 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:01:16Z and 2025-10-15T23:01:31Z
+2025-10-15 23:01:48,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:01:31Z and 2025-10-15T23:01:46Z
+2025-10-15 23:01:54,490 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:01:31Z and 2025-10-15T23:01:46Z
+2025-10-15 23:02:03,338 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:01:46Z and 2025-10-15T23:02:01Z
+2025-10-15 23:02:09,467 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:01:46Z and 2025-10-15T23:02:01Z
+2025-10-15 23:02:18,319 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:02:01Z and 2025-10-15T23:02:16Z
+2025-10-15 23:02:24,466 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:02:01Z and 2025-10-15T23:02:16Z
+2025-10-15 23:02:33,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:02:16Z and 2025-10-15T23:02:31Z
+2025-10-15 23:02:39,477 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:02:16Z and 2025-10-15T23:02:31Z
+2025-10-15 23:02:48,336 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:02:31Z and 2025-10-15T23:02:46Z
+2025-10-15 23:02:54,487 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:02:31Z and 2025-10-15T23:02:46Z
+2025-10-15 23:03:03,324 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:02:46Z and 2025-10-15T23:03:01Z
+2025-10-15 23:03:09,474 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:02:46Z and 2025-10-15T23:03:01Z
+2025-10-15 23:03:18,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:03:01Z and 2025-10-15T23:03:16Z
+2025-10-15 23:03:24,489 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:03:01Z and 2025-10-15T23:03:16Z
+2025-10-15 23:03:33,336 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:03:16Z and 2025-10-15T23:03:31Z
+2025-10-15 23:03:39,457 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:03:16Z and 2025-10-15T23:03:31Z
+2025-10-15 23:03:48,324 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:03:31Z and 2025-10-15T23:03:46Z
+2025-10-15 23:03:54,434 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:03:31Z and 2025-10-15T23:03:46Z
+2025-10-15 23:04:03,335 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:03:46Z and 2025-10-15T23:04:01Z
+2025-10-15 23:04:09,474 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:03:46Z and 2025-10-15T23:04:01Z
+2025-10-15 23:04:18,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:04:01Z and 2025-10-15T23:04:16Z
+2025-10-15 23:04:24,458 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:04:01Z and 2025-10-15T23:04:16Z
+2025-10-15 23:04:33,319 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:04:16Z and 2025-10-15T23:04:31Z
+2025-10-15 23:04:39,464 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:04:16Z and 2025-10-15T23:04:31Z
+2025-10-15 23:04:48,316 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:04:31Z and 2025-10-15T23:04:46Z
+2025-10-15 23:04:54,476 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:04:31Z and 2025-10-15T23:04:46Z
+2025-10-15 23:05:03,341 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:04:46Z and 2025-10-15T23:05:01Z
+2025-10-15 23:05:09,475 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:04:46Z and 2025-10-15T23:05:01Z
+2025-10-15 23:05:18,329 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:05:01Z and 2025-10-15T23:05:16Z
+2025-10-15 23:05:24,459 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:05:01Z and 2025-10-15T23:05:16Z
+2025-10-15 23:05:33,319 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:05:16Z and 2025-10-15T23:05:31Z
+2025-10-15 23:05:39,483 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:05:16Z and 2025-10-15T23:05:31Z
+2025-10-15 23:05:48,320 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:05:31Z and 2025-10-15T23:05:46Z
+2025-10-15 23:05:54,472 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:05:31Z and 2025-10-15T23:05:46Z
+2025-10-15 23:06:03,332 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:05:46Z and 2025-10-15T23:06:01Z
+2025-10-15 23:06:09,468 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:05:46Z and 2025-10-15T23:06:01Z
+2025-10-15 23:06:18,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:06:01Z and 2025-10-15T23:06:16Z
+2025-10-15 23:06:24,466 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:06:01Z and 2025-10-15T23:06:16Z
+2025-10-15 23:06:33,334 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:06:16Z and 2025-10-15T23:06:31Z
+2025-10-15 23:06:39,473 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:06:16Z and 2025-10-15T23:06:31Z
+2025-10-15 23:06:48,326 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:06:31Z and 2025-10-15T23:06:46Z
+2025-10-15 23:06:54,453 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:06:31Z and 2025-10-15T23:06:46Z
+2025-10-15 23:07:03,315 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:06:46Z and 2025-10-15T23:07:01Z
+2025-10-15 23:07:09,468 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:06:46Z and 2025-10-15T23:07:01Z
+2025-10-15 23:07:18,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:07:01Z and 2025-10-15T23:07:16Z
+2025-10-15 23:07:24,487 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:07:01Z and 2025-10-15T23:07:16Z
+2025-10-15 23:07:33,334 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:07:16Z and 2025-10-15T23:07:31Z
+2025-10-15 23:07:39,485 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:07:16Z and 2025-10-15T23:07:31Z
+2025-10-15 23:07:48,315 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:07:31Z and 2025-10-15T23:07:46Z
+2025-10-15 23:07:54,457 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:07:31Z and 2025-10-15T23:07:46Z
+2025-10-15 23:08:03,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:07:46Z and 2025-10-15T23:08:01Z
+2025-10-15 23:08:09,476 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:07:46Z and 2025-10-15T23:08:01Z
+2025-10-15 23:09:08,181 - basicLogger - INFO - Connected to the database
+2025-10-15 23:09:08,240 - basicLogger - INFO - Connected to the database
+2025-10-15 23:09:08,311 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:08:01Z and 2025-10-15T23:09:06Z
+2025-10-15 23:09:14,447 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:08:01Z and 2025-10-15T23:09:06Z
+2025-10-15 23:09:23,336 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:09:06Z and 2025-10-15T23:09:21Z
+2025-10-15 23:09:29,484 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:09:06Z and 2025-10-15T23:09:21Z
+2025-10-15 23:09:38,337 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:09:21Z and 2025-10-15T23:09:36Z
+2025-10-15 23:09:44,485 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:09:21Z and 2025-10-15T23:09:36Z
+2025-10-15 23:09:53,337 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:09:36Z and 2025-10-15T23:09:51Z
+2025-10-15 23:09:59,475 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:09:36Z and 2025-10-15T23:09:51Z
+2025-10-15 23:10:08,334 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:09:51Z and 2025-10-15T23:10:06Z
+2025-10-15 23:10:14,483 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:09:51Z and 2025-10-15T23:10:06Z
+2025-10-15 23:10:23,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:10:06Z and 2025-10-15T23:10:21Z
+2025-10-15 23:11:06,568 - basicLogger - INFO - Connected to the database
+2025-10-15 23:11:06,634 - basicLogger - INFO - Connected to the database
+2025-10-15 23:11:08,332 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:10:06Z and 2025-10-15T23:11:06Z
+2025-10-15 23:11:14,482 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:10:06Z and 2025-10-15T23:11:06Z
+2025-10-15 23:11:23,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:11:06Z and 2025-10-15T23:11:21Z
+2025-10-15 23:11:29,474 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:11:06Z and 2025-10-15T23:11:21Z
+2025-10-15 23:11:38,332 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:11:21Z and 2025-10-15T23:11:36Z
+2025-10-15 23:11:44,465 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:11:21Z and 2025-10-15T23:11:36Z
+2025-10-15 23:11:53,328 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:11:36Z and 2025-10-15T23:11:51Z
+2025-10-15 23:11:59,464 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:11:36Z and 2025-10-15T23:11:51Z
+2025-10-15 23:12:08,335 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:11:51Z and 2025-10-15T23:12:06Z
+2025-10-15 23:12:14,471 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:11:51Z and 2025-10-15T23:12:06Z
+2025-10-15 23:12:23,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:12:06Z and 2025-10-15T23:12:21Z
+2025-10-15 23:12:29,459 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:12:06Z and 2025-10-15T23:12:21Z
+2025-10-15 23:12:38,330 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:12:21Z and 2025-10-15T23:12:36Z
+2025-10-15 23:12:44,441 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:12:21Z and 2025-10-15T23:12:36Z
+2025-10-15 23:12:53,329 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:12:36Z and 2025-10-15T23:12:51Z
+2025-10-15 23:12:59,466 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:12:36Z and 2025-10-15T23:12:51Z
+2025-10-15 23:13:08,341 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:12:51Z and 2025-10-15T23:13:06Z
+2025-10-15 23:13:14,464 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:12:51Z and 2025-10-15T23:13:06Z
+2025-10-15 23:13:23,340 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:13:06Z and 2025-10-15T23:13:21Z
+2025-10-15 23:13:29,492 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:13:06Z and 2025-10-15T23:13:21Z
+2025-10-15 23:13:38,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:13:21Z and 2025-10-15T23:13:36Z
+2025-10-15 23:13:44,447 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:13:21Z and 2025-10-15T23:13:36Z
+2025-10-15 23:13:53,341 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:13:36Z and 2025-10-15T23:13:51Z
+2025-10-15 23:13:59,486 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:13:36Z and 2025-10-15T23:13:51Z
+2025-10-15 23:14:08,334 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:13:51Z and 2025-10-15T23:14:06Z
+2025-10-15 23:14:14,461 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:13:51Z and 2025-10-15T23:14:06Z
+2025-10-15 23:14:23,328 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:14:06Z and 2025-10-15T23:14:21Z
+2025-10-15 23:14:29,456 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:14:06Z and 2025-10-15T23:14:21Z
+2025-10-15 23:14:38,340 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:14:21Z and 2025-10-15T23:14:36Z
+2025-10-15 23:14:44,484 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:14:21Z and 2025-10-15T23:14:36Z
+2025-10-15 23:14:53,334 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:14:36Z and 2025-10-15T23:14:51Z
+2025-10-15 23:14:59,443 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:14:36Z and 2025-10-15T23:14:51Z
+2025-10-15 23:15:08,317 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:14:51Z and 2025-10-15T23:15:06Z
+2025-10-15 23:15:14,452 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:14:51Z and 2025-10-15T23:15:06Z
+2025-10-15 23:15:23,338 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:15:06Z and 2025-10-15T23:15:21Z
+2025-10-15 23:15:29,479 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:15:06Z and 2025-10-15T23:15:21Z
+2025-10-15 23:15:38,336 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:15:21Z and 2025-10-15T23:15:36Z
+2025-10-15 23:15:44,465 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:15:21Z and 2025-10-15T23:15:36Z
+2025-10-15 23:15:53,313 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:15:36Z and 2025-10-15T23:15:51Z
+2025-10-15 23:15:59,450 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:15:36Z and 2025-10-15T23:15:51Z
+2025-10-15 23:16:08,340 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:15:51Z and 2025-10-15T23:16:06Z
+2025-10-15 23:16:14,473 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:15:51Z and 2025-10-15T23:16:06Z
+2025-10-15 23:16:23,339 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:16:06Z and 2025-10-15T23:16:21Z
+2025-10-15 23:16:29,472 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:16:06Z and 2025-10-15T23:16:21Z
+2025-10-15 23:16:38,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:16:21Z and 2025-10-15T23:16:36Z
+2025-10-15 23:16:44,459 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:16:21Z and 2025-10-15T23:16:36Z
+2025-10-15 23:16:53,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:16:36Z and 2025-10-15T23:16:51Z
+2025-10-15 23:16:59,488 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:16:36Z and 2025-10-15T23:16:51Z
+2025-10-15 23:17:08,337 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:16:51Z and 2025-10-15T23:17:06Z
+2025-10-15 23:17:14,468 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:16:51Z and 2025-10-15T23:17:06Z
+2025-10-15 23:17:23,325 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:17:06Z and 2025-10-15T23:17:21Z
+2025-10-15 23:17:29,488 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:17:06Z and 2025-10-15T23:17:21Z
+2025-10-15 23:17:38,328 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:17:21Z and 2025-10-15T23:17:36Z
+2025-10-15 23:17:44,480 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:17:21Z and 2025-10-15T23:17:36Z
+2025-10-15 23:17:53,313 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:17:36Z and 2025-10-15T23:17:51Z
+2025-10-15 23:17:59,452 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:17:36Z and 2025-10-15T23:17:51Z
+2025-10-15 23:18:08,328 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:17:51Z and 2025-10-15T23:18:06Z
+2025-10-15 23:18:14,438 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:17:51Z and 2025-10-15T23:18:06Z
+2025-10-15 23:18:23,326 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:18:06Z and 2025-10-15T23:18:21Z
+2025-10-15 23:18:30,521 - basicLogger - INFO - Connected to the database
+2025-10-15 23:18:30,579 - basicLogger - INFO - Connected to the database
+2025-10-15 23:18:31,008 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:18:06Z and 2025-10-15T23:18:21Z
+2025-10-15 23:18:38,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:18:21Z and 2025-10-15T23:18:36Z
+2025-10-15 23:18:40,520 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:18:21Z and 2025-10-15T23:18:36Z
+2025-10-15 23:18:43,324 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:18:36Z and 2025-10-15T23:18:41Z
+2025-10-15 23:18:45,731 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:18:36Z and 2025-10-15T23:18:41Z
+2025-10-15 23:18:48,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:18:41Z and 2025-10-15T23:18:46Z
+2025-10-15 23:18:50,786 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:18:41Z and 2025-10-15T23:18:46Z
+2025-10-15 23:18:53,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:18:46Z and 2025-10-15T23:18:51Z
+2025-10-15 23:18:55,537 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:18:46Z and 2025-10-15T23:18:51Z
+2025-10-15 23:18:58,330 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:18:51Z and 2025-10-15T23:18:56Z
+2025-10-15 23:19:00,639 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:18:51Z and 2025-10-15T23:18:56Z
+2025-10-15 23:19:03,323 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:18:56Z and 2025-10-15T23:19:01Z
+2025-10-15 23:19:05,729 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:18:56Z and 2025-10-15T23:19:01Z
+2025-10-15 23:19:08,353 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:01Z and 2025-10-15T23:19:06Z
+2025-10-15 23:19:11,121 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:01Z and 2025-10-15T23:19:06Z
+2025-10-15 23:19:18,317 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:06Z and 2025-10-15T23:19:16Z
+2025-10-15 23:19:20,790 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:06Z and 2025-10-15T23:19:16Z
+2025-10-15 23:19:23,340 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:16Z and 2025-10-15T23:19:21Z
+2025-10-15 23:19:25,800 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:16Z and 2025-10-15T23:19:21Z
+2025-10-15 23:19:28,338 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:21Z and 2025-10-15T23:19:26Z
+2025-10-15 23:19:30,592 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:21Z and 2025-10-15T23:19:26Z
+2025-10-15 23:19:33,322 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:26Z and 2025-10-15T23:19:31Z
+2025-10-15 23:19:35,829 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:26Z and 2025-10-15T23:19:31Z
+2025-10-15 23:19:38,331 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:31Z and 2025-10-15T23:19:36Z
+2025-10-15 23:19:40,837 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:31Z and 2025-10-15T23:19:36Z
+2025-10-15 23:19:59,019 - basicLogger - INFO - Connected to the database
+2025-10-15 23:19:59,072 - basicLogger - INFO - Connected to the database
+2025-10-15 23:19:59,359 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:36Z and 2025-10-15T23:19:56Z
+2025-10-15 23:20:03,221 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:36Z and 2025-10-15T23:19:56Z
+2025-10-15 23:20:08,335 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:56Z and 2025-10-15T23:20:06Z
+2025-10-15 23:20:14,706 - basicLogger - INFO - Connected to the database
+2025-10-15 23:20:14,763 - basicLogger - INFO - Connected to the database
+2025-10-15 23:20:18,316 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:19:56Z and 2025-10-15T23:20:16Z
+2025-10-15 23:20:21,513 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:19:56Z and 2025-10-15T23:20:16Z
+2025-10-15 23:20:28,311 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:20:16Z and 2025-10-15T23:20:26Z
+2025-10-15 23:20:31,096 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:20:16Z and 2025-10-15T23:20:26Z
+2025-10-15 23:20:38,323 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:20:26Z and 2025-10-15T23:20:36Z
+2025-10-15 23:20:41,772 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:20:26Z and 2025-10-15T23:20:36Z
+2025-10-15 23:20:48,330 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:20:36Z and 2025-10-15T23:20:46Z
+2025-10-15 23:20:57,718 - basicLogger - INFO - Connected to the database
+2025-10-15 23:21:06,974 - basicLogger - INFO - Connected to the database
+2025-10-15 23:21:07,028 - basicLogger - INFO - Connected to the database
+2025-10-15 23:21:08,333 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:20:36Z and 2025-10-15T23:21:06Z
+2025-10-15 23:21:08,903 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:10,956 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:20:36Z and 2025-10-15T23:21:06Z
+2025-10-15 23:21:11,209 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:13,326 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:06Z and 2025-10-15T23:21:11Z
+2025-10-15 23:21:13,430 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:15,482 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:06Z and 2025-10-15T23:21:11Z
+2025-10-15 23:21:15,885 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:18,309 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:11Z and 2025-10-15T23:21:16Z
+2025-10-15 23:21:18,761 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:20,799 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:11Z and 2025-10-15T23:21:16Z
+2025-10-15 23:21:21,121 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:23,327 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:16Z and 2025-10-15T23:21:21Z
+2025-10-15 23:21:23,562 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:25,607 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:16Z and 2025-10-15T23:21:21Z
+2025-10-15 23:21:25,771 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:28,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:21Z and 2025-10-15T23:21:26Z
+2025-10-15 23:21:28,621 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:30,654 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:21Z and 2025-10-15T23:21:26Z
+2025-10-15 23:21:30,935 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:33,323 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:26Z and 2025-10-15T23:21:31Z
+2025-10-15 23:21:33,427 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:35,485 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:26Z and 2025-10-15T23:21:31Z
+2025-10-15 23:21:35,615 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:38,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:31Z and 2025-10-15T23:21:36Z
+2025-10-15 23:21:38,622 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:40,676 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:31Z and 2025-10-15T23:21:36Z
+2025-10-15 23:21:40,970 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:43,352 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:36Z and 2025-10-15T23:21:41Z
+2025-10-15 23:21:43,837 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:45,875 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:36Z and 2025-10-15T23:21:41Z
+2025-10-15 23:21:46,113 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:48,325 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:41Z and 2025-10-15T23:21:46Z
+2025-10-15 23:21:48,651 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:50,683 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:41Z and 2025-10-15T23:21:46Z
+2025-10-15 23:21:51,010 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:53,340 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:46Z and 2025-10-15T23:21:51Z
+2025-10-15 23:21:53,624 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:21:55,655 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:46Z and 2025-10-15T23:21:51Z
+2025-10-15 23:21:55,955 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:21:58,305 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:51Z and 2025-10-15T23:21:56Z
+2025-10-15 23:21:58,604 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:00,641 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:51Z and 2025-10-15T23:21:56Z
+2025-10-15 23:22:00,939 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:03,331 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:21:56Z and 2025-10-15T23:22:01Z
+2025-10-15 23:22:03,704 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:05,744 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:21:56Z and 2025-10-15T23:22:01Z
+2025-10-15 23:22:05,855 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:08,338 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:01Z and 2025-10-15T23:22:06Z
+2025-10-15 23:22:08,620 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:10,670 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:01Z and 2025-10-15T23:22:06Z
+2025-10-15 23:22:10,922 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:13,339 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:06Z and 2025-10-15T23:22:11Z
+2025-10-15 23:22:13,457 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:15,494 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:06Z and 2025-10-15T23:22:11Z
+2025-10-15 23:22:15,790 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:18,311 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:11Z and 2025-10-15T23:22:16Z
+2025-10-15 23:22:18,462 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:20,514 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:11Z and 2025-10-15T23:22:16Z
+2025-10-15 23:22:20,799 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:23,317 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:16Z and 2025-10-15T23:22:21Z
+2025-10-15 23:22:23,673 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:25,722 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:16Z and 2025-10-15T23:22:21Z
+2025-10-15 23:22:25,961 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:28,329 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:21Z and 2025-10-15T23:22:26Z
+2025-10-15 23:22:28,894 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:30,936 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:21Z and 2025-10-15T23:22:26Z
+2025-10-15 23:22:31,150 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:33,328 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:26Z and 2025-10-15T23:22:31Z
+2025-10-15 23:22:33,612 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:35,664 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:26Z and 2025-10-15T23:22:31Z
+2025-10-15 23:22:35,895 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:38,330 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:31Z and 2025-10-15T23:22:36Z
+2025-10-15 23:22:38,582 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:40,627 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:31Z and 2025-10-15T23:22:36Z
+2025-10-15 23:22:40,876 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:43,334 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:36Z and 2025-10-15T23:22:41Z
+2025-10-15 23:22:43,641 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:45,700 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:36Z and 2025-10-15T23:22:41Z
+2025-10-15 23:22:45,935 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:48,330 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:41Z and 2025-10-15T23:22:46Z
+2025-10-15 23:22:48,556 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:50,598 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:41Z and 2025-10-15T23:22:46Z
+2025-10-15 23:22:50,912 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:53,321 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:46Z and 2025-10-15T23:22:51Z
+2025-10-15 23:22:53,575 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:22:55,620 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:46Z and 2025-10-15T23:22:51Z
+2025-10-15 23:22:55,929 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-15 23:22:58,337 - basicLogger - INFO - Query for Temperature readings between 2025-10-15T23:22:51Z and 2025-10-15T23:22:56Z
+2025-10-15 23:22:58,668 - basicLogger - INFO - Query for Temperature readings returns 0 results
+2025-10-15 23:23:00,711 - basicLogger - INFO - Query for Air Quality readings between 2025-10-15T23:22:51Z and 2025-10-15T23:22:56Z
+2025-10-15 23:23:01,049 - basicLogger - INFO - Query for Air Quality readings returns 0 results
+2025-10-29 23:02:29,427 - basicLogger - INFO - Connected to the database
+2025-10-29 23:02:29,506 - basicLogger - INFO - Connected to the database
+2025-10-29 23:27:50,694 - basicLogger - INFO - Connected to the database
+2025-10-29 23:27:50,764 - basicLogger - INFO - Connected to the database
+2025-10-30 00:10:39,380 - basicLogger - INFO - Connected to the database
+2025-10-30 00:10:39,450 - basicLogger - INFO - Connected to the database
+2025-10-30 08:46:41,229 - basicLogger - INFO - Connected to the database
+2025-10-30 08:46:41,293 - basicLogger - INFO - Connected to the database
+2025-10-30 09:12:16,277 - basicLogger - INFO - Connected to the database
+2025-10-30 09:12:24,501 - basicLogger - INFO - Connected to the database
+2025-10-30 10:18:49,872 - basicLogger - INFO - Connected to the database
+2025-10-30 10:18:49,938 - basicLogger - INFO - Connected to the database
+2025-10-30 10:21:42,350 - basicLogger - INFO - Connected to the database
+2025-10-30 10:21:42,364 - basicLogger - INFO - Database tables created/verified
+2025-10-30 10:21:42,365 - basicLogger - INFO - Connecting to Kafka at 143.198.72.207:9092
+2025-10-30 10:21:42,365 - basicLogger - INFO - Kafka consumer thread started
+2025-10-30 10:21:42,422 - basicLogger - INFO - Connected to the database
+2025-10-30 10:21:42,868 - basicLogger - INFO - Kafka consumer started, waiting for messages...
+2025-10-30 10:22:23,786 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943745966700, 'fire_id': '2aa70e1e-9a4c-45b0-b640-27789f494a4d', 'latitude': 72.327348, 'longitude': -31.768211, 'temperature_celsius': 48.8, 'humidity_level': 99.8, 'batch_timestamp': '2025-10-30T10:22:23.742Z', 'reading_timestamp': '2025-10-30T10:22:23.742Z'}}
+2025-10-30 10:22:23,786 - basicLogger - DEBUG - Storing 1761844943745966700 to the database
+2025-10-30 10:22:24,433 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943745966700
+2025-10-30 10:22:24,434 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943745966700
+2025-10-30 10:22:24,494 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943789052500, 'fire_id': 'f8ed717e-f65e-4164-8953-701c2edf7a6e', 'location_name': 'Monitoring Station 6', 'particulate_level': 47.28, 'air_quality': 50, 'smoke_opacity': 45.3, 'batch_timestamp': '2025-10-30T10:22:23.786Z', 'reading_timestamp': '2025-10-30T10:22:23.786Z'}}
+2025-10-30 10:22:24,494 - basicLogger - DEBUG - Storing 1761844943789052500 to the database
+2025-10-30 10:22:24,629 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844943789052500
+2025-10-30 10:22:24,629 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844943789052500
+2025-10-30 10:22:24,683 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943840398000, 'fire_id': 'd66e8973-e398-4f4e-a4ec-6e834e0791ff', 'latitude': -73.715883, 'longitude': 17.637539, 'temperature_celsius': 54.2, 'humidity_level': 46.6, 'batch_timestamp': '2025-10-30T10:22:23.838Z', 'reading_timestamp': '2025-10-30T10:22:23.838Z'}}
+2025-10-30 10:22:24,684 - basicLogger - DEBUG - Storing 1761844943840398000 to the database
+2025-10-30 10:22:24,810 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943840398000
+2025-10-30 10:22:24,810 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943840398000
+2025-10-30 10:22:24,855 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943848363200, 'fire_id': '2183ee55-d92e-4ada-af96-d39c797646ac', 'latitude': 17.639095, 'longitude': -74.364747, 'temperature_celsius': 93.9, 'humidity_level': 58.8, 'batch_timestamp': '2025-10-30T10:22:23.846Z', 'reading_timestamp': '2025-10-30T10:22:23.846Z'}}
+2025-10-30 10:22:24,855 - basicLogger - DEBUG - Storing 1761844943848363200 to the database
+2025-10-30 10:22:25,010 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943848363200
+2025-10-30 10:22:25,010 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943848363200
+2025-10-30 10:22:25,054 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943884734400, 'fire_id': 'aee75e3f-ab20-4b7a-acb5-c06ebf8d9253', 'location_name': 'Monitoring Station 43', 'particulate_level': 432.37, 'air_quality': 96, 'smoke_opacity': 99.42, 'batch_timestamp': '2025-10-30T10:22:23.883Z', 'reading_timestamp': '2025-10-30T10:22:23.883Z'}}
+2025-10-30 10:22:25,054 - basicLogger - DEBUG - Storing 1761844943884734400 to the database
+2025-10-30 10:22:25,201 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844943884734400
+2025-10-30 10:22:25,201 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844943884734400
+2025-10-30 10:22:25,249 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943928436500, 'fire_id': 'ddd1af7d-ffcf-4391-8899-eae91adffcb9', 'location_name': 'Monitoring Station 86', 'particulate_level': 379.81, 'air_quality': 193, 'smoke_opacity': 30.85, 'batch_timestamp': '2025-10-30T10:22:23.926Z', 'reading_timestamp': '2025-10-30T10:22:23.926Z'}}
+2025-10-30 10:22:25,250 - basicLogger - DEBUG - Storing 1761844943928436500 to the database
+2025-10-30 10:22:25,376 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844943928436500
+2025-10-30 10:22:25,376 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844943928436500
+2025-10-30 10:22:25,422 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943959071400, 'fire_id': '66369749-71dc-43cc-9075-118e8a387b8f', 'latitude': 0.9881, 'longitude': 86.359148, 'temperature_celsius': 125.3, 'humidity_level': 84.3, 'batch_timestamp': '2025-10-30T10:22:23.956Z', 'reading_timestamp': '2025-10-30T10:22:23.956Z'}}
+2025-10-30 10:22:25,422 - basicLogger - DEBUG - Storing 1761844943959071400 to the database
+2025-10-30 10:22:25,551 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943959071400
+2025-10-30 10:22:25,551 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943959071400
+2025-10-30 10:22:25,593 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:23', 'payload': {'trace_id': 1761844943978490900, 'fire_id': '65a2f63f-9f6b-419f-bc5e-4b5b32c8a0b9', 'latitude': -14.254405, 'longitude': 11.639965, 'temperature_celsius': 194.2, 'humidity_level': 34.1, 'batch_timestamp': '2025-10-30T10:22:23.976Z', 'reading_timestamp': '2025-10-30T10:22:23.976Z'}}
+2025-10-30 10:22:25,593 - basicLogger - DEBUG - Storing 1761844943978490900 to the database
+2025-10-30 10:22:25,718 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844943978490900
+2025-10-30 10:22:25,719 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844943978490900
+2025-10-30 10:22:25,770 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944024632100, 'fire_id': '68a15b3e-9aae-4093-8b50-e17623ba6e91', 'location_name': 'Monitoring Station 84', 'particulate_level': 173.56, 'air_quality': 185, 'smoke_opacity': 57.81, 'batch_timestamp': '2025-10-30T10:22:24.021Z', 'reading_timestamp': '2025-10-30T10:22:24.021Z'}}
+2025-10-30 10:22:25,770 - basicLogger - DEBUG - Storing 1761844944024632100 to the database
+2025-10-30 10:22:25,908 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944024632100
+2025-10-30 10:22:25,908 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944024632100
+2025-10-30 10:22:25,959 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944024821800, 'fire_id': 'a6e78ae0-82fc-4f5f-9410-5f03f3f9ed87', 'latitude': 41.33926, 'longitude': 49.712771, 'temperature_celsius': 130.2, 'humidity_level': 66.2, 'batch_timestamp': '2025-10-30T10:22:24.021Z', 'reading_timestamp': '2025-10-30T10:22:24.021Z'}}
+2025-10-30 10:22:25,959 - basicLogger - DEBUG - Storing 1761844944024821800 to the database
+2025-10-30 10:22:26,106 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944024821800
+2025-10-30 10:22:26,107 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944024821800
+2025-10-30 10:22:26,154 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944044256500, 'fire_id': '0357b24c-13d7-40b6-9e60-d95e26cf7fb3', 'latitude': 25.321072, 'longitude': 116.568526, 'temperature_celsius': 69.1, 'humidity_level': 51.2, 'batch_timestamp': '2025-10-30T10:22:24.040Z', 'reading_timestamp': '2025-10-30T10:22:24.041Z'}}
+2025-10-30 10:22:26,154 - basicLogger - DEBUG - Storing 1761844944044256500 to the database
+2025-10-30 10:22:26,275 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944044256500
+2025-10-30 10:22:26,276 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944044256500
+2025-10-30 10:22:26,315 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944080662600, 'fire_id': '4b44cf31-3d7c-464c-adda-bc17259cc8db', 'location_name': 'Monitoring Station 48', 'particulate_level': 441.18, 'air_quality': 120, 'smoke_opacity': 32.61, 'batch_timestamp': '2025-10-30T10:22:24.078Z', 'reading_timestamp': '2025-10-30T10:22:24.078Z'}}
+2025-10-30 10:22:26,316 - basicLogger - DEBUG - Storing 1761844944080662600 to the database
+2025-10-30 10:22:26,436 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944080662600
+2025-10-30 10:22:26,436 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944080662600
+2025-10-30 10:22:26,485 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944127228300, 'fire_id': 'b67a15ac-b857-4a06-bd36-362c3cbbc613', 'location_name': 'Monitoring Station 24', 'particulate_level': 74.57, 'air_quality': 160, 'smoke_opacity': 58.75, 'batch_timestamp': '2025-10-30T10:22:24.123Z', 'reading_timestamp': '2025-10-30T10:22:24.123Z'}}
+2025-10-30 10:22:26,485 - basicLogger - DEBUG - Storing 1761844944127228300 to the database
+2025-10-30 10:22:26,616 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944127228300
+2025-10-30 10:22:26,616 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944127228300
+2025-10-30 10:22:26,657 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944127699400, 'fire_id': '5317da88-f5a3-4425-aac4-91c697d83d72', 'location_name': 'Monitoring Station 44', 'particulate_level': 191.62, 'air_quality': 205, 'smoke_opacity': 9.82, 'batch_timestamp': '2025-10-30T10:22:24.124Z', 'reading_timestamp': '2025-10-30T10:22:24.124Z'}}
+2025-10-30 10:22:26,657 - basicLogger - DEBUG - Storing 1761844944127699400 to the database
+2025-10-30 10:22:26,801 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944127699400
+2025-10-30 10:22:26,801 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944127699400
+2025-10-30 10:22:26,842 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944127827700, 'fire_id': '6041927a-f63e-46de-9ce0-297b07a4e0ba', 'latitude': 44.795854, 'longitude': -10.266908, 'temperature_celsius': 69.8, 'humidity_level': 99.6, 'batch_timestamp': '2025-10-30T10:22:24.124Z', 'reading_timestamp': '2025-10-30T10:22:24.124Z'}}
+2025-10-30 10:22:26,842 - basicLogger - DEBUG - Storing 1761844944127827700 to the database
+2025-10-30 10:22:26,970 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944127827700
+2025-10-30 10:22:26,970 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944127827700
+2025-10-30 10:22:27,017 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944144814300, 'fire_id': '8626ea77-315c-46dd-9176-d6a0f29118fe', 'latitude': 72.12891, 'longitude': 127.16233, 'temperature_celsius': 194.2, 'humidity_level': 10.3, 'batch_timestamp': '2025-10-30T10:22:24.141Z', 'reading_timestamp': '2025-10-30T10:22:24.141Z'}}
+2025-10-30 10:22:27,018 - basicLogger - DEBUG - Storing 1761844944144814300 to the database
+2025-10-30 10:22:27,138 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944144814300
+2025-10-30 10:22:27,139 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944144814300
+2025-10-30 10:22:27,184 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944164288300, 'fire_id': '7dbdb3dd-4bde-4ad0-9862-0b04abf6148d', 'latitude': 14.876247, 'longitude': 85.338065, 'temperature_celsius': 155.1, 'humidity_level': 24.2, 'batch_timestamp': '2025-10-30T10:22:24.162Z', 'reading_timestamp': '2025-10-30T10:22:24.162Z'}}
+2025-10-30 10:22:27,184 - basicLogger - DEBUG - Storing 1761844944164288300 to the database
+2025-10-30 10:22:27,317 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944164288300
+2025-10-30 10:22:27,317 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944164288300
+2025-10-30 10:22:27,361 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944226709600, 'fire_id': '40c76b02-ff7c-494c-a5fe-dada972e5978', 'location_name': 'Monitoring Station 11', 'particulate_level': 162.43, 'air_quality': 322, 'smoke_opacity': 62.18, 'batch_timestamp': '2025-10-30T10:22:24.222Z', 'reading_timestamp': '2025-10-30T10:22:24.222Z'}}
+2025-10-30 10:22:27,362 - basicLogger - DEBUG - Storing 1761844944226709600 to the database
+2025-10-30 10:22:27,480 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944226709600
+2025-10-30 10:22:27,481 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944226709600
+2025-10-30 10:22:27,521 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944227674400, 'fire_id': '5fed8122-fcab-42c2-889d-47152a44da6d', 'latitude': -51.488786, 'longitude': 162.783628, 'temperature_celsius': 142.3, 'humidity_level': 58.8, 'batch_timestamp': '2025-10-30T10:22:24.223Z', 'reading_timestamp': '2025-10-30T10:22:24.223Z'}}
+2025-10-30 10:22:27,521 - basicLogger - DEBUG - Storing 1761844944227674400 to the database
+2025-10-30 10:22:27,645 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944227674400
+2025-10-30 10:22:27,645 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944227674400
+2025-10-30 10:22:27,683 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944227868000, 'fire_id': 'f7a133f2-ac96-45e8-a0ed-41a509610bbd', 'location_name': 'Monitoring Station 21', 'particulate_level': 445.32, 'air_quality': 354, 'smoke_opacity': 94.48, 'batch_timestamp': '2025-10-30T10:22:24.222Z', 'reading_timestamp': '2025-10-30T10:22:24.222Z'}}
+2025-10-30 10:22:27,683 - basicLogger - DEBUG - Storing 1761844944227868000 to the database
+2025-10-30 10:22:27,810 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944227868000
+2025-10-30 10:22:27,810 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944227868000
+2025-10-30 10:22:27,867 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944227968000, 'fire_id': '889b0677-18be-4f3f-b5f8-f4e763bbe6cd', 'latitude': 70.724733, 'longitude': -71.811511, 'temperature_celsius': 76.2, 'humidity_level': 70.5, 'batch_timestamp': '2025-10-30T10:22:24.225Z', 'reading_timestamp': '2025-10-30T10:22:24.225Z'}}
+2025-10-30 10:22:27,867 - basicLogger - DEBUG - Storing 1761844944227968000 to the database
+2025-10-30 10:22:28,000 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944227968000
+2025-10-30 10:22:28,000 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944227968000
+2025-10-30 10:22:28,039 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944244262700, 'fire_id': 'd585b27e-8233-4da2-87db-3d4caef9e554', 'latitude': 60.886941, 'longitude': -126.218477, 'temperature_celsius': 94.1, 'humidity_level': 78.9, 'batch_timestamp': '2025-10-30T10:22:24.240Z', 'reading_timestamp': '2025-10-30T10:22:24.240Z'}}
+2025-10-30 10:22:28,039 - basicLogger - DEBUG - Storing 1761844944244262700 to the database
+2025-10-30 10:22:28,172 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944244262700
+2025-10-30 10:22:28,172 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944244262700
+2025-10-30 10:22:28,213 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944262531900, 'fire_id': '8e8201e1-937c-49fc-8f14-5b491bb17015', 'location_name': 'Monitoring Station 28', 'particulate_level': 271.6, 'air_quality': 126, 'smoke_opacity': 43.1, 'batch_timestamp': '2025-10-30T10:22:24.260Z', 'reading_timestamp': '2025-10-30T10:22:24.260Z'}}
+2025-10-30 10:22:28,214 - basicLogger - DEBUG - Storing 1761844944262531900 to the database
+2025-10-30 10:22:28,337 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944262531900
+2025-10-30 10:22:28,337 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944262531900
+2025-10-30 10:22:28,385 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944310221800, 'fire_id': '5dd25fd2-c690-435a-9eec-2e9f4ed331e0', 'latitude': -89.492203, 'longitude': 56.634545, 'temperature_celsius': 89.4, 'humidity_level': 21.9, 'batch_timestamp': '2025-10-30T10:22:24.305Z', 'reading_timestamp': '2025-10-30T10:22:24.306Z'}}
+2025-10-30 10:22:28,386 - basicLogger - DEBUG - Storing 1761844944310221800 to the database
+2025-10-30 10:22:28,507 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944310221800
+2025-10-30 10:22:28,507 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944310221800
+2025-10-30 10:22:28,550 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944311068400, 'fire_id': 'cacece62-f93f-44b5-a2bf-fa392426d852', 'location_name': 'Monitoring Station 11', 'particulate_level': 351.95, 'air_quality': 403, 'smoke_opacity': 48.91, 'batch_timestamp': '2025-10-30T10:22:24.306Z', 'reading_timestamp': '2025-10-30T10:22:24.306Z'}}
+2025-10-30 10:22:28,550 - basicLogger - DEBUG - Storing 1761844944311068400 to the database
+2025-10-30 10:22:28,683 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944311068400
+2025-10-30 10:22:28,683 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944311068400
+2025-10-30 10:22:28,724 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944312687000, 'fire_id': 'fed45858-ab96-4114-abda-7e56da2bbec6', 'location_name': 'Monitoring Station 16', 'particulate_level': 483.79, 'air_quality': 55, 'smoke_opacity': 27.96, 'batch_timestamp': '2025-10-30T10:22:24.307Z', 'reading_timestamp': '2025-10-30T10:22:24.307Z'}}
+2025-10-30 10:22:28,724 - basicLogger - DEBUG - Storing 1761844944312687000 to the database
+2025-10-30 10:22:28,848 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944312687000
+2025-10-30 10:22:28,848 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944312687000
+2025-10-30 10:22:28,895 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944312857700, 'fire_id': 'a912b680-f14c-46ad-b2ad-67e374c36182', 'location_name': 'Monitoring Station 69', 'particulate_level': 235.55, 'air_quality': 494, 'smoke_opacity': 96.4, 'batch_timestamp': '2025-10-30T10:22:24.308Z', 'reading_timestamp': '2025-10-30T10:22:24.308Z'}}
+2025-10-30 10:22:28,895 - basicLogger - DEBUG - Storing 1761844944312857700 to the database
+2025-10-30 10:22:29,019 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944312857700
+2025-10-30 10:22:29,019 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944312857700
+2025-10-30 10:22:29,061 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944312989900, 'fire_id': '3c06bb07-841b-4b6f-ae87-10cf81fce8d2', 'latitude': -19.841735, 'longitude': 145.827387, 'temperature_celsius': 147.4, 'humidity_level': 60.9, 'batch_timestamp': '2025-10-30T10:22:24.308Z', 'reading_timestamp': '2025-10-30T10:22:24.308Z'}}
+2025-10-30 10:22:29,061 - basicLogger - DEBUG - Storing 1761844944312989900 to the database
+2025-10-30 10:22:29,204 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944312989900
+2025-10-30 10:22:29,204 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944312989900
+2025-10-30 10:22:29,248 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944345733700, 'fire_id': '72923be9-41ee-4a28-986d-a7f01f0cc117', 'latitude': 56.34604, 'longitude': -113.747879, 'temperature_celsius': 58.2, 'humidity_level': 37.2, 'batch_timestamp': '2025-10-30T10:22:24.343Z', 'reading_timestamp': '2025-10-30T10:22:24.343Z'}}
+2025-10-30 10:22:29,249 - basicLogger - DEBUG - Storing 1761844944345733700 to the database
+2025-10-30 10:22:29,370 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944345733700
+2025-10-30 10:22:29,370 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944345733700
+2025-10-30 10:22:29,412 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944353414300, 'fire_id': '48a607f9-f168-46c2-ac47-91fe0aef8323', 'latitude': 37.417109, 'longitude': 129.449436, 'temperature_celsius': 184.4, 'humidity_level': 89.9, 'batch_timestamp': '2025-10-30T10:22:24.351Z', 'reading_timestamp': '2025-10-30T10:22:24.351Z'}}
+2025-10-30 10:22:29,412 - basicLogger - DEBUG - Storing 1761844944353414300 to the database
+2025-10-30 10:22:29,537 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944353414300
+2025-10-30 10:22:29,537 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944353414300
+2025-10-30 10:22:29,585 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944399562700, 'fire_id': '1965cc6a-5d27-4582-9584-014183b0d1f7', 'latitude': 1.835359, 'longitude': -54.986685, 'temperature_celsius': 172.9, 'humidity_level': 87.1, 'batch_timestamp': '2025-10-30T10:22:24.394Z', 'reading_timestamp': '2025-10-30T10:22:24.394Z'}}
+2025-10-30 10:22:29,585 - basicLogger - DEBUG - Storing 1761844944399562700 to the database
+2025-10-30 10:22:29,713 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944399562700
+2025-10-30 10:22:29,713 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944399562700
+2025-10-30 10:22:29,772 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944400180600, 'fire_id': '81bfb841-b77b-4e47-b591-eb963b7d87a8', 'location_name': 'Monitoring Station 61', 'particulate_level': 266.82, 'air_quality': 458, 'smoke_opacity': 88.8, 'batch_timestamp': '2025-10-30T10:22:24.395Z', 'reading_timestamp': '2025-10-30T10:22:24.395Z'}}
+2025-10-30 10:22:29,773 - basicLogger - DEBUG - Storing 1761844944400180600 to the database
+2025-10-30 10:22:29,903 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944400180600
+2025-10-30 10:22:29,904 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944400180600
+2025-10-30 10:22:29,947 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944399688100, 'fire_id': '3f35b87c-211a-4578-92ab-9dbf51ef39dd', 'latitude': -79.353949, 'longitude': 75.24748, 'temperature_celsius': 72.3, 'humidity_level': 33.6, 'batch_timestamp': '2025-10-30T10:22:24.394Z', 'reading_timestamp': '2025-10-30T10:22:24.394Z'}}
+2025-10-30 10:22:29,947 - basicLogger - DEBUG - Storing 1761844944399688100 to the database
+2025-10-30 10:22:30,072 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944399688100
+2025-10-30 10:22:30,072 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944399688100
+2025-10-30 10:22:30,118 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944402139900, 'fire_id': '7a7bbc69-20cd-4a2c-b349-36da956c72e2', 'location_name': 'Monitoring Station 98', 'particulate_level': 44.72, 'air_quality': 70, 'smoke_opacity': 55.11, 'batch_timestamp': '2025-10-30T10:22:24.395Z', 'reading_timestamp': '2025-10-30T10:22:24.395Z'}}
+2025-10-30 10:22:30,119 - basicLogger - DEBUG - Storing 1761844944402139900 to the database
+2025-10-30 10:22:30,245 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944402139900
+2025-10-30 10:22:30,245 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944402139900
+2025-10-30 10:22:30,292 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944402306900, 'fire_id': '669fc135-a687-4b81-b194-68ff3d92c3e0', 'location_name': 'Monitoring Station 19', 'particulate_level': 341.89, 'air_quality': 178, 'smoke_opacity': 68.12, 'batch_timestamp': '2025-10-30T10:22:24.398Z', 'reading_timestamp': '2025-10-30T10:22:24.398Z'}}
+2025-10-30 10:22:30,298 - basicLogger - DEBUG - Storing 1761844944402306900 to the database
+2025-10-30 10:22:30,414 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944402306900
+2025-10-30 10:22:30,414 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944402306900
+2025-10-30 10:22:30,460 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944402458000, 'fire_id': '0181a99a-adb9-43ae-8976-6e2c2d028aea', 'latitude': -19.293597, 'longitude': 158.790639, 'temperature_celsius': 79.1, 'humidity_level': 19.1, 'batch_timestamp': '2025-10-30T10:22:24.398Z', 'reading_timestamp': '2025-10-30T10:22:24.398Z'}}
+2025-10-30 10:22:30,461 - basicLogger - DEBUG - Storing 1761844944402458000 to the database
+2025-10-30 10:22:30,586 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944402458000
+2025-10-30 10:22:30,586 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944402458000
+2025-10-30 10:22:30,631 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944439388700, 'fire_id': 'f336dee5-bc5b-46d5-9774-5351a7325a6e', 'location_name': 'Monitoring Station 12', 'particulate_level': 400.41, 'air_quality': 437, 'smoke_opacity': 88.74, 'batch_timestamp': '2025-10-30T10:22:24.437Z', 'reading_timestamp': '2025-10-30T10:22:24.437Z'}}
+2025-10-30 10:22:30,631 - basicLogger - DEBUG - Storing 1761844944439388700 to the database
+2025-10-30 10:22:30,753 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944439388700
+2025-10-30 10:22:30,754 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944439388700
+2025-10-30 10:22:30,795 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944444495800, 'fire_id': '97995485-6378-44c2-a147-1631226b8ce0', 'latitude': -3.726508, 'longitude': -42.712385, 'temperature_celsius': 121.6, 'humidity_level': 43.2, 'batch_timestamp': '2025-10-30T10:22:24.441Z', 'reading_timestamp': '2025-10-30T10:22:24.441Z'}}
+2025-10-30 10:22:30,796 - basicLogger - DEBUG - Storing 1761844944444495800 to the database
+2025-10-30 10:22:30,920 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944444495800
+2025-10-30 10:22:30,920 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944444495800
+2025-10-30 10:22:30,961 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944502173100, 'fire_id': '1e4decc8-3797-4233-a62f-0f71422e3fa9', 'location_name': 'Monitoring Station 10', 'particulate_level': 375.8, 'air_quality': 141, 'smoke_opacity': 10.58, 'batch_timestamp': '2025-10-30T10:22:24.495Z', 'reading_timestamp': '2025-10-30T10:22:24.495Z'}}
+2025-10-30 10:22:30,961 - basicLogger - DEBUG - Storing 1761844944502173100 to the database
+2025-10-30 10:22:31,093 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944502173100
+2025-10-30 10:22:31,093 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944502173100
+2025-10-30 10:22:31,144 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944502784900, 'fire_id': '9bd51faa-e750-4388-996e-40d01e061b50', 'latitude': 64.832839, 'longitude': 19.98546, 'temperature_celsius': 29.3, 'humidity_level': 32.7, 'batch_timestamp': '2025-10-30T10:22:24.496Z', 'reading_timestamp': '2025-10-30T10:22:24.496Z'}}
+2025-10-30 10:22:31,144 - basicLogger - DEBUG - Storing 1761844944502784900 to the database
+2025-10-30 10:22:31,265 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944502784900
+2025-10-30 10:22:31,265 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944502784900
+2025-10-30 10:22:31,305 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944502283000, 'fire_id': '4a8a6eff-465f-4f51-abef-7182e5a33eac', 'latitude': -89.745738, 'longitude': -72.229524, 'temperature_celsius': 178.9, 'humidity_level': 38.1, 'batch_timestamp': '2025-10-30T10:22:24.495Z', 'reading_timestamp': '2025-10-30T10:22:24.495Z'}}
+2025-10-30 10:22:31,305 - basicLogger - DEBUG - Storing 1761844944502283000 to the database
+2025-10-30 10:22:31,436 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944502283000
+2025-10-30 10:22:31,436 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944502283000
+2025-10-30 10:22:31,479 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944504570600, 'fire_id': '031b62f1-0e43-42e5-8f0e-93b51b02ae8a', 'location_name': 'Monitoring Station 18', 'particulate_level': 251.48, 'air_quality': 127, 'smoke_opacity': 66.53, 'batch_timestamp': '2025-10-30T10:22:24.501Z', 'reading_timestamp': '2025-10-30T10:22:24.501Z'}}
+2025-10-30 10:22:31,480 - basicLogger - DEBUG - Storing 1761844944504570600 to the database
+2025-10-30 10:22:31,602 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944504570600
+2025-10-30 10:22:31,603 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944504570600
+2025-10-30 10:22:31,641 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944504709400, 'fire_id': 'fa82ed6d-f07a-4e9f-9ab1-f4e157e21004', 'location_name': 'Monitoring Station 78', 'particulate_level': 26.57, 'air_quality': 201, 'smoke_opacity': 56.13, 'batch_timestamp': '2025-10-30T10:22:24.501Z', 'reading_timestamp': '2025-10-30T10:22:24.501Z'}}
+2025-10-30 10:22:31,641 - basicLogger - DEBUG - Storing 1761844944504709400 to the database
+2025-10-30 10:22:31,760 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944504709400
+2025-10-30 10:22:31,760 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944504709400
+2025-10-30 10:22:31,803 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944504841700, 'fire_id': '8a1a65d1-c6fb-4458-a1fb-c592b78762ba', 'latitude': 26.740369, 'longitude': -20.633107, 'temperature_celsius': 83.4, 'humidity_level': 22.8, 'batch_timestamp': '2025-10-30T10:22:24.496Z', 'reading_timestamp': '2025-10-30T10:22:24.497Z'}}
+2025-10-30 10:22:31,803 - basicLogger - DEBUG - Storing 1761844944504841700 to the database
+2025-10-30 10:22:31,924 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944504841700
+2025-10-30 10:22:31,924 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944504841700
+2025-10-30 10:22:31,968 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944545292700, 'fire_id': '636d7635-7587-4731-bae6-d41f324a1b56', 'latitude': -64.924005, 'longitude': -45.772745, 'temperature_celsius': 73.6, 'humidity_level': 100.5, 'batch_timestamp': '2025-10-30T10:22:24.540Z', 'reading_timestamp': '2025-10-30T10:22:24.541Z'}}
+2025-10-30 10:22:31,968 - basicLogger - DEBUG - Storing 1761844944545292700 to the database
+2025-10-30 10:22:32,086 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944545292700
+2025-10-30 10:22:32,086 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944545292700
+2025-10-30 10:22:32,128 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944545402100, 'fire_id': '8b0f8a02-33dd-4e4c-88a6-90c7fe4fd2c8', 'location_name': 'Monitoring Station 72', 'particulate_level': 444.25, 'air_quality': 91, 'smoke_opacity': 0.6, 'batch_timestamp': '2025-10-30T10:22:24.542Z', 'reading_timestamp': '2025-10-30T10:22:24.542Z'}}
+2025-10-30 10:22:32,128 - basicLogger - DEBUG - Storing 1761844944545402100 to the database
+2025-10-30 10:22:32,269 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944545402100
+2025-10-30 10:22:32,269 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944545402100
+2025-10-30 10:22:32,311 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944604503200, 'fire_id': '9f6624eb-d3fd-49e3-92f6-5bc5c1127eb6', 'latitude': -58.744634, 'longitude': -161.710782, 'temperature_celsius': 98.4, 'humidity_level': 32.6, 'batch_timestamp': '2025-10-30T10:22:24.597Z', 'reading_timestamp': '2025-10-30T10:22:24.597Z'}}
+2025-10-30 10:22:32,311 - basicLogger - DEBUG - Storing 1761844944604503200 to the database
+2025-10-30 10:22:32,429 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944604503200
+2025-10-30 10:22:32,429 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944604503200
+2025-10-30 10:22:32,474 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944604835600, 'fire_id': '4edd865f-0661-4135-b781-c90b158218b4', 'location_name': 'Monitoring Station 2', 'particulate_level': 34.2, 'air_quality': 42, 'smoke_opacity': 45.63, 'batch_timestamp': '2025-10-30T10:22:24.598Z', 'reading_timestamp': '2025-10-30T10:22:24.598Z'}}
+2025-10-30 10:22:32,474 - basicLogger - DEBUG - Storing 1761844944604835600 to the database
+2025-10-30 10:22:32,607 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944604835600
+2025-10-30 10:22:32,607 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944604835600
+2025-10-30 10:22:32,645 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944603805300, 'fire_id': 'ada0e814-1949-42d6-83d4-2f5b8fb35f03', 'location_name': 'Monitoring Station 96', 'particulate_level': 254.26, 'air_quality': 486, 'smoke_opacity': 87.21, 'batch_timestamp': '2025-10-30T10:22:24.597Z', 'reading_timestamp': '2025-10-30T10:22:24.597Z'}}
+2025-10-30 10:22:32,645 - basicLogger - DEBUG - Storing 1761844944603805300 to the database
+2025-10-30 10:22:32,785 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944603805300
+2025-10-30 10:22:32,785 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944603805300
+2025-10-30 10:22:32,824 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944604988200, 'fire_id': '27511928-1c17-419b-b1b5-c4b1d81b52e6', 'latitude': 20.900811, 'longitude': -77.626617, 'temperature_celsius': 93.7, 'humidity_level': 93.5, 'batch_timestamp': '2025-10-30T10:22:24.597Z', 'reading_timestamp': '2025-10-30T10:22:24.597Z'}}
+2025-10-30 10:22:32,825 - basicLogger - DEBUG - Storing 1761844944604988200 to the database
+2025-10-30 10:22:32,938 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944604988200
+2025-10-30 10:22:32,938 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944604988200
+2025-10-30 10:22:32,993 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944605238900, 'fire_id': 'd9e07a37-e173-4407-afe2-e8d0cdfb13b7', 'location_name': 'Monitoring Station 50', 'particulate_level': 166.19, 'air_quality': 428, 'smoke_opacity': 30.1, 'batch_timestamp': '2025-10-30T10:22:24.599Z', 'reading_timestamp': '2025-10-30T10:22:24.599Z'}}
+2025-10-30 10:22:32,993 - basicLogger - DEBUG - Storing 1761844944605238900 to the database
+2025-10-30 10:22:33,119 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944605238900
+2025-10-30 10:22:33,119 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944605238900
+2025-10-30 10:22:33,166 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944605393400, 'fire_id': '8fe506cd-d94d-498b-ac4d-ecd3349260ae', 'latitude': -20.187761, 'longitude': 169.779568, 'temperature_celsius': 73.4, 'humidity_level': 61.3, 'batch_timestamp': '2025-10-30T10:22:24.601Z', 'reading_timestamp': '2025-10-30T10:22:24.601Z'}}
+2025-10-30 10:22:33,166 - basicLogger - DEBUG - Storing 1761844944605393400 to the database
+2025-10-30 10:22:33,293 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944605393400
+2025-10-30 10:22:33,293 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944605393400
+2025-10-30 10:22:33,335 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944644222300, 'fire_id': 'fbbbd2cb-f1e4-49da-81c4-691b819ea055', 'latitude': -83.709298, 'longitude': 18.903646, 'temperature_celsius': 45.4, 'humidity_level': 69.2, 'batch_timestamp': '2025-10-30T10:22:24.640Z', 'reading_timestamp': '2025-10-30T10:22:24.641Z'}}
+2025-10-30 10:22:33,335 - basicLogger - DEBUG - Storing 1761844944644222300 to the database
+2025-10-30 10:22:33,446 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944644222300
+2025-10-30 10:22:33,446 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944644222300
+2025-10-30 10:22:33,499 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944649145800, 'fire_id': 'b5c96f72-2e81-4e23-9869-677018399084', 'location_name': 'Monitoring Station 37', 'particulate_level': 56.19, 'air_quality': 212, 'smoke_opacity': 18.81, 'batch_timestamp': '2025-10-30T10:22:24.646Z', 'reading_timestamp': '2025-10-30T10:22:24.646Z'}}
+2025-10-30 10:22:33,499 - basicLogger - DEBUG - Storing 1761844944649145800 to the database
+2025-10-30 10:22:33,619 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944649145800
+2025-10-30 10:22:33,619 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944649145800
+2025-10-30 10:22:33,660 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944649312900, 'fire_id': '151cea42-a8e5-4cdc-bb29-dd6c653f35fb', 'latitude': 76.937207, 'longitude': 115.802555, 'temperature_celsius': 64.2, 'humidity_level': 30.1, 'batch_timestamp': '2025-10-30T10:22:24.646Z', 'reading_timestamp': '2025-10-30T10:22:24.646Z'}}
+2025-10-30 10:22:33,661 - basicLogger - DEBUG - Storing 1761844944649312900 to the database
+2025-10-30 10:22:33,786 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944649312900
+2025-10-30 10:22:33,787 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944649312900
+2025-10-30 10:22:33,834 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944702635100, 'fire_id': '8a846b5c-562a-47d3-9862-bcc5d2d38910', 'location_name': 'Monitoring Station 9', 'particulate_level': 5.15, 'air_quality': 80, 'smoke_opacity': 20.73, 'batch_timestamp': '2025-10-30T10:22:24.695Z', 'reading_timestamp': '2025-10-30T10:22:24.695Z'}}
+2025-10-30 10:22:33,834 - basicLogger - DEBUG - Storing 1761844944702635100 to the database
+2025-10-30 10:22:33,959 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944702635100
+2025-10-30 10:22:33,960 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944702635100
+2025-10-30 10:22:34,011 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705092400, 'fire_id': '2574585c-8dbd-4551-ba63-d3c42be2ad22', 'latitude': -45.865265, 'longitude': 86.100616, 'temperature_celsius': 112.5, 'humidity_level': 58.4, 'batch_timestamp': '2025-10-30T10:22:24.695Z', 'reading_timestamp': '2025-10-30T10:22:24.695Z'}}
+2025-10-30 10:22:34,011 - basicLogger - DEBUG - Storing 1761844944705092400 to the database
+2025-10-30 10:22:34,161 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944705092400
+2025-10-30 10:22:34,162 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944705092400
+2025-10-30 10:22:34,216 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705271100, 'fire_id': '2d2c6a6f-d9c6-451f-9e44-b35aae31f3cd', 'latitude': -28.219155, 'longitude': 77.317285, 'temperature_celsius': 100.9, 'humidity_level': 57.6, 'batch_timestamp': '2025-10-30T10:22:24.696Z', 'reading_timestamp': '2025-10-30T10:22:24.696Z'}}
+2025-10-30 10:22:34,216 - basicLogger - DEBUG - Storing 1761844944705271100 to the database
+2025-10-30 10:22:34,342 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944705271100
+2025-10-30 10:22:34,343 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944705271100
+2025-10-30 10:22:34,384 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705399800, 'fire_id': '1fc1e541-7d4f-4fa8-b67b-4ceee2e2f3fd', 'location_name': 'Monitoring Station 26', 'particulate_level': 78.31, 'air_quality': 446, 'smoke_opacity': 71.79, 'batch_timestamp': '2025-10-30T10:22:24.698Z', 'reading_timestamp': '2025-10-30T10:22:24.698Z'}}
+2025-10-30 10:22:34,388 - basicLogger - DEBUG - Storing 1761844944705399800 to the database
+2025-10-30 10:22:34,510 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944705399800
+2025-10-30 10:22:34,510 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944705399800
+2025-10-30 10:22:34,554 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705539900, 'fire_id': 'd10c9670-1f89-4ae2-9f27-5d7e5ea4d856', 'location_name': 'Monitoring Station 60', 'particulate_level': 65.38, 'air_quality': 471, 'smoke_opacity': 50.43, 'batch_timestamp': '2025-10-30T10:22:24.700Z', 'reading_timestamp': '2025-10-30T10:22:24.700Z'}}
+2025-10-30 10:22:34,554 - basicLogger - DEBUG - Storing 1761844944705539900 to the database
+2025-10-30 10:22:34,692 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944705539900
+2025-10-30 10:22:34,692 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944705539900
+2025-10-30 10:22:34,738 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705669100, 'fire_id': '511338a6-b38f-4f0f-ba26-065413c355c2', 'location_name': 'Monitoring Station 90', 'particulate_level': 97.94, 'air_quality': 239, 'smoke_opacity': 60.23, 'batch_timestamp': '2025-10-30T10:22:24.699Z', 'reading_timestamp': '2025-10-30T10:22:24.699Z'}}
+2025-10-30 10:22:34,739 - basicLogger - DEBUG - Storing 1761844944705669100 to the database
+2025-10-30 10:22:34,856 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944705669100
+2025-10-30 10:22:34,856 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944705669100
+2025-10-30 10:22:34,903 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944705810600, 'fire_id': 'd3fb4bdf-7b4e-4898-bef3-00135e4d5083', 'latitude': 65.165824, 'longitude': 91.10862, 'temperature_celsius': 190.7, 'humidity_level': 46.6, 'batch_timestamp': '2025-10-30T10:22:24.699Z', 'reading_timestamp': '2025-10-30T10:22:24.699Z'}}
+2025-10-30 10:22:34,903 - basicLogger - DEBUG - Storing 1761844944705810600 to the database
+2025-10-30 10:22:35,022 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944705810600
+2025-10-30 10:22:35,022 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944705810600
+2025-10-30 10:22:35,062 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944747949100, 'fire_id': '9658443c-8ece-4bdc-914c-29b4b3483915', 'latitude': -37.991894, 'longitude': -121.687929, 'temperature_celsius': 200.1, 'humidity_level': 78.7, 'batch_timestamp': '2025-10-30T10:22:24.745Z', 'reading_timestamp': '2025-10-30T10:22:24.745Z'}}
+2025-10-30 10:22:35,062 - basicLogger - DEBUG - Storing 1761844944747949100 to the database
+2025-10-30 10:22:35,186 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944747949100
+2025-10-30 10:22:35,186 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944747949100
+2025-10-30 10:22:35,230 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944748076100, 'fire_id': '4777dc76-bdd5-46f8-9efe-3e0c8ef95fc9', 'location_name': 'Monitoring Station 32', 'particulate_level': 232.48, 'air_quality': 64, 'smoke_opacity': 23.57, 'batch_timestamp': '2025-10-30T10:22:24.745Z', 'reading_timestamp': '2025-10-30T10:22:24.745Z'}}
+2025-10-30 10:22:35,230 - basicLogger - DEBUG - Storing 1761844944748076100 to the database
+2025-10-30 10:22:35,350 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944748076100
+2025-10-30 10:22:35,350 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944748076100
+2025-10-30 10:22:35,392 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944808132400, 'fire_id': '71708621-67e8-41df-9602-042ae72603d0', 'location_name': 'Monitoring Station 94', 'particulate_level': 475.55, 'air_quality': 382, 'smoke_opacity': 63.98, 'batch_timestamp': '2025-10-30T10:22:24.804Z', 'reading_timestamp': '2025-10-30T10:22:24.804Z'}}
+2025-10-30 10:22:35,392 - basicLogger - DEBUG - Storing 1761844944808132400 to the database
+2025-10-30 10:22:35,518 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944808132400
+2025-10-30 10:22:35,519 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944808132400
+2025-10-30 10:22:35,558 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944810147000, 'fire_id': '80aad204-335d-4524-9346-1456e165a37f', 'latitude': -22.93514, 'longitude': -24.432675, 'temperature_celsius': 192.5, 'humidity_level': 90.7, 'batch_timestamp': '2025-10-30T10:22:24.805Z', 'reading_timestamp': '2025-10-30T10:22:24.805Z'}}
+2025-10-30 10:22:35,558 - basicLogger - DEBUG - Storing 1761844944810147000 to the database
+2025-10-30 10:22:35,698 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944810147000
+2025-10-30 10:22:35,698 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944810147000
+2025-10-30 10:22:35,736 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944811493300, 'fire_id': 'bb4c4620-fac3-4bfb-890f-fa54f2f96c5d', 'latitude': -84.922639, 'longitude': -128.670919, 'temperature_celsius': 128.7, 'humidity_level': 49.9, 'batch_timestamp': '2025-10-30T10:22:24.806Z', 'reading_timestamp': '2025-10-30T10:22:24.806Z'}}
+2025-10-30 10:22:35,737 - basicLogger - DEBUG - Storing 1761844944811493300 to the database
+2025-10-30 10:22:35,856 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944811493300
+2025-10-30 10:22:35,857 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944811493300
+2025-10-30 10:22:35,895 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944812053300, 'fire_id': 'f84bce6d-9c85-421b-ba68-87fe76a68e18', 'latitude': 68.161948, 'longitude': -143.449279, 'temperature_celsius': 30.9, 'humidity_level': 87.1, 'batch_timestamp': '2025-10-30T10:22:24.808Z', 'reading_timestamp': '2025-10-30T10:22:24.808Z'}}
+2025-10-30 10:22:35,895 - basicLogger - DEBUG - Storing 1761844944812053300 to the database
+2025-10-30 10:22:36,010 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944812053300
+2025-10-30 10:22:36,010 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944812053300
+2025-10-30 10:22:36,058 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944812235700, 'fire_id': 'e2332c37-bba2-4531-8df1-ff181479af84', 'location_name': 'Monitoring Station 46', 'particulate_level': 102.46, 'air_quality': 161, 'smoke_opacity': 46.6, 'batch_timestamp': '2025-10-30T10:22:24.808Z', 'reading_timestamp': '2025-10-30T10:22:24.808Z'}}
+2025-10-30 10:22:36,058 - basicLogger - DEBUG - Storing 1761844944812235700 to the database
+2025-10-30 10:22:36,188 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944812235700
+2025-10-30 10:22:36,188 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944812235700
+2025-10-30 10:22:36,232 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944812399300, 'fire_id': 'e310cbc2-c819-4ceb-a59c-e6bd8b7837b2', 'location_name': 'Monitoring Station 69', 'particulate_level': 318.8, 'air_quality': 417, 'smoke_opacity': 100.35, 'batch_timestamp': '2025-10-30T10:22:24.806Z', 'reading_timestamp': '2025-10-30T10:22:24.806Z'}}
+2025-10-30 10:22:36,232 - basicLogger - DEBUG - Storing 1761844944812399300 to the database
+2025-10-30 10:22:36,371 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944812399300
+2025-10-30 10:22:36,371 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944812399300
+2025-10-30 10:22:36,412 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944846784100, 'fire_id': '8c5c2961-5aff-4f5e-9596-58fc08b15076', 'location_name': 'Monitoring Station 26', 'particulate_level': 287.2, 'air_quality': 269, 'smoke_opacity': 31.51, 'batch_timestamp': '2025-10-30T10:22:24.843Z', 'reading_timestamp': '2025-10-30T10:22:24.843Z'}}
+2025-10-30 10:22:36,413 - basicLogger - DEBUG - Storing 1761844944846784100 to the database
+2025-10-30 10:22:36,532 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944846784100
+2025-10-30 10:22:36,532 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944846784100
+2025-10-30 10:22:36,577 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944846945100, 'fire_id': 'ca202539-d3b2-4e46-b7ae-cfa676bf4c9f', 'latitude': 14.670613, 'longitude': 171.775617, 'temperature_celsius': 122.8, 'humidity_level': 39.9, 'batch_timestamp': '2025-10-30T10:22:24.843Z', 'reading_timestamp': '2025-10-30T10:22:24.843Z'}}
+2025-10-30 10:22:36,577 - basicLogger - DEBUG - Storing 1761844944846945100 to the database
+2025-10-30 10:22:36,703 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944846945100
+2025-10-30 10:22:36,703 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944846945100
+2025-10-30 10:22:36,746 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944893303900, 'fire_id': 'c6f70466-9dfe-485e-81f4-8f509ad6534a', 'location_name': 'Monitoring Station 48', 'particulate_level': 380.41, 'air_quality': 399, 'smoke_opacity': 21.1, 'batch_timestamp': '2025-10-30T10:22:24.888Z', 'reading_timestamp': '2025-10-30T10:22:24.888Z'}}
+2025-10-30 10:22:36,746 - basicLogger - DEBUG - Storing 1761844944893303900 to the database
+2025-10-30 10:22:36,876 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944893303900
+2025-10-30 10:22:36,876 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944893303900
+2025-10-30 10:22:36,920 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944894947200, 'fire_id': '0107237b-5415-4051-a0c0-d37a05500c41', 'location_name': 'Monitoring Station 55', 'particulate_level': 247.93, 'air_quality': 112, 'smoke_opacity': 59.76, 'batch_timestamp': '2025-10-30T10:22:24.889Z', 'reading_timestamp': '2025-10-30T10:22:24.889Z'}}
+2025-10-30 10:22:36,920 - basicLogger - DEBUG - Storing 1761844944894947200 to the database
+2025-10-30 10:22:37,039 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944894947200
+2025-10-30 10:22:37,040 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944894947200
+2025-10-30 10:22:37,089 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944895160300, 'fire_id': '31dbeb91-2f87-4bf3-b220-33bd8dc0c710', 'location_name': 'Monitoring Station 28', 'particulate_level': 258.1, 'air_quality': 91, 'smoke_opacity': 65.28, 'batch_timestamp': '2025-10-30T10:22:24.889Z', 'reading_timestamp': '2025-10-30T10:22:24.889Z'}}
+2025-10-30 10:22:37,089 - basicLogger - DEBUG - Storing 1761844944895160300 to the database
+2025-10-30 10:22:37,211 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944895160300
+2025-10-30 10:22:37,212 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944895160300
+2025-10-30 10:22:37,254 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944895308000, 'fire_id': 'e4697b38-2b95-48b4-a963-5207af327815', 'latitude': -47.857113, 'longitude': 135.916378, 'temperature_celsius': 157.4, 'humidity_level': 79.2, 'batch_timestamp': '2025-10-30T10:22:24.892Z', 'reading_timestamp': '2025-10-30T10:22:24.892Z'}}
+2025-10-30 10:22:37,255 - basicLogger - DEBUG - Storing 1761844944895308000 to the database
+2025-10-30 10:22:37,376 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944895308000
+2025-10-30 10:22:37,376 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944895308000
+2025-10-30 10:22:37,422 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944895500200, 'fire_id': 'd3fc59a7-e0c3-4fb2-ade0-a1a71aa74c6a', 'latitude': -19.332951, 'longitude': -46.432441, 'temperature_celsius': 115.9, 'humidity_level': 17.2, 'batch_timestamp': '2025-10-30T10:22:24.891Z', 'reading_timestamp': '2025-10-30T10:22:24.891Z'}}
+2025-10-30 10:22:37,422 - basicLogger - DEBUG - Storing 1761844944895500200 to the database
+2025-10-30 10:22:37,542 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944895500200
+2025-10-30 10:22:37,543 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944895500200
+2025-10-30 10:22:37,598 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944936915700, 'fire_id': 'fd095f5f-1cd3-4893-b420-2cabf6ed81bb', 'latitude': 2.86703, 'longitude': -78.392053, 'temperature_celsius': 34.5, 'humidity_level': 34.5, 'batch_timestamp': '2025-10-30T10:22:24.933Z', 'reading_timestamp': '2025-10-30T10:22:24.933Z'}}
+2025-10-30 10:22:37,598 - basicLogger - DEBUG - Storing 1761844944936915700 to the database
+2025-10-30 10:22:37,734 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944936915700
+2025-10-30 10:22:37,734 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944936915700
+2025-10-30 10:22:37,779 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944937056900, 'fire_id': 'f5b15f30-3435-4076-bd32-896bcac55584', 'location_name': 'Monitoring Station 38', 'particulate_level': 38.21, 'air_quality': 488, 'smoke_opacity': 58.74, 'batch_timestamp': '2025-10-30T10:22:24.933Z', 'reading_timestamp': '2025-10-30T10:22:24.933Z'}}
+2025-10-30 10:22:37,780 - basicLogger - DEBUG - Storing 1761844944937056900 to the database
+2025-10-30 10:22:37,905 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944937056900
+2025-10-30 10:22:37,905 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944937056900
+2025-10-30 10:22:37,953 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979414700, 'fire_id': 'ef097238-7bb7-48dc-a184-fb25b3a5e8d0', 'location_name': 'Monitoring Station 86', 'particulate_level': 351.88, 'air_quality': 385, 'smoke_opacity': 19.13, 'batch_timestamp': '2025-10-30T10:22:24.974Z', 'reading_timestamp': '2025-10-30T10:22:24.974Z'}}
+2025-10-30 10:22:37,953 - basicLogger - DEBUG - Storing 1761844944979414700 to the database
+2025-10-30 10:22:38,086 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944979414700
+2025-10-30 10:22:38,086 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944979414700
+2025-10-30 10:22:38,129 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979513100, 'fire_id': '834bd692-8b62-47d9-b804-1f52e50ec2d0', 'latitude': -87.841613, 'longitude': 133.905412, 'temperature_celsius': 156.5, 'humidity_level': 62.7, 'batch_timestamp': '2025-10-30T10:22:24.975Z', 'reading_timestamp': '2025-10-30T10:22:24.975Z'}}
+2025-10-30 10:22:38,130 - basicLogger - DEBUG - Storing 1761844944979513100 to the database
+2025-10-30 10:22:38,258 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944979513100
+2025-10-30 10:22:38,259 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944979513100
+2025-10-30 10:22:38,312 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979627300, 'fire_id': 'e38da024-f526-46bc-9fcc-78e467f56acb', 'location_name': 'Monitoring Station 25', 'particulate_level': 471.38, 'air_quality': 460, 'smoke_opacity': 14.52, 'batch_timestamp': '2025-10-30T10:22:24.973Z', 'reading_timestamp': '2025-10-30T10:22:24.973Z'}}
+2025-10-30 10:22:38,312 - basicLogger - DEBUG - Storing 1761844944979627300 to the database
+2025-10-30 10:22:38,429 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844944979627300
+2025-10-30 10:22:38,429 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844944979627300
+2025-10-30 10:22:38,470 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:24', 'payload': {'trace_id': 1761844944979732700, 'fire_id': 'f79dd760-5f28-457c-af20-960b86e95736', 'latitude': -85.133168, 'longitude': -120.414541, 'temperature_celsius': 129.9, 'humidity_level': 86.8, 'batch_timestamp': '2025-10-30T10:22:24.975Z', 'reading_timestamp': '2025-10-30T10:22:24.975Z'}}
+2025-10-30 10:22:38,471 - basicLogger - DEBUG - Storing 1761844944979732700 to the database
+2025-10-30 10:22:38,616 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844944979732700
+2025-10-30 10:22:38,616 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844944979732700
+2025-10-30 10:22:38,656 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945032757600, 'fire_id': '584d24c9-e974-433a-864f-39c4b1d603f7', 'latitude': 70.115453, 'longitude': -58.395763, 'temperature_celsius': 113.7, 'humidity_level': 94.1, 'batch_timestamp': '2025-10-30T10:22:25.030Z', 'reading_timestamp': '2025-10-30T10:22:25.030Z'}}
+2025-10-30 10:22:38,656 - basicLogger - DEBUG - Storing 1761844945032757600 to the database
+2025-10-30 10:22:38,773 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945032757600
+2025-10-30 10:22:38,773 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945032757600
+2025-10-30 10:22:38,822 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945033338200, 'fire_id': '2d7ff5d5-9f00-48e3-84c5-1b4f93c63339', 'location_name': 'Monitoring Station 73', 'particulate_level': 77.5, 'air_quality': 408, 'smoke_opacity': 30.84, 'batch_timestamp': '2025-10-30T10:22:25.030Z', 'reading_timestamp': '2025-10-30T10:22:25.030Z'}}
+2025-10-30 10:22:38,822 - basicLogger - DEBUG - Storing 1761844945033338200 to the database
+2025-10-30 10:22:38,942 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945033338200
+2025-10-30 10:22:38,942 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945033338200
+2025-10-30 10:22:38,987 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945076189800, 'fire_id': 'f90162e1-ba2a-4a17-ac80-dbab51e76e46', 'location_name': 'Monitoring Station 52', 'particulate_level': 292.26, 'air_quality': 230, 'smoke_opacity': 43.49, 'batch_timestamp': '2025-10-30T10:22:25.071Z', 'reading_timestamp': '2025-10-30T10:22:25.071Z'}}
+2025-10-30 10:22:38,988 - basicLogger - DEBUG - Storing 1761844945076189800 to the database
+2025-10-30 10:22:39,128 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945076189800
+2025-10-30 10:22:39,129 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945076189800
+2025-10-30 10:22:39,171 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945076626200, 'fire_id': 'eea625bf-2969-46ab-a057-d95a79ff7706', 'latitude': -76.650576, 'longitude': 92.91877, 'temperature_celsius': 143.4, 'humidity_level': 53.6, 'batch_timestamp': '2025-10-30T10:22:25.072Z', 'reading_timestamp': '2025-10-30T10:22:25.072Z'}}
+2025-10-30 10:22:39,171 - basicLogger - DEBUG - Storing 1761844945076626200 to the database
+2025-10-30 10:22:39,294 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945076626200
+2025-10-30 10:22:39,294 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945076626200
+2025-10-30 10:22:39,342 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945076746500, 'fire_id': '67729306-ce70-4815-8d17-b50783463663', 'location_name': 'Monitoring Station 50', 'particulate_level': 411.62, 'air_quality': 5, 'smoke_opacity': 94.51, 'batch_timestamp': '2025-10-30T10:22:25.071Z', 'reading_timestamp': '2025-10-30T10:22:25.071Z'}}
+2025-10-30 10:22:39,342 - basicLogger - DEBUG - Storing 1761844945076746500 to the database
+2025-10-30 10:22:39,469 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945076746500
+2025-10-30 10:22:39,469 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945076746500
+2025-10-30 10:22:39,519 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945117851600, 'fire_id': '5d97636a-543b-4fe2-88fb-948bc95a3019', 'location_name': 'Monitoring Station 55', 'particulate_level': 171.31, 'air_quality': 273, 'smoke_opacity': 99.86, 'batch_timestamp': '2025-10-30T10:22:25.115Z', 'reading_timestamp': '2025-10-30T10:22:25.115Z'}}
+2025-10-30 10:22:39,519 - basicLogger - DEBUG - Storing 1761844945117851600 to the database
+2025-10-30 10:22:39,646 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945117851600
+2025-10-30 10:22:39,646 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945117851600
+2025-10-30 10:22:39,683 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945117931100, 'fire_id': '7ef15065-4265-40e7-95fc-04bb2043f165', 'latitude': -63.873874, 'longitude': -20.367612, 'temperature_celsius': 115.4, 'humidity_level': 27.4, 'batch_timestamp': '2025-10-30T10:22:25.115Z', 'reading_timestamp': '2025-10-30T10:22:25.115Z'}}
+2025-10-30 10:22:39,683 - basicLogger - DEBUG - Storing 1761844945117931100 to the database
+2025-10-30 10:22:39,809 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945117931100
+2025-10-30 10:22:39,810 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945117931100
+2025-10-30 10:22:39,854 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945165713300, 'fire_id': 'b9c8249c-3e4b-4253-8003-ce4897a46ba1', 'location_name': 'Monitoring Station 19', 'particulate_level': 385.1, 'air_quality': 494, 'smoke_opacity': 21.95, 'batch_timestamp': '2025-10-30T10:22:25.162Z', 'reading_timestamp': '2025-10-30T10:22:25.162Z'}}
+2025-10-30 10:22:39,854 - basicLogger - DEBUG - Storing 1761844945165713300 to the database
+2025-10-30 10:22:39,974 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945165713300
+2025-10-30 10:22:39,975 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945165713300
+2025-10-30 10:22:40,024 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945166441500, 'fire_id': 'a7680c73-c080-46ff-97fc-e181743c34ac', 'latitude': -53.304249, 'longitude': -91.782487, 'temperature_celsius': 85.3, 'humidity_level': 53.5, 'batch_timestamp': '2025-10-30T10:22:25.163Z', 'reading_timestamp': '2025-10-30T10:22:25.163Z'}}
+2025-10-30 10:22:40,024 - basicLogger - DEBUG - Storing 1761844945166441500 to the database
+2025-10-30 10:22:40,161 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945166441500
+2025-10-30 10:22:40,161 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945166441500
+2025-10-30 10:22:40,204 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945219546200, 'fire_id': 'e9387dbd-fa1d-4056-9d17-cd10ee34e82d', 'latitude': -24.128792, 'longitude': 151.37286, 'temperature_celsius': 126.9, 'humidity_level': 73.9, 'batch_timestamp': '2025-10-30T10:22:25.217Z', 'reading_timestamp': '2025-10-30T10:22:25.217Z'}}
+2025-10-30 10:22:40,204 - basicLogger - DEBUG - Storing 1761844945219546200 to the database
+2025-10-30 10:22:40,327 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945219546200
+2025-10-30 10:22:40,327 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945219546200
+2025-10-30 10:22:40,369 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945219668700, 'fire_id': 'dc1e463e-e62f-48ad-a7f4-5bc53e8ed22c', 'location_name': 'Monitoring Station 60', 'particulate_level': 91.13, 'air_quality': 389, 'smoke_opacity': 15.73, 'batch_timestamp': '2025-10-30T10:22:25.217Z', 'reading_timestamp': '2025-10-30T10:22:25.217Z'}}
+2025-10-30 10:22:40,369 - basicLogger - DEBUG - Storing 1761844945219668700 to the database
+2025-10-30 10:22:40,490 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945219668700
+2025-10-30 10:22:40,491 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945219668700
+2025-10-30 10:22:40,542 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945277438300, 'fire_id': '33f5bd64-0e94-4368-90b3-551124aed3f3', 'location_name': 'Monitoring Station 42', 'particulate_level': 356.8, 'air_quality': 89, 'smoke_opacity': 99.55, 'batch_timestamp': '2025-10-30T10:22:25.274Z', 'reading_timestamp': '2025-10-30T10:22:25.274Z'}}
+2025-10-30 10:22:40,543 - basicLogger - DEBUG - Storing 1761844945277438300 to the database
+2025-10-30 10:22:40,670 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945277438300
+2025-10-30 10:22:40,671 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945277438300
+2025-10-30 10:22:40,713 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945325258600, 'fire_id': '98f8fa92-14ee-4ed0-a881-b5bb6c83376c', 'latitude': 52.541425, 'longitude': -59.308051, 'temperature_celsius': 191.9, 'humidity_level': 45.1, 'batch_timestamp': '2025-10-30T10:22:25.321Z', 'reading_timestamp': '2025-10-30T10:22:25.321Z'}}
+2025-10-30 10:22:40,713 - basicLogger - DEBUG - Storing 1761844945325258600 to the database
+2025-10-30 10:22:40,851 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945325258600
+2025-10-30 10:22:40,852 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945325258600
+2025-10-30 10:22:40,893 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945325437800, 'fire_id': '10ed0b0f-52fa-47bd-a292-166f52a8de8c', 'location_name': 'Monitoring Station 91', 'particulate_level': 19.95, 'air_quality': 149, 'smoke_opacity': 72.19, 'batch_timestamp': '2025-10-30T10:22:25.321Z', 'reading_timestamp': '2025-10-30T10:22:25.321Z'}}
+2025-10-30 10:22:40,893 - basicLogger - DEBUG - Storing 1761844945325437800 to the database
+2025-10-30 10:22:41,020 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945325437800
+2025-10-30 10:22:41,020 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945325437800
+2025-10-30 10:22:41,076 - basicLogger - INFO - Message: {'type': 'temperature_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945364685700, 'fire_id': '264ebf68-973c-4be2-8c5c-7d2ba576c5f2', 'latitude': 71.725557, 'longitude': 27.410979, 'temperature_celsius': 110.6, 'humidity_level': 41.3, 'batch_timestamp': '2025-10-30T10:22:25.362Z', 'reading_timestamp': '2025-10-30T10:22:25.362Z'}}
+2025-10-30 10:22:41,076 - basicLogger - DEBUG - Storing 1761844945364685700 to the database
+2025-10-30 10:22:41,203 - basicLogger - DEBUG - Stored event temperature_reading with a trace id of 1761844945364685700
+2025-10-30 10:22:41,204 - basicLogger - INFO - Stored temperature_reading event with trace_id: 1761844945364685700
+2025-10-30 10:22:41,251 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945419441100, 'fire_id': 'a4db8053-49e1-4b23-b4fe-28b2bd296050', 'location_name': 'Monitoring Station 78', 'particulate_level': 336.59, 'air_quality': 441, 'smoke_opacity': 92.8, 'batch_timestamp': '2025-10-30T10:22:25.417Z', 'reading_timestamp': '2025-10-30T10:22:25.417Z'}}
+2025-10-30 10:22:41,251 - basicLogger - DEBUG - Storing 1761844945419441100 to the database
+2025-10-30 10:22:41,368 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945419441100
+2025-10-30 10:22:41,369 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945419441100
+2025-10-30 10:22:41,408 - basicLogger - INFO - Message: {'type': 'airquality_reading', 'datetime': '2025-10-30T10:22:25', 'payload': {'trace_id': 1761844945457608200, 'fire_id': '6bbca57e-3653-4ad1-b266-d7e6b4b5274c', 'location_name': 'Monitoring Station 7', 'particulate_level': 345.51, 'air_quality': 252, 'smoke_opacity': 100.12, 'batch_timestamp': '2025-10-30T10:22:25.455Z', 'reading_timestamp': '2025-10-30T10:22:25.455Z'}}
+2025-10-30 10:22:41,408 - basicLogger - DEBUG - Storing 1761844945457608200 to the database
+2025-10-30 10:22:41,531 - basicLogger - DEBUG - Stored event airquality_reading with a trace id of 1761844945457608200
+2025-10-30 10:22:41,532 - basicLogger - INFO - Stored airquality_reading event with trace_id: 1761844945457608200

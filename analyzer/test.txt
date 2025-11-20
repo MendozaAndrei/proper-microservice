@@ -1,0 +1,12 @@
+
+
+
+Test for the Temperatures: 
+curl http://134.199.224.159:8110/forest_fire/temperatures?index=0 | Should provide the answer if there are values in the service
+curl http://134.199.224.159:8110/forest_fire/temperatures?index=10000 | If the service does not reach up to that value, then it should produce an error
+curl http://134.199.224.159:8110/forest_fire/temperatures?index=wording | This will cause an error
+curl http://134.199.224.159:8110/forest_fire/stats
+
+
+
+curl http://134.199.224.159:8100/forest_fire/airquality?index=1

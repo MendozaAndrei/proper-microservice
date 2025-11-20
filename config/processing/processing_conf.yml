@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: /data/processing/data.json
+scheduler:
+  interval: 5
+eventstores:
+  temperature:
+    url: http://storage:8090/temperature
+  airquality:
+    url: http://storage:8090/airquality
