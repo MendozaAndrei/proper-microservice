@@ -1,0 +1,14 @@
+version: 1
+
+datastore:
+  user: skibidi
+  password: helpme
+  hostname: db
+  port: 3306
+  db: fire_data
+  url: mysql+pymysql://skibidi:helpme@db:3306/fire_data
+
+events:
+  hostname: kafka
+  port: 9092
+  topic: events
