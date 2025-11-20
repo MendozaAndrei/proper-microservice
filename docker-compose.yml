@@ -75,7 +75,6 @@ services:
     networks:
       - kafka-network
     restart: on-failure
-    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
   storage:
     build:
@@ -95,7 +94,6 @@ services:
     networks:
       - kafka-network
     restart: on-failure
-    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
   processing:
     build:
@@ -112,7 +110,6 @@ services:
     networks:
       - kafka-network
     restart: on-failure
-    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
   analyzer:
     build:
@@ -132,7 +129,6 @@ services:
     networks:
       - kafka-network
     restart: on-failure
-    command: sh -c "mkdir -p /logs && chmod 777 /logs && python app.py"
 
 volumes:
   mysql_data:
