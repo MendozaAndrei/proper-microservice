@@ -1,8 +1,8 @@
 version: 1
 
 datastore:
-  user: skibidi
-  password: helpme
+  user: ${DB_USER}
+  password: ${DB_PASS}
   hostname: db
   port: 3306
   db: fire_data
