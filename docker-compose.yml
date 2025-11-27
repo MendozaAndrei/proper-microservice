@@ -10,6 +10,11 @@ services:
       - zookeeper_data:/data
     networks:
       - kafka-network
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "2181"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
   kafka:
     image: wurstmeister/kafka:latest
@@ -21,10 +26,17 @@ services:
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
       KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
       KAFKA_CREATE_TOPICS: "events:1:1"
+      KAFKA_BROKER_ID: 1
     volumes:
       - ./data/kafka:/kafka  
+    healthcheck:
+      test: ["CMD", "kafka-topics.sh", "--list", "--bootstrap-server", "localhost:9092"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
     depends_on:
-      - zookeeper
+      zookeeper:
+        condition: service_healthy
     networks:
       - kafka-network
 
@@ -42,6 +54,11 @@ services:
       - mysql_data:/var/lib/mysql
     networks:
       - kafka-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
   receiver:
     build:
@@ -53,7 +70,8 @@ services:
       - ./logs:/logs
       - ./config/receiver:/config
     depends_on:
-      - kafka
+      kafka:
+        condition: service_healthy
     networks:
       - kafka-network
     restart: on-failure
@@ -65,8 +83,10 @@ services:
     ports:
       - "8090:8090"
     depends_on:
-      - db
-      - kafka
+      db:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
     volumes:
       - ./logs:/logs
       - ./data/storage:/data
@@ -85,8 +105,6 @@ services:
       - kafka-network
     restart: on-failure
 
-
-    
   processing:
     build:
       context: ./processing
@@ -94,7 +112,8 @@ services:
     ports:
       - "8100:8100"
     depends_on:
-      - storage
+      storage:
+        condition: service_started
     volumes:
       - ./logs:/logs
       - ./data/processing:/data/processing
@@ -110,8 +129,8 @@ services:
     ports:
       - "8110:8110"
     depends_on:
-      - storage
-      - kafka
+      kafka:
+        condition: service_healthy
     volumes:
       - ./logs:/logs
       - ./data/events:/data
@@ -126,4 +145,4 @@ volumes:
 
 networks:
   kafka-network:
-    driver: bridge  
+    driver: bridge

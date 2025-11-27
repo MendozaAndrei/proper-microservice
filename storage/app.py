@@ -36,7 +36,14 @@ db_config = app_config['datastore']
 try:
     #Uses "keys" to grab the value and to create the things needed to connect to the network. 
     connection_string = f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['hostname']}:{db_config['port']}/{db_config['db']}"
-    mysql = create_engine(connection_string, future=True)
+    # mysql = create_engine(connection_string, future=True)
+    # Lab12
+    mysql = create_engine(
+        connection_string,
+        pool_size=10,
+        pool_recycle=3600,
+        pool_pre_ping=True
+    )
     # Logs that the connection is successful and is connected
     logger.info("Connected to the database")
 except Exception as e:
@@ -160,6 +167,128 @@ def create_airquality_reading(body):
     return {"message": "stored"}, 201
 
 # =============================== Lab 6 
+# def process_messages():
+#     """ Process event messages from Kafka """
+#     hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
+#     topic_name = app_config['events']['topic']
+    
+#     logger.info(f"Connecting to Kafka at {hostname}")
+    
+#     client = KafkaClient(hosts=hostname)
+#     topic = client.topics[str.encode(topic_name)]
+    
+#     # Create a consumer on a consumer group
+#     consumer = topic.get_simple_consumer(
+#         consumer_group=b'event_group',
+#         reset_offset_on_start=False,
+#         auto_offset_reset=OffsetType.LATEST
+#     )
+    
+#     logger.info("Kafka consumer started, waiting for messages...")
+    
+#     # This is blocking - it will wait for new messages
+#     for msg in consumer:
+#         msg_str = msg.value.decode('utf-8')
+#         msg = json.loads(msg_str)
+#         logger.info(f"Message: {msg}")
+        
+#         payload = msg["payload"]
+        
+#         if msg["type"] == "temperature_reading":
+#             # Store the temperature reading to the DB
+#             create_temperature_reading(payload)
+#             logger.info(f"Stored temperature_reading event with trace_id: {payload['trace_id']}")
+            
+#         elif msg["type"] == "airquality_reading":
+#             # Store the air quality reading to the DB
+#             create_airquality_reading(payload)
+#             logger.info(f"Stored airquality_reading event with trace_id: {payload['trace_id']}")
+        
+#         # Commit the new message as being read
+#         consumer.commit_offsets()
+
+# ======================= LAB 12 
+import time
+import random
+from pykafka.exceptions import KafkaException
+
+class KafkaWrapper:
+    def __init__(self, hostname, topic):
+        self.hostname = hostname
+        self.topic = topic
+        self.client = None
+        self.consumer = None
+        self.connect()
+    
+    def connect(self):
+        """Infinite loop: will keep trying"""
+        while True:
+            logger.debug("Trying to connect to Kafka...")
+            if self.make_client():
+                if self.make_consumer():
+                    break
+            # Sleep for a random amount of time (0.5 to 1.5s)
+            time.sleep(random.randint(500, 1500) / 1000)
+    
+    def make_client(self):
+        """
+        Runs once, makes a client and sets it on the instance.
+        Returns: True (success), False (failure)
+        """
+        if self.client is not None:
+            return True
+        try:
+            self.client = KafkaClient(hosts=self.hostname)
+            logger.info("Kafka client created!")
+            return True
+        except KafkaException as e:
+            msg = f"Kafka error when making client: {e}"
+            logger.warning(msg)
+            self.client = None
+            self.consumer = None
+            return False
+    
+    def make_consumer(self):
+        """
+        Runs once, makes a consumer and sets it on the instance.
+        Returns: True (success), False (failure)
+        """
+        if self.consumer is not None:
+            return True
+        if self.client is None:
+            return False
+        try:
+            topic = self.client.topics[str.encode(self.topic)]
+            self.consumer = topic.get_simple_consumer(
+                consumer_group=b'event_group',
+                reset_offset_on_start=False,
+                auto_offset_reset=OffsetType.LATEST
+            )
+            logger.info("Kafka consumer created!")
+            return True
+        except KafkaException as e:
+            msg = f"Kafka error when making consumer: {e}"
+            logger.warning(msg)
+            self.client = None
+            self.consumer = None
+            return False
+    
+    def messages(self):
+        """Generator method that catches exceptions in the consumer loop"""
+        if self.consumer is None:
+            self.connect()
+        while True:
+            try:
+                for msg in self.consumer:
+                    yield msg
+            except KafkaException as e:
+                msg = f"Kafka issue in consumer: {e}"
+                logger.warning(msg)
+                self.client = None
+                self.consumer = None
+                self.connect()
+
+
 def process_messages():
     """ Process event messages from Kafka """
     hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
@@ -167,38 +296,28 @@ def process_messages():
     
     logger.info(f"Connecting to Kafka at {hostname}")
     
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(topic_name)]
-    
-    # Create a consumer on a consumer group
-    consumer = topic.get_simple_consumer(
-        consumer_group=b'event_group',
-        reset_offset_on_start=False,
-        auto_offset_reset=OffsetType.LATEST
-    )
+    kafka_wrapper = KafkaWrapper(hostname, topic_name)
     
     logger.info("Kafka consumer started, waiting for messages...")
     
-    # This is blocking - it will wait for new messages
-    for msg in consumer:
+    # Use the wrapper's messages generator
+    for msg in kafka_wrapper.messages():
         msg_str = msg.value.decode('utf-8')
-        msg = json.loads(msg_str)
-        logger.info(f"Message: {msg}")
+        msg_data = json.loads(msg_str)
+        logger.info(f"Message: {msg_data}")
         
-        payload = msg["payload"]
+        payload = msg_data["payload"]
         
-        if msg["type"] == "temperature_reading":
-            # Store the temperature reading to the DB
+        if msg_data["type"] == "temperature_reading":
             create_temperature_reading(payload)
             logger.info(f"Stored temperature_reading event with trace_id: {payload['trace_id']}")
             
-        elif msg["type"] == "airquality_reading":
-            # Store the air quality reading to the DB
+        elif msg_data["type"] == "airquality_reading":
             create_airquality_reading(payload)
             logger.info(f"Stored airquality_reading event with trace_id: {payload['trace_id']}")
         
         # Commit the new message as being read
-        consumer.commit_offsets()
+        kafka_wrapper.consumer.commit_offsets()
 
 
 def setup_kafka_thread():
