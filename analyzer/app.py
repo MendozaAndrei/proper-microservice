@@ -1,9 +1,15 @@
 import yaml
+import random
 import logging.config
 from pykafka import KafkaClient
 import json
 from connexion import NoContent
 import connexion
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
+# import FlaskApp
+from connexion import FlaskApp
+from flask_cors import CORS
 
 
 with open('/config/analyzer_conf.yml', 'r') as f:
@@ -117,12 +123,46 @@ def get_reading_stats():
     except Exception as e: 
         logger.error(f"Error received: {e}")
         return {"message": "Nothing Found"}, 401
-    return {"message" : "Nothing found"}, 404
+
+def get_random_temperature_event():
+    try:
+        client = KafkaClient(hosts=f"{KAFKA_HOSTNAME}:{KAFKA_PORT}")
+        topic = client.topics[KAFKA_TOPIC.encode()]
+        consumer = topic.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
+        
+        temperature_events = []
+        for msg in consumer:
+            message = msg.value.decode("utf-8")
+            data = json.loads(message)
+            if data.get('type') == 'temperature_reading':
+                temperature_events.append(data['payload'])
+        
+        if temperature_events:
+            return random.choice(temperature_events), 200
+        return {"message": "No events available"}, 404
+    except Exception as e:
+        logger.error(f"Error: {e}")
+        return {"message": "Internal Server Error"}, 500
+
+# app = connexion.App(__name__, specification_dir=".")
+# app = FlaskApp(__name__)
+
+# app.add_middleware(
+#     CORSMiddleware,
+#     position=MiddlewarePosition.BEFORE_EXCEPTION,
+#     allow_origins=["*"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 
 
-app = connexion.App(__name__, specification_dir=".")
+app = FlaskApp(__name__)
+CORS(app.app)  # Enable CORS on the Flask app directly
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
+
+# app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     # Added "host" to keep the "localhost" link stil lworking and not have to change anything 

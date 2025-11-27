@@ -75,6 +75,18 @@ services:
       - kafka-network
     restart: on-failure
 
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    ports:
+      - "8091:80"
+    networks:
+      - kafka-network
+    restart: on-failure
+
+
+    
   processing:
     build:
       context: ./processing

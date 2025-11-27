@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="ACIT3855 Forest Fire Monitoring Dashboard" />
+    <script src="updateStats.js"></script>
+    <title>Forest Fire Monitoring Dashboard</title>
+</head>
+
+<body>
+    <main id="main">
+        <div id="header">
+            <h1>Forest Fire Monitoring Dashboard</h1>
+            <p class="subtitle">Real-time monitoring and analysis</p>
+        </div>
+        
+        <div class="status-bar">
+            <span class="status-indicator"></span>
+            <span id="last-updated">Last update: <span id="last-updated-value">N/A</span></span>
+        </div>
+        
+        <div id="messages"></div>
+        
+        <section class="stats-section">
+            <h2>System Statistics</h2>
+            <div id="statistics">
+                <div class="stat-card" id="processing">
+                    <h3>Processing Service</h3>
+                    <code id="processing-stats">Loading...</code>
+                </div>
+                <div class="stat-card" id="analyzer">
+                    <h3>Analyzer Service</h3>
+                    <code id="analyzer-stats">Loading...</code>
+                </div>
+            </div>
+        </section>
+        
+        <section class="events-section">
+            <h2>Recent Events</h2>
+            <div id="analyzer-events">
+                <div class="event-card">
+                    <h3>Temperature Reading</h3>
+                    <code id="event-temperature">No data available</code>
+                </div>
+                <div class="event-card">
+                    <h3>Air Quality Reading</h3>
+                    <code id="event-airquality">No data available</code>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

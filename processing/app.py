@@ -1,12 +1,16 @@
 import connexion
 from apscheduler.schedulers.background import BackgroundScheduler
 import yaml
+from connexion import FlaskApp
 import logging.config
 import requests
 import json
 from datetime import datetime
 import os
-
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
+# from flask_cors import CORS
+from flask_cors import CORS
 # Loads the configuration files
 with open('/config/processing_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -117,9 +121,24 @@ def init_scheduler():
 
 
 # Create Connexion app
-app = connexion.App(__name__, specification_dir=".")
+# app = connexion.App(__name__, specification_dir=".")
+# app = FlaskApp(__name__)
+
+# app.add_middleware(
+#     CORSMiddleware,
+#     position=MiddlewarePosition.BEFORE_EXCEPTION,
+#     allow_origins=["*"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
+
+
+app = FlaskApp(__name__)
+CORS(app.app)  # Enable CORS on the Flask app directly
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
+# app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 if __name__ == "__main__":
     init_scheduler()
     app.run(port=8100, host="0.0.0.0")

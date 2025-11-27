@@ -2,3 +2,4 @@
 connexion[flask,uvicorn,swagger-ui]
 httpx
 pykafka
+flask_cors

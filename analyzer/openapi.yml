@@ -85,6 +85,9 @@ paths:
                   message:
                     type: string
 
+
+  
+
   /stats:
     get:
       summary: gets the reading stats
