@@ -1,9 +1,9 @@
-const PROCESSING_STATS_API_URL = "http://localhost:8100/stats"
+const PROCESSING_STATS_API_URL = "http://64.23.146.135:8100/stats"
 const ANALYZER_API_URL = {
-    stats: "http://localhost:8110/stats",
-    temperature: "http://localhost:8110/forest_fire/temperatures",
-    airquality: "http://localhost:8110/forest_fire/airquality",
-    randomTemp: "http://localhost:8110/temperature/random"  // ADD THIS
+    stats: "http://64.23.146.135:8110/stats",
+    temperature: "http://64.23.146.135:8110/forest_fire/temperatures",
+    airquality: "http://64.23.146.135:8110/forest_fire/airquality",
+    randomTemp: "http://64.23.146.135:8110/temperature/random"  // ADD THIS
 }
 
 
