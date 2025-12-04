@@ -63,7 +63,7 @@ const getHealthStatus = () => {
         if (result.last_update) {
             const lastUpdate = new Date(result.last_update)
             const now = new Date()
-            const secondsAgo = Math.floor((now - lastUpdate) / 1000)
+            const secondsAgo = Math.floor((now - lastUpdate) / 500)
             document.getElementById('health-last-update').innerText = `${secondsAgo} seconds ago`
         }
     })
