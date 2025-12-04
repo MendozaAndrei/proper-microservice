@@ -128,7 +128,6 @@ section h2 {
 
 code {
     display: block;
-    background: rgba(0, 0, 0, 0.3);
     padding: 15px;
     border-radius: 8px;
     font-family: 'Courier New', monospace;
@@ -153,7 +152,7 @@ code {
 .health-section {
     margin: 20px 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #000000;
     border-radius: 8px;
 }
 
@@ -177,6 +176,5 @@ code {
 }
 
 .status-unknown {
-    color: #6c757d;
     font-weight: bold;
 }
