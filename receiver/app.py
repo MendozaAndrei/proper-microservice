@@ -1,5 +1,7 @@
 import datetime
 import json
+import time
+import random
 import connexion
 from connexion import NoContent
 import time
@@ -36,6 +38,25 @@ except Exception as e:
     logger.error(f"Failed to connect to Kafka: {e}")
     producer = None
 
+
+def connect_to_kafka_with_retry(max_retries=5):
+    """Connect to Kafka with exponential backoff"""
+    for attempt in range(max_retries):
+        try:
+            client = KafkaClient(hosts=f'{KAFKA_HOSTNAME}:{KAFKA_PORT}')
+            topic = client.topics[str.encode(KAFKA_TOPIC)]
+            producer = topic.get_producer(sync=True)
+            logger.info(f"Successfully connected to Kafka at {KAFKA_HOSTNAME}:{KAFKA_PORT}")
+            return producer
+        except Exception as e:
+            wait_time = (2 ** attempt) + random.uniform(0, 1)
+            logger.warning(f"Failed to connect to Kafka (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                logger.info(f"Retrying in {wait_time:.2f} seconds...")
+                time.sleep(wait_time)
+            else:
+                logger.error("Max retries reached. Kafka producer unavailable.")
+                return None
 
 def report_temperature_readings(body):
     """

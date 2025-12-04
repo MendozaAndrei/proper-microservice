@@ -1,11 +1,24 @@
 version: 1
-datastore:
-  filename: /data/health/health_status.json
-scheduler:
-  interval: 20
-timeout: 5
-services:
-  receiver: http://nginx:80/receiver/health  # Check through nginx load balancer
-  storage: http://storage:8090/storage/health
-  processing: http://processing:8100/processing/health
-  analyzer: http://analyzer:8110/analyzer/health
+disable_existing_loggers: False
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+  file:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: simple
+    filename: /logs/health.log
+root:
+  level: DEBUG
+  handlers: [console, file]
+loggers:
+  basicLogger:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: no

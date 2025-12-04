@@ -7,7 +7,6 @@ import json
 from datetime import datetime
 import os
 
-# Load configuration files
 with open('/config/health_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
@@ -19,15 +18,12 @@ logger = logging.getLogger('basicLogger')
 
 
 def get_health_status():
-    """Get the current health status of all services"""
     logger.info("Health status request received")
     
-    # Check if the health status file exists
     if not os.path.exists(app_config['datastore']['filename']):
         logger.error("Health status data does not exist")
         return {"message": "Health status data does not exist"}, 404
     
-    # Read the health status from the file
     with open(app_config['datastore']['filename'], 'r') as f:
         health_status = json.load(f)
     
@@ -36,7 +32,6 @@ def get_health_status():
 
 
 def check_service_health():
-    """Poll all services and update their health status"""
     logger.info("Started periodic health check")
     
     # Load existing health status or create default
@@ -51,14 +46,16 @@ def check_service_health():
             "analyzer": "Unknown",
             "last_update": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
         }
-    
-    # Check each service
+    # points to config file
     services = app_config['services']
-    timeout = app_config['timeout']
+    timeout = app_config['timeout'] # Checks the timout in seconds, set the service as "down" if no response within this time
+
     
     for service_name, service_url in services.items():
         try:
             logger.debug(f"Checking health of {service_name} at {service_url}")
+            #Requests to see if the service_url is up or not. 
+            #It will be marked "down" if no response within the timeout period from "timeout"
             response = requests.get(service_url, timeout=timeout)
             
             if response.status_code == 200:
@@ -78,10 +75,10 @@ def check_service_health():
             health_status[service_name] = "Down"
             logger.error(f"Error checking {service_name}: {e}")
     
-    # Update timestamp
     health_status["last_update"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
     
-    # Write updated health status to file
+
+    #This will save everything in the json file
     with open(app_config['datastore']['filename'], 'w') as f:
         json.dump(health_status, f, indent=4)
     

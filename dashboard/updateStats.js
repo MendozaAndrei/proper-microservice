@@ -44,19 +44,16 @@ const updateCodeDiv = (result, elemId) => document.getElementById(elemId).innerT
 
 const getLocaleDateStr = () => (new Date()).toLocaleString()
 
-// NEW FUNCTION: Get Health Status
+
+// This gets the HEALTH STATUS from the health endoiints of each thingers
 const getHealthStatus = () => {
     makeReq(HEALTH_API_URL, (result) => {
-        // Update receiver status
         updateHealthStatus('receiver', result.receiver)
         
-        // Update storage status
         updateHealthStatus('storage', result.storage)
         
-        // Update processing status
         updateHealthStatus('processing', result.processing)
         
-        // Update analyzer status
         updateHealthStatus('analyzer', result.analyzer)
         
         // Update last update time
@@ -69,7 +66,6 @@ const getHealthStatus = () => {
     })
 }
 
-// NEW FUNCTION: Update individual service health status
 const updateHealthStatus = (serviceName, status) => {
     const element = document.getElementById(`health-${serviceName}`)
     if (element) {
@@ -89,7 +85,6 @@ const updateHealthStatus = (serviceName, status) => {
     }
 }
 
-// Existing getStats function
 const getStats = () => {
     document.getElementById("last-updated-value").innerText = getLocaleDateStr()
     
