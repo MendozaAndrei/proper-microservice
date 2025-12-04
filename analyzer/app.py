@@ -172,7 +172,7 @@ app.add_api("openapi.yml",
             base_path="/analyzer",  # <--- ADD THIS
             strict_validation=True, 
             validate_responses=True)
-
+import os
 # LAB 12: Conditional CORS
 if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
     from flask_cors import CORS
