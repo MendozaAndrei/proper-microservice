@@ -143,17 +143,32 @@ def report_airquality_reading(body):
 
 
 # This connects the app.py to the openapi.yaml
-app = connexion.App(__name__, specification_dir=".")
-app.add_api("lab1.yaml", strict_validation=True, validate_responses=True)
+# app = connexion.App(__name__, specification_dir=".")
+# app.add_api("lab1.yaml", strict_validation=True, validate_responses=True)
 
-if __name__ == "__main__":
-    try:
-        app.run(port=8080, host="0.0.0.0")
-    finally:
-        # Clean up producer on shutdown
-        if producer:
-            try:
-                producer.stop()
-                logger.info("Kafka producer stopped cleanly")
-            except Exception as e:
-                logger.error(f"Error stopping producer: {e}")
+# if __name__ == "__main__":
+#     try:
+#         app.run(port=8080, host="0.0.0.0")
+#     finally:
+#         # Clean up producer on shutdown
+#         if producer:
+#             try:
+#                 producer.stop()
+#                 logger.info("Kafka producer stopped cleanly")
+#             except Exception as e:
+#                 logger.error(f"Error stopping producer: {e}")
+
+
+app = connexion.App(__name__, specification_dir=".")
+
+# ADD base_path HERE
+app.add_api("lab1.yaml", 
+            base_path="/receiver",  # <--- ADD THIS LINE
+            strict_validation=True, 
+            validate_responses=True)
+import os
+# Conditional CORS
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+    from flask_cors import CORS
+    CORS(app.app, resources={r"/*": {"origins": "*"}})
+    logger.info("CORS enabled for all origins")

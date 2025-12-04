@@ -1,3 +1,4 @@
+# ANALYZER APP.PY
 import yaml
 import random
 import logging.config
@@ -158,13 +159,26 @@ def get_random_temperature_event():
 
 
 
-app = FlaskApp(__name__)
-CORS(app.app)  # Enable CORS on the Flask app directly
-app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
-
+# app = FlaskApp(__name__)
+# CORS(app.app)  # Enable CORS on the Flask app directly
 # app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
+# app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
+# WITH:
+app = FlaskApp(__name__)
+
+# LAB 12: Add base_path
+app.add_api("openapi.yml", 
+            base_path="/analyzer",  # <--- ADD THIS
+            strict_validation=True, 
+            validate_responses=True)
+
+# LAB 12: Conditional CORS
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+    from flask_cors import CORS
+    CORS(app.app, resources={r"/*": {"origins": "*"}})
+    logger.info("CORS enabled for all origins")
+
 if __name__ == "__main__":
-    # Added "host" to keep the "localhost" link stil lworking and not have to change anything 
-    # 
     app.run(port=8110, host="0.0.0.0")
+

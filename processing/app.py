@@ -1,3 +1,4 @@
+# PROCESSING APP.PY
 import connexion
 from apscheduler.schedulers.background import BackgroundScheduler
 import yaml
@@ -133,10 +134,29 @@ def init_scheduler():
 #     allow_headers=["*"],
 # )
 
+# Gone, again, because of lab 12
+# app = FlaskApp(__name__)
+# CORS(app.app)  # Enable CORS on the Flask app directly
+# app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
 app = FlaskApp(__name__)
-CORS(app.app)  # Enable CORS on the Flask app directly
-app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+
+# LAB 12: Add base_path
+app.add_api("openapi.yaml", 
+            base_path="/processing",  # <--- ADD THIS
+            strict_validation=True, 
+            validate_responses=True)
+
+# LAB 12: Conditional CORS
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+    from flask_cors import CORS
+    CORS(app.app, resources={r"/*": {"origins": "*"}})
+    logger.info("CORS enabled for all origins")
+
+if __name__ == "__main__":
+    init_scheduler()
+    app.run(port=8100, host="0.0.0.0")
+
 
 # app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 if __name__ == "__main__":

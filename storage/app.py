@@ -1,3 +1,4 @@
+# STORAGE APP.PY
 import connexion
 from sqlalchemy import create_engine, Integer, String, Float, DateTime, func, BigInteger, text, select
 from sqlalchemy.orm import DeclarativeBase, mapped_column, sessionmaker
@@ -388,13 +389,26 @@ def get_airquality_readings(start_timestamp, end_timestamp):
     return results, 200
 
 
-# I changed the name of the lab1.yaml from the receiver folder to openapi.yaml
+# I changed the name of the lab1.yaml from the receiver folder to openapi.yaml | tHISSSSSSSS is now gone because of Lab 12
+# app = connexion.App(__name__, specification_dir=".")
+# app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+
+
 app = connexion.App(__name__, specification_dir=".")
-app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+
+# LAB 12: Add base_path
+app.add_api("openapi.yaml", 
+            base_path="/storage",  # <--- ADD THIS
+            strict_validation=True, 
+            validate_responses=True)
+import os
+# LAB 12: Conditional CORS (replace the existing CORS lines)
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+    from flask_cors import CORS
+    CORS(app.app, resources={r"/*": {"origins": "*"}})
+    logger.info("CORS enabled for all origins")
 
 if __name__ == "__main__":
     logger.info("Database tables created/verified")
-    
-    # Start Kafka consumer thread BEFORE running the app
     setup_kafka_thread()
     app.run(port=8090, host="0.0.0.0")

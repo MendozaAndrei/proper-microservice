@@ -1,9 +1,18 @@
-const PROCESSING_STATS_API_URL = "http://64.23.146.135:8100/stats"
+// const PROCESSING_STATS_API_URL = "http://64.23.146.135/processing/stats"
+// const ANALYZER_API_URL = {
+//     stats: "http://64.23.146.135/analyzer/stats",
+//     temperature: "http://64.23.146.135/analyzer/forest_fire/temperatures",
+//     airquality: "http://64.23.146.135/analyzer/forest_fire/airquality",
+//     randomTemp: "http://64.23.146.135/analyzer/temperature/random"  // ADD THIS
+// } use when server
+
+// For LOCAL testing
+const PROCESSING_STATS_API_URL = "http://localhost/processing/stats"
 const ANALYZER_API_URL = {
-    stats: "http://64.23.146.135:8110/stats",
-    temperature: "http://64.23.146.135:8110/forest_fire/temperatures",
-    airquality: "http://64.23.146.135:8110/forest_fire/airquality",
-    randomTemp: "http://64.23.146.135:8110/temperature/random"  // ADD THIS
+    stats: "http://localhost/analyzer/stats",
+    temperature: "http://localhost/analyzer/forest_fire/temperatures",
+    airquality: "http://localhost/analyzer/forest_fire/airquality",
+    randomTemp: "http://localhost/analyzer/temperature/random"
 }
 
 
