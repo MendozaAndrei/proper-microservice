@@ -15,7 +15,7 @@ const ANALYZER_API_URL = {
 //     randomTemp: "http://64.23.146.135/analyzer/temperature/random"
 // }
 // const HEALTH_API_URL = "http://64.23.146.135/health/health"  // Production URL
-// const HEALTH_API_URL = "http://localhost/health/health"  // DEPLOYMENT CODE. CHANGE THIS WHEN DEPLOYING TO SERVER
+const HEALTH_API_URL = "http://localhost/health/health"  // DEPLOYMENT CODE. CHANGE THIS WHEN DEPLOYING TO SERVER
 
 // Existing functions
 const makeReq = (url, cb) => {
