@@ -179,3 +179,15 @@ if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
     from flask_cors import CORS
     CORS(app.app, resources={r"/*": {"origins": "*"}})
     logger.info("CORS enabled for all origins")
+
+if __name__ == "__main__":
+    try:
+        app.run(port=8080, host="0.0.0.0")
+    finally:
+        # Clean up producer on shutdown
+        if producer:
+            try:
+                producer.stop()
+                logger.info("Kafka producer stopped cleanly")
+            except Exception as e:
+                logger.error(f"Error stopping producer: {e}")
