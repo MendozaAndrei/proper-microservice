@@ -7,6 +7,21 @@ info:
     email: your_email@bcit.ca
 
 paths:
+  /health:
+      get:
+        summary: Health check endpoint
+        operationId: app.health
+        responses:
+          '200':
+            description: Service is healthy
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    status:
+                      type: string
+                      example: healthy
   /stats:
     get:
       summary: Gets the event stats

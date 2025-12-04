@@ -5,6 +5,21 @@ info: #Metadata regarding the API
   description: Persists single readings to SQLite via SQLAlchemy. #What the API does
 
 paths:
+  /health:
+      get:
+        summary: Health check endpoint
+        operationId: app.health
+        responses:
+          '200':
+            description: Service is healthy
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    status:
+                      type: string
+                      example: healthy
   /temperature: #This is an endpoint for the temperature readings
     # post: | This is for creating and storing data.
     #   summary: Store one temperature reading

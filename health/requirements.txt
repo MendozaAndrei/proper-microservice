@@ -1,0 +1,6 @@
+connexion[swagger-ui]==2.14.2
+flask==2.3.0
+pyyaml==6.0
+apscheduler==3.10.1
+requests==2.31.0
+flask-cors==4.0.0

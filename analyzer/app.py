@@ -1,4 +1,5 @@
 # ANALYZER APP.PY
+import os
 import yaml
 import random
 import logging.config
@@ -124,6 +125,10 @@ def get_reading_stats():
     except Exception as e: 
         logger.error(f"Error received: {e}")
         return {"message": "Nothing Found"}, 401
+    
+def health():
+    return {"status": "healthy"}, 200
+
 
 def get_random_temperature_event():
     try:
@@ -172,7 +177,6 @@ app.add_api("openapi.yml",
             base_path="/analyzer",  # <--- ADD THIS
             strict_validation=True, 
             validate_responses=True)
-import os
 # LAB 12: Conditional CORS
 if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
     from flask_cors import CORS

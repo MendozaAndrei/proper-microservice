@@ -1,0 +1,37 @@
+openapi: 3.0.0
+info:
+  title: Health Check Service API
+  description: API for checking the health status of all microservices
+  version: 1.0.0
+
+paths:
+  /health:
+    get:
+      summary: Get health status of all services
+      operationId: app.get_health_status
+      tags:
+        - health
+      responses:
+        '200':
+          description: Health status of all services
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  receiver:
+                    type: string
+                    example: Running
+                  storage:
+                    type: string
+                    example: Running
+                  processing:
+                    type: string
+                    example: Running
+                  analyzer:
+                    type: string
+                    example: Running
+                  last_update:
+                    type: string
+                    format: date-time
+                    example: "2025-12-04T12:34:56Z"

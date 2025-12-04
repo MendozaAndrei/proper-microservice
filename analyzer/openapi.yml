@@ -7,6 +7,21 @@ info:
     email: amendoza39@my.bcit.ca
 
 paths:
+  /health:
+      get:
+        summary: Health check endpoint
+        operationId: app.health
+        responses:
+          '200':
+            description: Service is healthy
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    status:
+                      type: string
+                      example: healthy
   /forest_fire/temperatures:
     get:
       summary: gets a temperature reading from history

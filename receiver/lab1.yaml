@@ -7,6 +7,21 @@ info: #This is the METADATA about the API
     email: amendoza39@my.bcit.ca
 
 paths:
+  /health:
+    get:
+      summary: Health check endpoint
+      operationId: app.health
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: healthy
   /forest_fire/temperatures: #Endpoint for reporting temperature readings
     post: #Receiver doesn't retrieve data, it only accepts the POST requests thats coming in
       summary: Reports a batch of temperature sensor readings

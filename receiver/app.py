@@ -142,6 +142,13 @@ def report_airquality_reading(body):
     return NoContent, 201
 
 
+
+#========================== ASSIGNMENT 1
+def health():
+    return {"status": "healthy"}, 200
+
+
+
 # This connects the app.py to the openapi.yaml
 # app = connexion.App(__name__, specification_dir=".")
 # app.add_api("lab1.yaml", strict_validation=True, validate_responses=True)

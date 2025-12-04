@@ -22,7 +22,8 @@ with open('/config/processing_log_conf.yml', 'r') as f:
 logging.config.dictConfig(log_config)
 logger = logging.getLogger('basicLogger')
 
-
+def health():
+    return {"status": "healthy"}, 200
 def get_stats():
     logger.info("Started Request for Statistics")
     

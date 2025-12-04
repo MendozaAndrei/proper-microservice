@@ -60,7 +60,7 @@ services:
       timeout: 5s
       retries: 5
 
-  # ADD THIS NGINX SERVICE
+  # Lab 12
   nginx:
     image: nginx:latest
     ports:
@@ -76,6 +76,7 @@ services:
     networks:
       - kafka-network
     restart: on-failure
+  
 
   receiver:
     build:
@@ -152,6 +153,27 @@ services:
       - ./logs:/logs
       - ./data/events:/data
       - ./config/analyzer:/config
+    networks:
+      - kafka-network
+    restart: on-failure
+
+  health:
+    build:
+      context: ./health
+      dockerfile: Dockerfile
+    expose:
+      - "8120"
+    environment:
+      CORS_ALLOW_ALL: "no"
+    volumes:
+      - ./logs:/logs
+      - ./data/health:/data/health
+      - ./config/health:/config
+    depends_on:
+      - receiver
+      - storage
+      - processing
+      - analyzer
     networks:
       - kafka-network
     restart: on-failure
