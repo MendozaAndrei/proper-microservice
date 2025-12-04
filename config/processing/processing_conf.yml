@@ -5,6 +5,6 @@ scheduler:
   interval: 5
 eventstores:
   temperature:
-    url: http://storage:8090/temperature
+    url: http://storage:8090/storage/temperature
   airquality:
-    url: http://storage:8090/airquality
+    url: http://storage:8090/storage/airquality
