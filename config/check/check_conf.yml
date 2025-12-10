@@ -1,6 +1,6 @@
 version: 1
 datastore:
-  filename: /data/health/health_status.json
+  filename: /data/check/check_status.json
 scheduler:
   interval: 20 
 timeout: 5  
