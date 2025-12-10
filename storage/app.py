@@ -345,8 +345,8 @@ def get_events_stats():
     session.close()
     
     stats = {
-        "temperature_readings": temp_count,
-        "airquality_readings": airq_count
+        "num_temp": temp_count,
+        "num_airquality": airq_count
     }
     
     logger.info(f"Event statistics: {stats}")
