@@ -1,11 +1,11 @@
 version: 1
 datastore:
-  filename: /data/check/check_status.json
+  filename: /data/health/health_status.json
 scheduler:
   interval: 20 
 timeout: 5  
 services:
-  receiver: http://receiver/receiver/check
-  storage: http://storage/storage/stats
-  processing: http://processing/processing/stats
-  analyzer: http://analyzer/analyzer/stats
+  receiver: http://receiver:8080/receiver/health
+  storage: http://storage:8090/storage/health
+  processing: http://processing:8100/processing/health
+  analyzer: http://analyzer:8110/analyzer/health
