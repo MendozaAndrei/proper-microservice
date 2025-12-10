@@ -52,14 +52,14 @@ def check_services():
         response = httpx.get(RECEIVER_URL, timeout=timeout)
         if response.status_code == 200:
             response_data = response.json()
-            receiver_status = f"Receiver is healthy at{response_data.get('status_datetime')}"
+            receiver_status = f"Receiver is healthy at {response_data.get('status_datetime')}"
             logger.info("The RECEIVER  service is running healthy")
             num_available +=1 
         else: 
             logger.info("The RECEIVER service is down")
 
-    except (httpx.TimeoutException): 
-        logger.info("Receiver service is not available")
+    except Exception as e: 
+        logger.info(f"Receiver service is not available: {e}")
 
     check_status['receiver'] = receiver_status
 #  ================= END OF RECEIVER CHECK ================
@@ -76,8 +76,8 @@ def check_services():
             num_available +=1 
         else: 
             logger.info("The STORAGE service is down")
-    except (httpx.TimeoutException): 
-        logger.info("Storage service is not available")
+    except Exception as e: 
+        logger.info(f"Storage service is not available: {e}")
 
     check_status['storage'] = storage_status
 
@@ -96,8 +96,8 @@ def check_services():
             num_available +=1 
         else: 
             logger.info("The PROCESSING service is down")
-    except (httpx.TimeoutException): 
-        logger.info("PROCESSING service is not available")
+    except Exception as e: 
+        logger.info(f"PROCESSING service is not available: {e}")
 
     check_status["processing"] = processing_status
 # ================= END OF PROCESSING CHECK ================
@@ -114,8 +114,8 @@ def check_services():
             num_available +=1 
         else: 
             logger.info("The ANALYZER service is down")
-    except (httpx.TimeoutException): 
-        logger.info("ANALYZER service is not available")
+    except Exception as e: 
+        logger.info(f"ANALYZER service is not available: {e}")
         
     check_status["analyzer"] = analyzer_status
 
