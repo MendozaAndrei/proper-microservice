@@ -111,7 +111,8 @@ def report_temperature_readings(body):
     return NoContent, 201
 
 def get_check():
-    return {"status": "receiver service is healthy", "time": time.time()}, 200
+    current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    return {"status_datetime": current_time}, 200
 
 
 def report_airquality_reading(body):
