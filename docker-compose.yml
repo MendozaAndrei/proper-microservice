@@ -119,6 +119,28 @@ services:
       - kafka-network
     restart: on-failure
 
+
+
+  check: 
+    build:
+      context: ./check
+      dockerfile: Dockerfile
+    expose:
+      - "8130"
+    environment:
+      CORS_ALLOW_ALL: "no"
+    depends_on:
+      - receiver
+      - storage
+      - processing
+      - analyzer
+    volumes:
+      - ./logs:/logs
+      - ./data/check:/data/check
+      - ./config/check:/config
+    networks:
+      - kafka-network
+    restart: on-failure
   processing:
     build:
       context: ./processing
