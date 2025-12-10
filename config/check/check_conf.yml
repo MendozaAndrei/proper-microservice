@@ -1,0 +1,11 @@
+version: 1
+datastore:
+  filename: /data/check/check_status.json
+scheduler:
+  interval: 20 
+timeout: 5  
+services:
+  receiver: http://receiver:8080/receiver/check
+  storage: http://storage:8090/storage/stats
+  processing: http://processing:8100/processing/stats
+  analyzer: http://analyzer:8110/analyzer/stats

@@ -1,0 +1,5 @@
+connexion[flask,uvicorn,swagger-ui]
+httpx
+apscheduler
+requests
+flask_cors                                                                                      
