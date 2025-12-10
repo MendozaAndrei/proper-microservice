@@ -2,8 +2,8 @@ version: 1
 datastore:
   filename: /data/health/health_status.json
 scheduler:
-  interval: 20  # Check every 20 seconds
-timeout: 5  # 5 second timeout for health checks
+  interval: 20 
+timeout: 5  
 services:
   receiver: http://receiver:8080/receiver/health
   storage: http://storage:8090/storage/health

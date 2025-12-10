@@ -330,8 +330,31 @@ def setup_kafka_thread():
     logger.info("Kafka consumer thread started")
 
 
+# ==============================FINALS================================
 
 
+def get_events_stats():
+    session = SessionLocal()
+    
+    logger.info("STATS event initiated: COUNTING EVENTS ON DATABASE")
+    
+    temp_count = select(func.count()).select_from(Temperature)
+    airq_count = select(func.count()).select_from(AirQuality)
+    
+    
+    session.close()
+    
+    stats = {
+        "temperature_readings": temp_count,
+        "airquality_readings": airq_count
+    }
+    
+    logger.info(f"Event statistics: {stats}")
+    
+    return stats, 200
+
+
+# ==============================FINALS================================
 def get_temperature_readings(start_timestamp, end_timestamp):
     """Gets temperature readings between the start and end timestamps"""
     session = SessionLocal()

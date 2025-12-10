@@ -22,6 +22,9 @@ paths:
                     status:
                       type: string
                       example: healthy
+
+
+
   /stats:
     get:
       summary: Gets the event stats

@@ -20,6 +20,33 @@ paths:
                     status:
                       type: string
                       example: healthy
+
+# FINALS - ADDITIONAL ITEM
+  /stats: 
+    get:
+      summary: Gets the event stats from Storage
+      operationId: app.get_events_stats
+      description: Gets the stats of the stored events
+      responses:
+        '200':
+          description: Successfully returned a stats object from Storage
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/Stats'
+        '404':
+          description: You have an issue. Statistics do not exist in Storage
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+#  ========================= FINALS END =========================
+
+
   /temperature: #This is an endpoint for the temperature readings
     # post: | This is for creating and storing data.
     #   summary: Store one temperature reading
@@ -130,6 +157,22 @@ components: #This section basically defines the structure of a TEMPERATURE/AIR Q
   schemas:
     # Single object schema (flattened) per lab Part 1 example
     # (batch/common fields + reading-specific fields) :contentReference[oaicite:5]{index=5}
+
+# ========================== FINALS - ADDITIONAL ITEM =========================
+    Stats: 
+      required: 
+        - num_temp 
+        - num_airquality
+      properties: 
+        num_temp: 
+          type: integer
+          example: 100
+
+        num_airquality:
+          type: integer
+          example: 150
+
+# =========================== FINALS ENDING =======================================
     TemperatureReading:
     # This is the schema for a temperature reading
       type: object

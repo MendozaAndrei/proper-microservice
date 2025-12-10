@@ -22,6 +22,28 @@ paths:
                   status:
                     type: string
                     example: healthy
+# ============================== FINALS =========================
+  /check: 
+    get:
+      summary: Check endpoint for Receiver
+      operationId: app.get_check
+      responses:
+        '200':
+          description: RECEIVER SERVICE IS FUNCTIONAL  
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties: 
+                  status_datetime:
+                    type: string
+                    example: 2025-12-12 9:35:34
+# ============================= FINALS =============================
+
+
+
+
+            
   /forest_fire/temperatures: #Endpoint for reporting temperature readings
     post: #Receiver doesn't retrieve data, it only accepts the POST requests thats coming in
       summary: Reports a batch of temperature sensor readings
