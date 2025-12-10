@@ -338,8 +338,8 @@ def get_events_stats():
     
     logger.info("STATS event initiated: COUNTING EVENTS ON DATABASE")
     
-    temp_count = select(func.count()).select_from(Temperature)
-    airq_count = select(func.count()).select_from(AirQuality)
+    temp_count = session.execute(select(func.count()).select_from(Temperature)).scalar()
+    airq_count = session.execute(select(func.count()).select_from(AirQuality)).scalar()
     
     
     session.close()
